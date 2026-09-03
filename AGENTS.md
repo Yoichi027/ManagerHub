@@ -13,6 +13,9 @@ O idioma da interface e das mensagens de negócio é português. O MVP não incl
 - Testes de domínio com PHPUnit/Codeception (`composer test`).
 - O namespace de aplicação é `App\\` e o código vive em `src/`.
 - Não implementar scraping no PHP. A importação de dados usa um serviço Python externo baseado em `soccerdata`; Yii valida e persiste o resultado.
+- Nunca deixar processos iniciados durante o desenvolvimento ou testes a correr em background; terminá-los sempre no fim da operação.
+- Nunca iniciar `yii serve` na porta `8080`, que está reservada ao utilizador. Quando for necessário iniciar um servidor local, indicar explicitamente uma porta alternativa e terminar o processo depois de o usar.
+- O desenvolvimento do MVP é nativo no sistema do utilizador; não usar, propor, alterar ou exigir Docker antes de o utilizador pedir explicitamente essa via.
 
 ## Arquitetura obrigatória
 
@@ -35,6 +38,7 @@ Organizar os módulos por domínio (Career, Season, Squad, Transfer, Tactic, Rul
 - `squad_players` e `transfers` guardam snapshots dos valores relevantes no momento. Idade nunca é persistida: calcular sempre a partir de `birth_date` e da data relevante.
 - A valorização é derivada, não persistida: `((value_final - value_initial) / value_initial) * 100`, tratando `value_initial = 0`.
 - `season_snapshots` são históricos e não a fonte do estado atual.
+- Instantes (`*_at` e datas de acontecimentos) são gravados em `DATETIME` UTC; datas de calendário, como `birth_date`, usam `DATE` sem timezone. O domínio recebe e decide explicitamente esses instantes e estados de ciclo de vida; a base de dados não deve preenchê-los ou alterá-los através de defaults, `CURRENT_TIMESTAMP` ou `ON UPDATE`.
 
 ## Invariantes de domínio
 
