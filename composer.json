@@ -46,6 +46,8 @@
         "yiisoft/assets": "^5.1.2",
         "yiisoft/config": "^1.6.2",
         "yiisoft/csrf": "^2.2.3",
+        "yiisoft/db-migration": "^2.1",
+        "yiisoft/db-mysql": "^2.0",
         "yiisoft/definitions": "^3.4.1",
         "yiisoft/di": "^1.4.1",
         "yiisoft/error-handler": "^4.3.2",
@@ -58,6 +60,7 @@
         "yiisoft/router": "^4.0.2",
         "yiisoft/router-fastroute": "^4.0.3",
         "yiisoft/session": "^3.0.1",
+        "yiisoft/user": "^2.3",
         "yiisoft/view": "^12.2.4",
         "yiisoft/yii-console": "^2.4.2",
         "yiisoft/yii-http": "^1.1.1",
@@ -80,7 +83,8 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src"
+            "App\\": "src",
+            "App\\Migrations\\": "migrations"
         }
     },
     "autoload-dev": {
