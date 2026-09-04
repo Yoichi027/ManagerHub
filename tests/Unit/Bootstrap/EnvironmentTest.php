@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Tests\Unit;
+namespace App\Tests\Unit\Bootstrap;
 
 use App\Environment;
 use Codeception\Test\Unit;
