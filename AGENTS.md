@@ -4,11 +4,12 @@
 
 Aplicação web server-side para substituir uma folha Excel de acompanhamento de carreiras de *Career Mode* do FC. Permite a vários utilizadores gerir carreiras, épocas, plantéis, transferências, táticas e objetivos, preservando o histórico entre épocas.
 
-O idioma da interface e das mensagens de negócio é português. O MVP não inclui SPA, API pública, React/Vue/Angular, aplicação móvel, estatísticas de jogo, exportações, multi-idioma nem sincronização automática do catálogo.
+A interface e as mensagens apresentadas ao utilizador são em português. Código-fonte — identificadores, comentários, docblocks, logs e mensagens de exceções internas — é sempre em inglês. O MVP não inclui SPA, API pública, React/Vue/Angular, aplicação móvel, estatísticas de jogo, exportações, multi-idioma nem sincronização automática do catálogo.
 
 ## Stack e convenções
 
 - PHP 8.5+; Yii Framework 3; MySQL 8; Composer.
+- Identificadores de entidades usam UUIDv7 através de `ramsey/uuid` e `Ramsey\Uuid\UuidInterface`; persistir como `CHAR(36)` e não criar wrappers de ID específicos do projeto.
 - HTML/CSS com Bootstrap e JavaScript simples apenas quando necessário. A UI é renderizada no servidor.
 - Testes de domínio com PHPUnit/Codeception (`composer test`).
 - O namespace de aplicação é `App\\` e o código vive em `src/`.
@@ -16,6 +17,7 @@ O idioma da interface e das mensagens de negócio é português. O MVP não incl
 - Nunca deixar processos iniciados durante o desenvolvimento ou testes a correr em background; terminá-los sempre no fim da operação.
 - Nunca iniciar `yii serve` na porta `8080`, que está reservada ao utilizador. Quando for necessário iniciar um servidor local, indicar explicitamente uma porta alternativa e terminar o processo depois de o usar.
 - O desenvolvimento do MVP é nativo no sistema do utilizador; não usar, propor, alterar ou exigir Docker antes de o utilizador pedir explicitamente essa via.
+- Enquanto o projeto estiver apenas em desenvolvimento local, é permitido reverter, editar e reaplicar migrations para manter um schema inicial limpo. Depois de o utilizador declarar o projeto em produção, migrations aplicadas tornam-se imutáveis e alterações de schema exigem novas migrations.
 
 ## Arquitetura obrigatória
 
@@ -34,6 +36,9 @@ Organizar os módulos por domínio (Career, Season, Squad, Transfer, Tactic, Rul
 
 - Todas as tabelas têm `is_deleted` e `deleted_at`. Não fazer hard delete.
 - As queries normais devem excluir automaticamente `is_deleted = 1`.
+- `deleted_at` regista a última remoção por soft delete e não é limpo ao restaurar um registo; o estado atual é determinado por `is_deleted`.
+- `username` é um identificador alfanumérico ASCII de 1 a 20 caracteres; preservar o casing para apresentação, mas garantir unicidade case-insensitive na base de dados. `password_hash` nunca é vazio e tem no máximo 255 bytes; passwords em claro e respetivas regras de segurança não pertencem ao Domain.
+- `email` é normalizado por trim e lowercase, tem no máximo 255 bytes e é validado sintaticamente com `egulias/email-validator` e `NoRFCWarningsValidation`. Não fazer DNS/MX lookup no Domain nem no registo do MVP.
 - `player_catalog` é apenas uma fonte partilhada para criar dados iniciais. Uma reimportação pode atualizar catálogo, mas nunca pode reescrever dados históricos de carreira.
 - `squad_players` e `transfers` guardam snapshots dos valores relevantes no momento. Idade nunca é persistida: calcular sempre a partir de `birth_date` e da data relevante.
 - A valorização é derivada, não persistida: `((value_final - value_initial) / value_initial) * 100`, tratando `value_initial = 0`.

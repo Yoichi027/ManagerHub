@@ -24,8 +24,8 @@ final class M260903120000CreateIdentityUsers implements RevertibleMigrationInter
         $column = $b->columnBuilder();
 
         $b->createTable('users', [
-            'id' => $column::primaryKey(),
-            'username' => $column::string(100)->notNull()->unique(),
+            'id' => $column::char(36)->primaryKey(),
+            'username' => $column::string(20)->notNull()->unique(),
             'email' => $column::string(255)->notNull()->unique(),
             'password_hash' => $column::string(255)->notNull(),
             'created_at' => $column::datetime()->notNull(),
