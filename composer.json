@@ -35,6 +35,7 @@
     "require": {
         "php": "^8.5",
         "ext-filter": "*",
+        "ext-mbstring": "*",
         "egulias/email-validator": "4.0",
         "httpsoft/http-message": "^1.1.6",
         "psr/container": "^2.0.2",

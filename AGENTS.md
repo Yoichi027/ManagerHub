@@ -37,7 +37,7 @@ Organizar os módulos por domínio (Career, Season, Squad, Transfer, Tactic, Rul
 - Todas as tabelas têm `is_deleted` e `deleted_at`. Não fazer hard delete.
 - As queries normais devem excluir automaticamente `is_deleted = 1`.
 - `deleted_at` regista a última remoção por soft delete e não é limpo ao restaurar um registo; o estado atual é determinado por `is_deleted`.
-- `username` é um identificador alfanumérico ASCII de 1 a 20 caracteres; preservar o casing para apresentação, mas garantir unicidade case-insensitive na base de dados. `password_hash` nunca é vazio e tem no máximo 255 bytes; passwords em claro e respetivas regras de segurança não pertencem ao Domain.
+- `username` é um identificador alfanumérico ASCII de 1 a 20 caracteres; preservar o casing para apresentação, mas garantir unicidade case-insensitive na base de dados. `password_hash` nunca é vazio e tem no máximo 255 bytes; passwords em claro e respetivas regras de segurança não pertencem ao Domain. A Application valida passwords em claro: 8–128 caracteres Unicode, pelo menos uma maiúscula, um número e um carácter de pontuação ou símbolo; não fazer `trim`.
 - `email` é normalizado por trim e lowercase, tem no máximo 255 bytes e é validado sintaticamente com `egulias/email-validator` e `NoRFCWarningsValidation`. Não fazer DNS/MX lookup no Domain nem no registo do MVP.
 - `player_catalog` é apenas uma fonte partilhada para criar dados iniciais. Uma reimportação pode atualizar catálogo, mas nunca pode reescrever dados históricos de carreira.
 - `squad_players` e `transfers` guardam snapshots dos valores relevantes no momento. Idade nunca é persistida: calcular sempre a partir de `birth_date` e da data relevante.
@@ -78,6 +78,8 @@ Esta operação é atómica e deve decorrer numa única transação MySQL:
 Jogadores vendidos não transitam para a nova época; o registo anterior e a transferência permanecem no histórico.
 
 ## Testes mínimos ao alterar regras de negócio
+
+Qualquer alteração de comportamento no código exige alterar ou acrescentar testes que cubram essa alteração.
 
 Cobrir o comportamento afetado, em especial:
 

@@ -28,10 +28,10 @@ final class M260903120000CreateIdentityUsers implements RevertibleMigrationInter
             'username' => $column::string(20)->notNull()->unique(),
             'email' => $column::string(255)->notNull()->unique(),
             'password_hash' => $column::string(255)->notNull(),
-            'created_at' => $column::datetime()->notNull(),
-            'updated_at' => $column::datetime()->notNull(),
+            'created_at' => $column::datetime(6)->notNull(),
+            'updated_at' => $column::datetime(6)->notNull(),
             'is_deleted' => $column::boolean()->notNull(),
-            'deleted_at' => $column::datetime()->null(),
+            'deleted_at' => $column::datetime(6)->null(),
         ]);
     }
 
