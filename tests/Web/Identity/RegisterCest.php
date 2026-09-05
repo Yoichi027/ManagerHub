@@ -39,7 +39,7 @@ final class RegisterCest
         $I->amOnPage('/register');
 
         $I->seeResponseCodeIs(200);
-        $I->see('Create an account', 'h1');
+        $I->see('Create your account', 'h1');
         $I->seeElement('form#register-form');
         $I->seeElement('input', ['name' => '_csrf']);
     }
@@ -68,7 +68,7 @@ final class RegisterCest
 
         $I->seeResponseCodeIs(200);
         $I->seeInCurrentUrl('/');
-        $I->see('Hello!', 'h1');
+        $I->see('Plan every season with confidence.', 'h1');
     }
 
     public function duplicateUsernameShowsAnError(WebTester $I): void
