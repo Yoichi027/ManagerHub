@@ -47,6 +47,11 @@ final readonly class DeactivateAccountAction
 
         $input = $request->getParsedBody();
         $password = is_array($input) && is_string($input['password'] ?? null) ? $input['password'] : '';
+
+        if ($password === '') {
+            return $this->page->render($user, deactivateError: 'Enter your password to deactivate your account.');
+        }
+
         $result = $this->deactivateAccount->deactivate(new DeactivateAccountCommand($userId, $password));
 
         if ($result === DeactivateAccountResult::Deactivated) {

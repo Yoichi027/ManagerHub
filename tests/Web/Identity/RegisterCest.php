@@ -181,6 +181,15 @@ final class RegisterCest
         $I->amOnPage('/account');
         $I->seeResponseCodeIs(200);
         $I->see('Account settings', 'h1');
+
+        $I->submitForm('#account-password-form', []);
+        $I->seeResponseCodeIs(200);
+        $I->see('Enter your current password and a new password.');
+
+        $I->submitForm('#account-deactivate-form', []);
+        $I->seeResponseCodeIs(200);
+        $I->see('Enter your password to deactivate your account.');
+
         $I->submitForm('#account-email-form', ['email' => $newEmail]);
         $I->see('Email address updated.');
         $I->seeInField('email', $newEmail);

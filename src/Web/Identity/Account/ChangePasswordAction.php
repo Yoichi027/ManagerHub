@@ -44,6 +44,19 @@ final readonly class ChangePasswordAction
         $input = $request->getParsedBody();
         $currentPassword = is_array($input) && is_string($input['current_password'] ?? null) ? $input['current_password'] : '';
         $newPassword = is_array($input) && is_string($input['new_password'] ?? null) ? $input['new_password'] : '';
+
+        if ($currentPassword === '' && $newPassword === '') {
+            return $this->page->render($user, passwordError: 'Enter your current password and a new password.');
+        }
+
+        if ($currentPassword === '') {
+            return $this->page->render($user, passwordError: 'Enter your current password.');
+        }
+
+        if ($newPassword === '') {
+            return $this->page->render($user, passwordError: 'Enter a new password.');
+        }
+
         $result = $this->changePassword->change(new ChangePasswordCommand($userId, $currentPassword, $newPassword));
 
         return match ($result) {
