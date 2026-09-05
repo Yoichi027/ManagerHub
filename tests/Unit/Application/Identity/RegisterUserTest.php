@@ -147,6 +147,11 @@ final class FakeUserRepository implements UserRepository
         return $this->emailExists;
     }
 
+    public function findByUsername(Username $username): ?User
+    {
+        return null;
+    }
+
     public function add(User $user): void
     {
         if ($this->collision === 'username') {
@@ -172,6 +177,11 @@ final class FakePasswordHasher implements PasswordHasher
         $this->passwords[] = $password;
 
         return new PasswordHash('hashed-password');
+    }
+
+    public function verify(string $password, PasswordHash $hash): bool
+    {
+        return false;
     }
 }
 

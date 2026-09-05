@@ -17,4 +17,9 @@ final readonly class YiiPasswordHasher implements PasswordHasher
     {
         return new PasswordHash($this->hasher->hash($password));
     }
+
+    public function verify(#[SensitiveParameter] string $password, PasswordHash $hash): bool
+    {
+        return $this->hasher->validate($password, $hash->value);
+    }
 }

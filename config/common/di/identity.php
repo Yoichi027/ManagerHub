@@ -8,6 +8,7 @@ use App\Domain\Identity\UserRepository;
 use App\Infrastructure\Identity\MysqlUserRepository;
 use App\Infrastructure\Identity\YiiPasswordHasher;
 use App\Infrastructure\Shared\Time\SystemUtcClock;
+use Yiisoft\Auth\IdentityRepositoryInterface;
 use Yiisoft\Security\PasswordHasher as YiiPasswordHasherService;
 
 return [
@@ -19,4 +20,5 @@ return [
     PasswordHasher::class => YiiPasswordHasher::class,
     UtcClock::class => SystemUtcClock::class,
     UserRepository::class => MysqlUserRepository::class,
+    IdentityRepositoryInterface::class => MysqlUserRepository::class,
 ];

@@ -10,5 +10,7 @@ interface UserRepository
 
     public function existsByEmail(Email $email): bool;
 
+    public function findByUsername(Username $username): ?User;
+
     public function add(User $user): void;
 }

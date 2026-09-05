@@ -12,6 +12,7 @@ use Yiisoft\Html\Html;
  * @var string $content
  * @var Yiisoft\View\WebView $this
  * @var Yiisoft\Router\UrlGeneratorInterface $urlGenerator
+ * @var Yiisoft\User\CurrentUser $currentUser
  */
 
 $assetManager->register(MainAsset::class);
@@ -40,7 +41,12 @@ $this->beginPage()
             <span class="brand__mark" aria-hidden="true">M</span><span>Manager Hub</span>
         </a>
         <nav aria-label="Primary navigation">
-            <a class="site-nav__link" href="<?= Html::encode($urlGenerator->generate('register')) ?>">Create account</a>
+            <?php if ($currentUser->isGuest()): ?>
+                <a class="site-nav__link" href="<?= Html::encode($urlGenerator->generate('login')) ?>">Log in</a>
+                <a class="site-nav__link" href="<?= Html::encode($urlGenerator->generate('register')) ?>">Create account</a>
+            <?php else: ?>
+                <span class="site-nav__link">Signed in</span>
+            <?php endif ?>
         </nav>
     </div>
 </header>

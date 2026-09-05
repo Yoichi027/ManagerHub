@@ -19,5 +19,10 @@ final class PasswordHasherTest extends Unit
 
         assertSame('string', $method->getParameters()[0]->getType()?->getName());
         assertSame(PasswordHash::class, $method->getReturnType()?->getName());
+
+        $verify = new ReflectionMethod(PasswordHasher::class, 'verify');
+        assertSame('string', $verify->getParameters()[0]->getType()?->getName());
+        assertSame(PasswordHash::class, $verify->getParameters()[1]->getType()?->getName());
+        assertSame('bool', $verify->getReturnType()?->getName());
     }
 }

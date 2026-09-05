@@ -5,13 +5,18 @@ declare(strict_types=1);
 namespace App\Infrastructure\Identity;
 
 use App\Domain\Identity\Email;
+use App\Domain\Identity\PasswordHash;
 use App\Domain\Identity\User;
 use App\Domain\Identity\UserRepository;
 use App\Domain\Identity\Username;
 use DateTimeImmutable;
+use DateTimeZone;
+use Ramsey\Uuid\Uuid;
+use Yiisoft\Auth\IdentityInterface;
+use Yiisoft\Auth\IdentityRepositoryInterface;
 use Yiisoft\Db\Connection\ConnectionInterface;
 
-final readonly class MysqlUserRepository implements UserRepository
+final readonly class MysqlUserRepository implements UserRepository, IdentityRepositoryInterface
 {
     public function __construct(private ConnectionInterface $connection) {}
 
@@ -31,6 +36,28 @@ final readonly class MysqlUserRepository implements UserRepository
             ->from('users')
             ->where(['email' => $email->value])
             ->exists();
+    }
+
+    public function findByUsername(Username $username): ?User
+    {
+        $row = $this->connection
+            ->select('*')
+            ->from('users')
+            ->where(['username' => $username->value, 'is_deleted' => false])
+            ->one();
+
+        return $row === null ? null : $this->reconstitute($row);
+    }
+
+    public function findIdentity(string $id): ?IdentityInterface
+    {
+        $userId = $this->connection
+            ->select('id')
+            ->from('users')
+            ->where(['id' => $id, 'is_deleted' => false])
+            ->scalar();
+
+        return $userId === null ? null : new AuthenticatedUserIdentity((string) $userId);
     }
 
     public function add(User $user): void
@@ -53,5 +80,25 @@ final readonly class MysqlUserRepository implements UserRepository
     private function formatInstant(DateTimeImmutable $instant): string
     {
         return $instant->format('Y-m-d H:i:s.u');
+    }
+
+    /** @param array<string, mixed> $row */
+    private function reconstitute(array $row): User
+    {
+        return User::reconstitute(
+            Uuid::fromString((string) $row['id']),
+            new Username((string) $row['username']),
+            new Email((string) $row['email']),
+            new PasswordHash((string) $row['password_hash']),
+            $this->parseInstant((string) $row['created_at']),
+            $this->parseInstant((string) $row['updated_at']),
+            (bool) $row['is_deleted'],
+            $row['deleted_at'] === null ? null : $this->parseInstant((string) $row['deleted_at']),
+        );
+    }
+
+    private function parseInstant(string $value): DateTimeImmutable
+    {
+        return new DateTimeImmutable($value, new DateTimeZone('UTC'));
     }
 }

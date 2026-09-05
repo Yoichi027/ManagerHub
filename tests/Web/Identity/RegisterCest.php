@@ -91,6 +91,37 @@ final class RegisterCest
         $I->see('Username is already in use.');
     }
 
+    public function registeredUserCanLogIn(WebTester $I): void
+    {
+        $details = $this->details();
+
+        $I->amOnPage('/register');
+        $I->submitForm('#register-form', $details);
+        $I->seeResponseCodeIs(200);
+
+        $I->amOnPage('/login');
+        $I->submitForm('#login-form', [
+            'username' => $details['username'],
+            'password' => $details['password'],
+        ]);
+
+        $I->seeResponseCodeIs(200);
+        $I->seeInCurrentUrl('/');
+        $I->see('Signed in');
+    }
+
+    public function invalidLoginShowsAGenericError(WebTester $I): void
+    {
+        $I->amOnPage('/login');
+        $I->submitForm('#login-form', [
+            'username' => 'UnknownUser',
+            'password' => 'Password1!',
+        ]);
+
+        $I->seeResponseCodeIs(422);
+        $I->see('Username or password is incorrect.');
+    }
+
     /** @return array{username: string, email: string, password: string} */
     private function details(): array
     {
