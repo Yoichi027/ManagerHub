@@ -10,29 +10,34 @@ use Yiisoft\View\WebView;
 /**
  * @var ApplicationParams $applicationParams
  * @var UrlGeneratorInterface $urlGenerator
+ * @var Yiisoft\User\CurrentUser $currentUser
  * @var WebView $this
  */
 
 $this->setTitle($applicationParams->name);
 ?>
-<section class="hero">
-    <div class="hero__content">
-        <p class="eyebrow">Career mode, under control</p>
-        <h1>Plan every season with confidence.</h1>
-        <p class="hero__lead">Manager Hub keeps your squads, transfers, tactics and season history together — so every decision has context.</p>
-        <a class="btn btn-primary btn-lg" href="<?= Html::encode($urlGenerator->generate('register')) ?>">Create your account</a>
-    </div>
-    <div class="hero__panel" aria-hidden="true">
-        <div class="season-card">
-            <div class="season-card__header"><span>Active season</span><strong>2026 / 27</strong></div>
-            <div class="season-card__line"></div>
-            <div class="season-card__stat"><span>Squad planning</span><strong>In progress</strong></div>
-            <div class="season-card__stat"><span>Transfer window</span><strong>Open</strong></div>
+<?php if ($currentUser->isGuest()): ?>
+    <section class="landing-hero">
+        <div class="landing-hero__copy">
+            <p class="eyebrow">The career workspace</p>
+            <h1>Run every season with a clearer plan.</h1>
+            <p>Manager Hub gives your career mode the structure it deserves — squads, transfers, tactical choices and season history, kept together and easy to use.</p>
+            <div class="hero-actions">
+                <a class="button button--primary" href="<?= Html::encode($urlGenerator->generate('register')) ?>">Create your account</a>
+                <a class="button button--text" href="<?= Html::encode($urlGenerator->generate('login')) ?>">Log in <span aria-hidden="true">→</span></a>
+            </div>
         </div>
-    </div>
-</section>
-<section class="feature-grid" aria-label="Manager Hub features">
-    <article class="feature-card"><span class="feature-card__number">01</span><h2>Keep the history</h2><p>Preserve each season as your career evolves, without overwriting the decisions that got you there.</p></article>
-    <article class="feature-card"><span class="feature-card__number">02</span><h2>Build with intent</h2><p>See the squad, tactical choices and player progression in one place before you make the next move.</p></article>
-    <article class="feature-card"><span class="feature-card__number">03</span><h2>Own every save</h2><p>Each career stays private to its manager, ready to pick up whenever the next season begins.</p></article>
-</section>
+        <div class="landing-hero__mark" aria-hidden="true"><img src="<?= Html::encode($aliases->get('@baseUrl/logo_no_background.png')) ?>" alt=""></div>
+    </section>
+    <section class="landing-principles" aria-label="What Manager Hub is for">
+        <div><span class="principle-index">01</span><h2>Keep the context</h2><p>Every decision stays connected to the season and squad that shaped it.</p></div>
+        <div><span class="principle-index">02</span><h2>Make decisions faster</h2><p>A focused workspace for the parts of your career that matter.</p></div>
+        <div><span class="principle-index">03</span><h2>Preserve the story</h2><p>Build a history you can return to, season after season.</p></div>
+    </section>
+<?php else: ?>
+    <section class="workspace-welcome">
+        <p class="eyebrow">Manager Hub</p>
+        <h1>Your career workspace.</h1>
+        <p>Everything in one place, designed to keep your decisions clear as your career takes shape.</p>
+    </section>
+<?php endif ?>

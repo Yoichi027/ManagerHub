@@ -19,6 +19,21 @@ A interface, as mensagens apresentadas ao utilizador e o código-fonte — ident
 - O desenvolvimento do MVP é nativo no sistema do utilizador; não usar, propor, alterar ou exigir Docker antes de o utilizador pedir explicitamente essa via.
 - Enquanto o projeto estiver apenas em desenvolvimento local, é permitido reverter, editar e reaplicar migrations para manter um schema inicial limpo. Depois de o utilizador declarar o projeto em produção, migrations aplicadas tornam-se imutáveis e alterações de schema exigem novas migrations.
 
+## Design e experiência visual
+
+O Manager Hub é um workspace premium para gerir uma carreira de futebol. A interface deve ser dark, moderna, elegante, limpa, respirada e rápida, com clareza e eficiência acima de decoração. A personalidade vem da execução cuidada de uma UI simples, não de elementos visuais excessivos nem de uma estética "gaming".
+
+- Preservar a linguagem visual existente: superfícies dark em tons slate, texto de alto contraste, linhas discretas e accent dourado usado com contenção. Não usar verde como cor dominante nem substituir o accent por outra cor sem redesenhar conscientemente o sistema inteiro.
+- Usar `public/logo_no_backround.png` ou `public/logo.png` (quando preferível, tem moldura propria) como símbolo de marca. O símbolo deve permanecer pequeno, refinado e funcional tanto na navegação como junto do nome; não criar lettermarks grandes, monogramas artificiais ou tratamento de logo decorativo.
+- A sidebar é a navegação principal para utilizadores autenticados. Deve ser discreta, ocupar pouco espaço, suportar o estado expandido (ícone e label) e colapsado (apenas ícones), e manter o conteúdo como protagonista. Persistir o comportamento de colapso sem introduzir dependências de frontend pesadas.
+- Só apresentar destinos, ações, dados e estados que existam de facto. Nunca criar dados fictícios, placeholders que pareçam dados reais, ou links para funcionalidades ainda não implementadas apenas para tornar a interface mais interessante.
+- A homepage pública deve explicar imediatamente o propósito do produto e orientar para as ações reais disponíveis. Evitar painéis de dashboard, métricas, épocas, plantéis ou estados de transferências simulados.
+- Adaptar o layout à tarefa em vez de impor uma grelha de cards a todas as páginas. Gestão de plantel deve privilegiar densidade, estrutura, navegação rápida e teclado; táticas/XI podem ser espaciais e visuais; formulários, histórico e detalhes devem escolher a composição mais clara para a tarefa.
+- Não transformar páginas numa coleção de cards. Evitar estética de template Bootstrap/admin genérico, excesso de cantos arredondados, sombras pesadas, gradientes gratuitos, animações decorativas e elementos sem função.
+- Manter uma escala coerente para tipografia, spacing, superfícies, bordas, botões, formulários, tabelas, badges e estados de erro/vazio/carregamento. Interações hover, focus e active devem ser subtis, previsíveis, acessíveis por teclado e rápidas; respeitar `:focus-visible`.
+- Usar Bootstrap como base de estrutura quando útil, mas personalizar totalmente os seus componentes para que nunca pareçam o tema Bootstrap padrão.
+- Antes de concluir uma alteração visual, percorrer as páginas afetadas e confirmar que fazem parte de um único produto deliberadamente desenhado. Atualizar testes de apresentação afetados e validar a renderização em browser quando a alteração de layout for material.
+
 ## Arquitetura obrigatória
 
 Respeitar Onion Architecture e DDD. Dependências apontam sempre para dentro:

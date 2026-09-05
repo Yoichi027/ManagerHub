@@ -17,12 +17,13 @@ use Yiisoft\View\WebView;
 $this->setTitle('Create an account');
 ?>
 
-<section class="register-page row justify-content-center">
-    <div class="col-lg-7 col-xl-6">
-        <div class="register-card">
+<section class="auth-page">
+    <div class="auth-card">
+        <div class="auth-card__intro">
             <p class="eyebrow">Start your career</p>
             <h1>Create your account</h1>
-            <p class="register-card__intro">Keep every season, squad decision and transfer in one place.</p>
+            <p>Bring structure to every season, without losing the story behind it.</p>
+        </div>
 
             <?php foreach ($form->errorsFor('general') as $error): ?>
                 <div class="alert alert-danger" role="alert"><?= Html::encode($error) ?></div>
@@ -57,8 +58,8 @@ $this->setTitle('Create an account');
                     <?php endforeach ?>
                 </div>
 
-                <button class="btn btn-primary w-100" type="submit">Create account</button>
+                <button class="button button--primary button--block" type="submit">Create account</button>
             </form>
+            <p class="auth-card__footer">Already have an account? <a href="<?= Html::encode($urlGenerator->generate('login')) ?>">Log in</a></p>
         </div>
-    </div>
 </section>

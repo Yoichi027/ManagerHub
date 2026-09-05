@@ -17,12 +17,13 @@ use Yiisoft\View\WebView;
 $this->setTitle('Log in');
 ?>
 
-<section class="register-page row justify-content-center">
-    <div class="col-lg-7 col-xl-6">
-        <div class="register-card">
+<section class="auth-page">
+    <div class="auth-card">
+        <div class="auth-card__intro">
             <p class="eyebrow">Welcome back</p>
             <h1>Log in to Manager Hub</h1>
-            <p class="register-card__intro">Continue planning your next season.</p>
+            <p>Pick up your career right where you left it.</p>
+        </div>
 
             <?php foreach ($form->errorsFor('general') as $error): ?>
                 <div class="alert alert-danger" role="alert"><?= Html::encode($error) ?></div>
@@ -47,8 +48,8 @@ $this->setTitle('Log in');
                     <?php endforeach ?>
                 </div>
 
-                <button class="btn btn-primary w-100" type="submit">Log in</button>
+                <button class="button button--primary button--block" type="submit">Log in</button>
             </form>
+            <p class="auth-card__footer">New to Manager Hub? <a href="<?= Html::encode($urlGenerator->generate('register')) ?>">Create an account</a></p>
         </div>
-    </div>
 </section>
