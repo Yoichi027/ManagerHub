@@ -6,31 +6,15 @@ use Yiisoft\Html\Html;
 
 /**
  * @var Yiisoft\View\WebView $this
- * @var \App\Shared\ApplicationParams $applicationParams
- * @var Yiisoft\Router\UrlGeneratorInterface $urlGenerator
  * @var Yiisoft\Router\CurrentRoute $currentRoute
+ * @var Yiisoft\Router\UrlGeneratorInterface $urlGenerator
  */
 
-$this->setTitle('404');
+$this->setTitle('Page not found');
 ?>
-
-<div class="text-center">
-    <h1>
-        404
-    </h1>
-
-    <p>
-        The page
-        <strong><?= Html::encode($currentRoute->getUri()?->getPath() ?? 'unknown') ?></strong>
-        not found.
-    </p>
-
-    <p>
-        The above error occurred while the Web server was processing your request.<br/>
-        Please contact us if you think this is a server error. Thank you.
-    </p>
-
-    <p>
-        <a href="<?= $urlGenerator->generate('home') ?>">Go Back Home</a>
-    </p>
-</div>
+<section class="not-found">
+    <p class="eyebrow">404</p>
+    <h1>This page is offside.</h1>
+    <p>We could not find <strong><?= Html::encode($currentRoute->getUri()?->getPath() ?? 'this page') ?></strong>.</p>
+    <a class="btn btn-primary" href="<?= Html::encode($urlGenerator->generate('home')) ?>">Back to home</a>
+</section>

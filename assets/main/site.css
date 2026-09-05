@@ -1,85 +1,22 @@
-html, body {
-    margin: 0;
-    padding: 0;
-}
-html {
-    height: 100%;
-}
-body {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    font: 16px/24px "Trebuchet MS", Helvetica, sans-serif;
-    background: #f8f8f8;
-    color: #4b4b4b;
-}
-
-.header {
-    margin: 24px;
-    padding: 12px;
-    border-radius: 12px;
-    background: #fff;
-    color: #888;
-    box-shadow: 0 0 24px #f4f4f4;
-    text-align: center;
-}
-.header svg {
-    height: 48px;
-}
-
-.content {
-    flex-grow: 1;
-    display: flex;
-    align-items: center;
-}
-.content_i {
-    flex-grow: 1;
-    padding: 24px 5%;
-}
-.content a {
-    color: #00617b;
-}
-.content a:hover {
-    color: #1191b3;
-}
-
-.footer {
-    border-top: 1px solid #e6e8ec;
-    margin: 24px 24px 0;
-    padding: 24px;
-    text-align: center;
-}
-
-.footer_copyright a {
-    color: #838b99;
-    text-decoration: none;
-}
-
-.footer_copyright a:hover {
-    color: #0b7794;
-    text-decoration: underline;
-}
-
-.footer_icons {
-    padding-top: 16px;
-    display: flex;
-    justify-content: center;
-}
-
-.footer_icons a {
-    margin: 0 12px;
-    text-decoration: none;
-}
-
-.footer_icons svg {
-    height: 32px;
-    fill: #838b99;
-}
-
-.footer_icons a:hover svg {
-    fill: #0b7794;
-}
-
-.text-center {
-    text-align: center;
-}
+:root { --ink: #17201c; --ink-muted: #627169; --surface: #fff; --canvas: #f5f7f4; --line: #dbe3dc; --brand: #166649; --brand-dark: #0c4b35; --accent: #e8f56b; --shadow: 0 20px 55px rgba(23, 32, 28, .1); }
+html { min-height: 100%; }
+body { min-height: 100vh; display: flex; flex-direction: column; color: var(--ink); background: var(--canvas); font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+a { color: var(--brand); } a:hover { color: var(--brand-dark); }
+.site-header { background: rgba(245,247,244,.9); border-bottom: 1px solid var(--line); backdrop-filter: blur(12px); }
+.site-header__inner { min-height: 76px; display: flex; align-items: center; justify-content: space-between; }
+.brand { display: inline-flex; align-items: center; gap: .7rem; color: var(--ink); font-size: 1.05rem; font-weight: 800; letter-spacing: -.03em; text-decoration: none; }.brand:hover { color: var(--ink); }
+.brand__mark { width: 2.15rem; height: 2.15rem; display: grid; place-items: center; border-radius: .65rem; background: var(--brand); color: var(--accent); font-size: 1rem; font-weight: 900; }
+.site-nav__link { color: var(--ink); font-size: .9rem; font-weight: 700; text-decoration: none; }
+.site-main { flex: 1; display: flex; align-items: center; padding: 4.5rem 0; }.site-main > .container { width: 100%; }
+.site-footer { padding: 1.5rem 0; border-top: 1px solid var(--line); color: var(--ink-muted); font-size: .8rem; }.site-footer .container { display: flex; justify-content: space-between; gap: 1rem; }
+.eyebrow { margin-bottom: .85rem; color: var(--brand); font-size: .73rem; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+.hero { display: grid; grid-template-columns: minmax(0,1.2fr) minmax(280px,.8fr); align-items: center; gap: 5rem; }
+.hero h1,.register-card h1,.not-found h1 { max-width: 11ch; margin: 0; font-size: clamp(2.75rem,6vw,5.2rem); font-weight: 800; letter-spacing: -.07em; line-height: .95; }
+.hero__lead { max-width: 38rem; margin: 1.8rem 0 2.1rem; color: var(--ink-muted); font-size: 1.1rem; line-height: 1.7; }
+.btn-primary { --bs-btn-bg: var(--brand); --bs-btn-border-color: var(--brand); --bs-btn-hover-bg: var(--brand-dark); --bs-btn-hover-border-color: var(--brand-dark); --bs-btn-active-bg: var(--brand-dark); --bs-btn-active-border-color: var(--brand-dark); padding: .72rem 1.15rem; font-weight: 700; }
+.hero__panel { min-height: 25rem; display: grid; place-items: center; overflow: hidden; border-radius: 1.5rem; background: radial-gradient(circle at 70% 25%,#e8f56b 0,#e8f56b 8%,transparent 9%),linear-gradient(135deg,#0b392a,#166649); box-shadow: var(--shadow); }
+.season-card { width: min(80%,20rem); padding: 1.6rem; border: 1px solid rgba(255,255,255,.22); border-radius: 1rem; background: rgba(255,255,255,.12); color: #fff; backdrop-filter: blur(12px); }.season-card__header,.season-card__stat { display: flex; justify-content: space-between; gap: 1rem; }.season-card__header span,.season-card__stat span { opacity: .68; font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }.season-card__header strong { font-size: 1.1rem; }.season-card__line { height: 1px; margin: 1.5rem 0; background: rgba(255,255,255,.25); }.season-card__stat + .season-card__stat { margin-top: 1rem; }
+.feature-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1rem; margin-top: 5rem; }.feature-card,.register-card { border: 1px solid var(--line); border-radius: 1.15rem; background: var(--surface); box-shadow: 0 8px 24px rgba(23,32,28,.04); }.feature-card { padding: 1.7rem; }.feature-card__number { color: var(--brand); font-size: .78rem; font-weight: 800; letter-spacing: .08em; }.feature-card h2 { margin: 2.5rem 0 .7rem; font-size: 1.05rem; font-weight: 800; letter-spacing: -.02em; }.feature-card p,.register-card__intro,.not-found p { margin-bottom: 0; color: var(--ink-muted); line-height: 1.65; }
+.register-card { padding: clamp(1.75rem,5vw,3.25rem); box-shadow: var(--shadow); }.register-card h1 { max-width: none; font-size: clamp(2.35rem,5vw,3.6rem); }.register-card__intro { margin: 1rem 0 2.2rem; }.form-label { font-weight: 700; }.form-control { padding: .72rem .8rem; border-color: var(--line); }.form-control:focus { border-color: var(--brand); box-shadow: 0 0 0 .25rem rgba(22,102,73,.14); }.form-text { color: var(--ink-muted); }
+.not-found { max-width: 42rem; margin: 0 auto; padding: 4rem 0; text-align: center; }.not-found h1 { max-width: none; font-size: clamp(2.8rem,7vw,5.5rem); }.not-found p:not(.eyebrow) { margin: 1.4rem auto 2rem; }
+@media (max-width: 767.98px) { .site-main { padding: 2.5rem 0; }.site-footer .container { display: block; }.site-footer span { display: block; }.site-footer span + span { margin-top: .35rem; }.hero,.feature-grid { grid-template-columns: 1fr; }.hero { gap: 2.5rem; }.hero__panel { min-height: 18rem; }.feature-grid { margin-top: 3rem; } }
