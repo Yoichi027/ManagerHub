@@ -54,6 +54,21 @@ final class AuthenticateUserTest extends Unit
         assertSame(['WrongPassword1!'], $hasher->passwords);
     }
 
+    public function testAuthenticatesWithAnEmailAddress(): void
+    {
+        $repository = new AuthenticationUserRepository();
+        $repository->user = $this->user();
+        $hasher = new AuthenticationPasswordHasher();
+        $hasher->valid = true;
+
+        $user = (new AuthenticateUser($repository, $hasher))->authenticate(
+            new AuthenticateUserCommand('Tiago@Example.com', 'Password1!'),
+        );
+
+        assertSame($repository->user, $user);
+        assertSame(1, $repository->emailLookups);
+    }
+
     public function testRejectsAnInvalidUsernameBeforeLookingUpTheUser(): void
     {
         $repository = new AuthenticationUserRepository();
@@ -79,6 +94,7 @@ final class AuthenticationUserRepository implements UserRepository
 {
     public ?User $user = null;
     public int $lookups = 0;
+    public int $emailLookups = 0;
 
     public function existsByUsername(Username $username): bool
     {
@@ -93,6 +109,12 @@ final class AuthenticationUserRepository implements UserRepository
     public function findByUsername(Username $username): ?User
     {
         $this->lookups++;
+        return $this->user;
+    }
+
+    public function findByEmail(Email $email): ?User
+    {
+        $this->emailLookups++;
         return $this->user;
     }
 

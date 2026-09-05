@@ -101,7 +101,7 @@ final class RegisterCest
 
         $I->amOnPage('/login');
         $I->submitForm('#login-form', [
-            'username' => $details['username'],
+            'identifier' => $details['username'],
             'password' => $details['password'],
         ]);
 
@@ -114,12 +114,12 @@ final class RegisterCest
     {
         $I->amOnPage('/login');
         $I->submitForm('#login-form', [
-            'username' => 'UnknownUser',
+            'identifier' => 'UnknownUser',
             'password' => 'Password1!',
         ]);
 
         $I->seeResponseCodeIs(422);
-        $I->see('Username or password is incorrect.');
+        $I->see('Username, email or password is incorrect.');
     }
 
     public function authenticatedUserIsRedirectedFromLoginAndRegistration(WebTester $I): void
@@ -131,7 +131,7 @@ final class RegisterCest
         $I->amOnPage('/login');
         $csrfToken = $I->grabAttributeFrom('meta[name="csrf"]', 'content');
         $I->submitForm('#login-form', [
-            'username' => $details['username'],
+            'identifier' => $details['username'],
             'password' => $details['password'],
         ]);
 
@@ -173,7 +173,7 @@ final class RegisterCest
         $I->submitForm('#register-form', $details);
         $I->amOnPage('/login');
         $I->submitForm('#login-form', [
-            'username' => $details['username'],
+            'identifier' => $details['username'],
             'password' => $details['password'],
         ]);
         $I->seeInCurrentUrl('/dashboard');
@@ -195,7 +195,7 @@ final class RegisterCest
         $I->seeInCurrentUrl('/');
         $I->amOnPage('/login');
         $I->submitForm('#login-form', [
-            'username' => $details['username'],
+            'identifier' => $newEmail,
             'password' => $newPassword,
         ]);
         $I->seeInCurrentUrl('/dashboard');
@@ -206,10 +206,10 @@ final class RegisterCest
 
         $I->amOnPage('/login');
         $I->submitForm('#login-form', [
-            'username' => $details['username'],
+            'identifier' => $details['username'],
             'password' => $newPassword,
         ]);
-        $I->see('Username or password is incorrect.');
+        $I->see('Username, email or password is incorrect.');
     }
 
     /** @return array{username: string, email: string, password: string} */

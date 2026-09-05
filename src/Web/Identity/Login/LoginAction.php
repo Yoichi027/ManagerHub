@@ -37,7 +37,7 @@ final readonly class LoginAction
         }
 
         $user = $this->authenticateUser->authenticate(
-            new AuthenticateUserCommand($form->username, $form->password),
+            new AuthenticateUserCommand($form->identifier, $form->password),
         );
 
         if ($user === null || !$this->currentUser->login(new AuthenticatedUserIdentity($user->id->toString()))) {

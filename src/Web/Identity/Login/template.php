@@ -33,9 +33,9 @@ $this->setTitle('Log in');
                 <?= $csrf->hiddenInput()->render() ?>
 
                 <div class="mb-3">
-                    <label class="form-label" for="login-username">Username</label>
-                    <input class="form-control" id="login-username" name="username" type="text" value="<?= Html::encode($form->username) ?>" autocomplete="username" maxlength="20" required>
-                    <?php foreach ($form->errorsFor('username') as $error): ?>
+                    <label class="form-label" for="login-identifier">Username or email</label>
+                    <input class="form-control" id="login-identifier" name="identifier" type="text" value="<?= Html::encode($form->identifier) ?>" autocomplete="username" maxlength="255" required>
+                    <?php foreach ($form->errorsFor('identifier') as $error): ?>
                         <div class="invalid-feedback d-block" role="alert"><?= Html::encode($error) ?></div>
                     <?php endforeach ?>
                 </div>

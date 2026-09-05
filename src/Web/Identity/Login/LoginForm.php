@@ -13,7 +13,7 @@ final class LoginForm
     private array $errors = [];
 
     public function __construct(
-        public readonly string $username = '',
+        public readonly string $identifier = '',
         public readonly string $password = '',
     ) {}
 
@@ -24,7 +24,7 @@ final class LoginForm
         }
 
         return new self(
-            self::stringValue($input['username'] ?? null),
+            self::stringValue($input['identifier'] ?? null),
             self::stringValue($input['password'] ?? null),
         );
     }
@@ -33,8 +33,8 @@ final class LoginForm
     {
         $this->errors = [];
 
-        if ($this->username === '') {
-            $this->addError('username', 'Username is required.');
+        if ($this->identifier === '') {
+            $this->addError('identifier', 'Username or email is required.');
         }
 
         if ($this->password === '') {
@@ -46,7 +46,7 @@ final class LoginForm
 
     public function addInvalidCredentialsError(): void
     {
-        $this->addError('general', 'Username or password is incorrect.');
+        $this->addError('general', 'Username, email or password is incorrect.');
     }
 
     /** @return list<string> */

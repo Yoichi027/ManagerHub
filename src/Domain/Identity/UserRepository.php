@@ -14,6 +14,8 @@ interface UserRepository
 
     public function findByUsername(Username $username): ?User;
 
+    public function findByEmail(Email $email): ?User;
+
     public function findById(UuidInterface $id): ?User;
 
     public function add(User $user): void;

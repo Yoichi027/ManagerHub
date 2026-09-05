@@ -17,17 +17,17 @@ final class LoginFormTest extends Unit
         $form = new LoginForm();
 
         assertSame(false, $form->isValid());
-        assertSame(['Username is required.'], $form->errorsFor('username'));
+        assertSame(['Username or email is required.'], $form->errorsFor('identifier'));
         assertSame(['Password is required.'], $form->errorsFor('password'));
     }
 
-    public function testPreservesTheSubmittedUsernameAndAddsAGenericCredentialError(): void
+    public function testPreservesTheSubmittedIdentifierAndAddsAGenericCredentialError(): void
     {
-        $form = LoginForm::fromInput(['username' => ' Tiago42 ', 'password' => 'Password1!']);
+        $form = LoginForm::fromInput(['identifier' => ' Tiago42 ', 'password' => 'Password1!']);
 
         assertTrue($form->isValid());
-        assertSame(' Tiago42 ', $form->username);
+        assertSame(' Tiago42 ', $form->identifier);
         $form->addInvalidCredentialsError();
-        assertSame(['Username or password is incorrect.'], $form->errorsFor('general'));
+        assertSame(['Username, email or password is incorrect.'], $form->errorsFor('general'));
     }
 }

@@ -153,6 +153,11 @@ final class FakeUserRepository implements UserRepository
         return null;
     }
 
+    public function findByEmail(Email $email): ?User
+    {
+        return null;
+    }
+
     public function findById(UuidInterface $id): ?User
     {
         return null;

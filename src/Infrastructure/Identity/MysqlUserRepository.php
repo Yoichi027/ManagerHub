@@ -43,6 +43,11 @@ final readonly class MysqlUserRepository implements UserRepository, IdentityRepo
         return $this->findActiveUser(['username' => $username->value]);
     }
 
+    public function findByEmail(Email $email): ?User
+    {
+        return $this->findActiveUser(['email' => $email->value]);
+    }
+
     public function findById(\Ramsey\Uuid\UuidInterface $id): ?User
     {
         return $this->findActiveUser(['id' => $id->toString()]);

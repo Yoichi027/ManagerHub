@@ -7,7 +7,7 @@ namespace App\Application\Identity\AuthenticateUser;
 final readonly class AuthenticateUserCommand
 {
     public function __construct(
-        public string $username,
+        public string $identifier,
         public string $password,
     ) {}
 }

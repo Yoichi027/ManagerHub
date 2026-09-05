@@ -84,6 +84,7 @@ final class MysqlUserRepositoryTest extends Unit
 
         assertTrue($this->repository->existsByUsername(new Username(strtolower($user->username->value))));
         assertTrue($this->repository->existsByEmail($user->email));
+        assertSame($user->id->toString(), $this->repository->findByEmail($user->email)?->id->toString());
         assertFalse($this->repository->existsByUsername(new Username('OtherUser')));
         assertFalse($this->repository->existsByEmail(new Email('other@example.com')));
     }
@@ -109,6 +110,7 @@ final class MysqlUserRepositoryTest extends Unit
         assertTrue($this->repository->existsByUsername(new Username(strtolower($username->value))));
         assertTrue($this->repository->existsByEmail($email));
         assertSame(null, $this->repository->findByUsername($username));
+        assertSame(null, $this->repository->findByEmail($email));
     }
 
     public function testThrowsAnIntegrityExceptionForADuplicateIdentifier(): void
