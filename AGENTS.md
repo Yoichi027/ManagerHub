@@ -4,7 +4,7 @@
 
 Aplicação web server-side para substituir uma folha Excel de acompanhamento de carreiras de *Career Mode* do FC. Permite a vários utilizadores gerir carreiras, épocas, plantéis, transferências, táticas e objetivos, preservando o histórico entre épocas.
 
-A interface e as mensagens apresentadas ao utilizador são em português. Código-fonte — identificadores, comentários, docblocks, logs e mensagens de exceções internas — é sempre em inglês. O MVP não inclui SPA, API pública, React/Vue/Angular, aplicação móvel, estatísticas de jogo, exportações, multi-idioma nem sincronização automática do catálogo.
+A interface, as mensagens apresentadas ao utilizador e o código-fonte — identificadores, comentários, docblocks, logs e mensagens de exceções internas — são sempre em inglês. O MVP não inclui SPA, API pública, React/Vue/Angular, aplicação móvel, estatísticas de jogo, exportações, multi-idioma nem sincronização automática do catálogo.
 
 ## Stack e convenções
 

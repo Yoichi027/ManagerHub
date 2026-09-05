@@ -2,7 +2,7 @@ actor: WebTester
 extensions:
   enabled:
     - Codeception\Extension\RunProcess:
-        0: php yii serve --port=8081
+        0: set "APP_ENV=test"&& php yii serve --port=8081
         sleep: 3
 modules:
   enabled:
