@@ -1,9 +1,7 @@
 actor: WebTester
 extensions:
   enabled:
-    - Codeception\Extension\RunProcess:
-        0: set "APP_ENV=test"&& php yii serve --port=8081
-        sleep: 3
+    - App\Tests\Support\WebServerExtension
 modules:
   enabled:
     - PhpBrowser:
