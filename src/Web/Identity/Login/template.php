@@ -42,7 +42,7 @@ $this->setTitle('Log in');
 
                 <div class="mb-4">
                     <label class="form-label" for="login-password">Password</label>
-                    <input class="form-control" id="login-password" name="password" type="password" autocomplete="current-password" required>
+                    <div class="password-field"><input class="form-control" id="login-password" name="password" type="password" autocomplete="current-password" required><button class="password-toggle" type="button" data-password-toggle aria-controls="login-password" aria-pressed="false">Show</button></div>
                     <?php foreach ($form->errorsFor('password') as $error): ?>
                         <div class="invalid-feedback d-block" role="alert"><?= Html::encode($error) ?></div>
                     <?php endforeach ?>

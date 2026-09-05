@@ -15,6 +15,7 @@ use App\Domain\Identity\Username;
 use Codeception\Test\Unit;
 use DateTimeImmutable;
 use DateTimeZone;
+use Ramsey\Uuid\UuidInterface;
 
 use function PHPUnit\Framework\assertNull;
 use function PHPUnit\Framework\assertSame;
@@ -95,7 +96,14 @@ final class AuthenticationUserRepository implements UserRepository
         return $this->user;
     }
 
+    public function findById(UuidInterface $id): ?User
+    {
+        return $this->user;
+    }
+
     public function add(User $user): void {}
+
+    public function save(User $user): void {}
 }
 
 final class AuthenticationPasswordHasher implements PasswordHasher

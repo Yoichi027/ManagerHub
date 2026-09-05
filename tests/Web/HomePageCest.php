@@ -14,7 +14,7 @@ final class HomePageCest
 
         $I->seeResponseCodeIs(200);
         $I->see('Manager Hub');
-        $I->see('Plan every season with confidence.', 'h1');
+        $I->see('Run every season with a clearer plan.', 'h1');
         $I->seeLink('Create your account');
     }
 }

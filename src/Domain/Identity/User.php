@@ -140,4 +140,28 @@ final class User
         $this->updatedAt = $occurredAt;
     }
 
+    public function changeEmail(Email $email, DateTimeImmutable $occurredAt): void
+    {
+        UtcInstant::assert($occurredAt);
+
+        if ($occurredAt < $this->updatedAt) {
+            throw new DomainException('Email change timestamp cannot precede updated-at timestamp.');
+        }
+
+        $this->email = $email;
+        $this->updatedAt = $occurredAt;
+    }
+
+    public function changePassword(PasswordHash $passwordHash, DateTimeImmutable $occurredAt): void
+    {
+        UtcInstant::assert($occurredAt);
+
+        if ($occurredAt < $this->updatedAt) {
+            throw new DomainException('Password change timestamp cannot precede updated-at timestamp.');
+        }
+
+        $this->passwordHash = $passwordHash;
+        $this->updatedAt = $occurredAt;
+    }
+
 }

@@ -51,7 +51,7 @@ $this->setTitle('Create an account');
 
                 <div class="mb-4">
                     <label class="form-label" for="register-password">Password</label>
-                    <input class="form-control" id="register-password" name="password" type="password" autocomplete="new-password" minlength="8" required>
+                    <div class="password-field"><input class="form-control" id="register-password" name="password" type="password" autocomplete="new-password" minlength="8" required><button class="password-toggle" type="button" data-password-toggle aria-controls="register-password" aria-pressed="false">Show</button></div>
                     <div class="form-text">At least 8 characters, including an uppercase letter, a number and a symbol.</div>
                     <?php foreach ($form->errorsFor('password') as $error): ?>
                         <div class="invalid-feedback d-block" role="alert"><?= Html::encode($error) ?></div>

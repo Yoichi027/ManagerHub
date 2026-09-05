@@ -18,6 +18,7 @@ use App\Domain\Identity\Username;
 use Codeception\Test\Unit;
 use DateTimeImmutable;
 use DateTimeZone;
+use Ramsey\Uuid\UuidInterface;
 use Psr\Log\AbstractLogger;
 use Stringable;
 use Yiisoft\Db\Exception\IntegrityException;
@@ -152,6 +153,11 @@ final class FakeUserRepository implements UserRepository
         return null;
     }
 
+    public function findById(UuidInterface $id): ?User
+    {
+        return null;
+    }
+
     public function add(User $user): void
     {
         if ($this->collision === 'username') {
@@ -166,6 +172,8 @@ final class FakeUserRepository implements UserRepository
 
         $this->addedUsers[] = $user;
     }
+
+    public function save(User $user): void {}
 }
 
 final class FakePasswordHasher implements PasswordHasher

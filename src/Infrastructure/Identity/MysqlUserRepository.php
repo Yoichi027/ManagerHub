@@ -40,13 +40,12 @@ final readonly class MysqlUserRepository implements UserRepository, IdentityRepo
 
     public function findByUsername(Username $username): ?User
     {
-        $row = $this->connection
-            ->select('*')
-            ->from('users')
-            ->where(['username' => $username->value, 'is_deleted' => false])
-            ->one();
+        return $this->findActiveUser(['username' => $username->value]);
+    }
 
-        return $row === null ? null : $this->reconstitute($row);
+    public function findById(\Ramsey\Uuid\UuidInterface $id): ?User
+    {
+        return $this->findActiveUser(['id' => $id->toString()]);
     }
 
     public function findIdentity(string $id): ?IdentityInterface
@@ -77,9 +76,35 @@ final readonly class MysqlUserRepository implements UserRepository, IdentityRepo
             ->execute();
     }
 
+    public function save(User $user): void
+    {
+        $this->connection
+            ->createCommand()
+            ->update('users', [
+                'email' => $user->email->value,
+                'password_hash' => $user->passwordHash->value,
+                'updated_at' => $this->formatInstant($user->updatedAt),
+                'is_deleted' => $user->isDeleted,
+                'deleted_at' => $user->deletedAt === null ? null : $this->formatInstant($user->deletedAt),
+            ], ['id' => $user->id->toString()])
+            ->execute();
+    }
+
     private function formatInstant(DateTimeImmutable $instant): string
     {
         return $instant->format('Y-m-d H:i:s.u');
+    }
+
+    /** @param array<string, string> $condition */
+    private function findActiveUser(array $condition): ?User
+    {
+        $row = $this->connection
+            ->select('*')
+            ->from('users')
+            ->where([...$condition, 'is_deleted' => false])
+            ->one();
+
+        return $row === null ? null : $this->reconstitute($row);
     }
 
     /** @param array<string, mixed> $row */

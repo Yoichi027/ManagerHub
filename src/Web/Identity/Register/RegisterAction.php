@@ -11,6 +11,7 @@ use Psr\Http\Message\ResponseFactoryInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Yiisoft\Router\UrlGeneratorInterface;
+use Yiisoft\User\CurrentUser;
 use Yiisoft\Yii\View\Renderer\WebViewRenderer;
 
 final readonly class RegisterAction
@@ -20,10 +21,15 @@ final readonly class RegisterAction
         private WebViewRenderer $viewRenderer,
         private ResponseFactoryInterface $responseFactory,
         private UrlGeneratorInterface $urlGenerator,
+        private CurrentUser $currentUser,
     ) {}
 
     public function __invoke(ServerRequestInterface $request): ResponseInterface
     {
+        if (!$this->currentUser->isGuest()) {
+            return $this->redirectHome();
+        }
+
         $form = RegisterForm::fromInput($request->getParsedBody());
 
         if (!$form->isValid()) {
@@ -42,9 +48,7 @@ final readonly class RegisterAction
         );
 
         if ($result === RegisterUserResult::Registered) {
-            return $this->responseFactory
-                ->createResponse(303)
-                ->withHeader('Location', $this->urlGenerator->generate('home'));
+            return $this->redirectHome();
         }
 
         $form->addBusinessError($result);
@@ -52,5 +56,12 @@ final readonly class RegisterAction
         return $this->viewRenderer
             ->render(__DIR__ . '/template', ['form' => $form])
             ->withStatus(422);
+    }
+
+    private function redirectHome(): ResponseInterface
+    {
+        return $this->responseFactory
+            ->createResponse(303)
+            ->withHeader('Location', $this->urlGenerator->generate('home'));
     }
 }

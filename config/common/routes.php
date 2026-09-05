@@ -24,5 +24,23 @@ return [
             Route::post('/login')
                 ->action(Web\Identity\Login\LoginAction::class)
                 ->name('login.submit'),
+            Route::post('/logout')
+                ->action(Web\Identity\LogoutAction::class)
+                ->name('logout'),
+            Route::get('/dashboard')
+                ->action(Web\Dashboard\Action::class)
+                ->name('dashboard'),
+            Route::get('/account')
+                ->action(Web\Identity\Account\AccountAction::class)
+                ->name('account'),
+            Route::post('/account/email')
+                ->action(Web\Identity\Account\UpdateEmailAction::class)
+                ->name('account.email'),
+            Route::post('/account/password')
+                ->action(Web\Identity\Account\ChangePasswordAction::class)
+                ->name('account.password'),
+            Route::post('/account/deactivate')
+                ->action(Web\Identity\Account\DeactivateAccountAction::class)
+                ->name('account.deactivate'),
         ),
 ];

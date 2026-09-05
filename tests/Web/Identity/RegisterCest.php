@@ -68,7 +68,7 @@ final class RegisterCest
 
         $I->seeResponseCodeIs(200);
         $I->seeInCurrentUrl('/');
-        $I->see('Plan every season with confidence.', 'h1');
+        $I->see('Run every season with a clearer plan.', 'h1');
     }
 
     public function duplicateUsernameShowsAnError(WebTester $I): void
@@ -119,6 +119,96 @@ final class RegisterCest
         ]);
 
         $I->seeResponseCodeIs(422);
+        $I->see('Username or password is incorrect.');
+    }
+
+    public function authenticatedUserIsRedirectedFromLoginAndRegistration(WebTester $I): void
+    {
+        $details = $this->details();
+
+        $I->amOnPage('/register');
+        $I->submitForm('#register-form', $details);
+        $I->amOnPage('/login');
+        $csrfToken = $I->grabAttributeFrom('meta[name="csrf"]', 'content');
+        $I->submitForm('#login-form', [
+            'username' => $details['username'],
+            'password' => $details['password'],
+        ]);
+
+        $I->amOnPage('/login');
+        $I->seeResponseCodeIs(200);
+        $I->seeInCurrentUrl('/');
+        $I->dontSeeElement('form#login-form');
+
+        $I->amOnPage('/register');
+        $I->seeResponseCodeIs(200);
+        $I->seeInCurrentUrl('/');
+        $I->dontSeeElement('form#register-form');
+
+        $I->sendAjaxPostRequest('/login', ['_csrf' => $csrfToken]);
+        $I->seeResponseCodeIs(200);
+        $I->seeInCurrentUrl('/');
+
+        $I->sendAjaxPostRequest('/register', ['_csrf' => $csrfToken]);
+        $I->seeResponseCodeIs(200);
+        $I->seeInCurrentUrl('/');
+    }
+
+    public function guestsAreRedirectedFromPrivatePages(WebTester $I): void
+    {
+        $I->amOnPage('/dashboard');
+        $I->seeInCurrentUrl('/login');
+
+        $I->amOnPage('/account');
+        $I->seeInCurrentUrl('/login');
+    }
+
+    public function userCanManageCredentialsAndDeactivateTheirAccount(WebTester $I): void
+    {
+        $details = $this->details();
+        $newEmail = 'updated' . bin2hex(random_bytes(5)) . '@example.com';
+        $newPassword = 'Updated password 8!';
+
+        $I->amOnPage('/register');
+        $I->submitForm('#register-form', $details);
+        $I->amOnPage('/login');
+        $I->submitForm('#login-form', [
+            'username' => $details['username'],
+            'password' => $details['password'],
+        ]);
+        $I->seeInCurrentUrl('/dashboard');
+
+        $I->amOnPage('/account');
+        $I->seeResponseCodeIs(200);
+        $I->see('Account settings', 'h1');
+        $I->submitForm('#account-email-form', ['email' => $newEmail]);
+        $I->see('Email address updated.');
+        $I->seeInField('email', $newEmail);
+
+        $I->submitForm('#account-password-form', [
+            'current_password' => $details['password'],
+            'new_password' => $newPassword,
+        ]);
+        $I->see('Password updated.');
+
+        $I->submitForm('#logout-form', []);
+        $I->seeInCurrentUrl('/');
+        $I->amOnPage('/login');
+        $I->submitForm('#login-form', [
+            'username' => $details['username'],
+            'password' => $newPassword,
+        ]);
+        $I->seeInCurrentUrl('/dashboard');
+
+        $I->amOnPage('/account');
+        $I->submitForm('#account-deactivate-form', ['password' => $newPassword]);
+        $I->seeInCurrentUrl('/');
+
+        $I->amOnPage('/login');
+        $I->submitForm('#login-form', [
+            'username' => $details['username'],
+            'password' => $newPassword,
+        ]);
         $I->see('Username or password is incorrect.');
     }
 
