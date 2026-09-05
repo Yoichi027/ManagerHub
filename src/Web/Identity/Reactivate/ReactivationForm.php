@@ -2,17 +2,15 @@
 
 declare(strict_types=1);
 
-namespace App\Web\Identity\Login;
+namespace App\Web\Identity\Reactivate;
 
 use function is_array;
 use function is_string;
 
-final class LoginForm
+final class ReactivationForm
 {
     /** @var array<string, list<string>> */
     private array $errors = [];
-
-    public bool $deactivatedAccount = false;
 
     public function __construct(
         public readonly string $identifier = '',
@@ -26,8 +24,8 @@ final class LoginForm
         }
 
         return new self(
-            self::stringValue($input['identifier'] ?? null),
-            self::stringValue($input['password'] ?? null),
+            is_string($input['identifier'] ?? null) ? $input['identifier'] : '',
+            is_string($input['password'] ?? null) ? $input['password'] : '',
         );
     }
 
@@ -48,24 +46,13 @@ final class LoginForm
 
     public function addInvalidCredentialsError(): void
     {
-        $this->addError('general', 'Username, email or password is incorrect.');
-    }
-
-    public function addDeactivatedAccountError(): void
-    {
-        $this->deactivatedAccount = true;
-        $this->addError('general', 'This account is deactivated. Reactivate it to restore access.');
+        $this->addError('general', 'The account could not be reactivated with these credentials.');
     }
 
     /** @return list<string> */
     public function errorsFor(string $field): array
     {
         return $this->errors[$field] ?? [];
-    }
-
-    private static function stringValue(mixed $value): string
-    {
-        return is_string($value) ? $value : '';
     }
 
     private function addError(string $field, string $message): void

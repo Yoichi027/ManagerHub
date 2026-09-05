@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace App\Web\Identity\Login;
+namespace App\Web\Identity\Reactivate;
 
-use App\Application\Identity\AuthenticateUser\AuthenticateUser;
-use App\Application\Identity\AuthenticateUser\AuthenticateUserCommand;
+use App\Application\Identity\ReactivateAccount\ReactivateAccount;
+use App\Application\Identity\ReactivateAccount\ReactivateAccountCommand;
 use App\Infrastructure\Identity\AuthenticatedUserIdentity;
 use Psr\Http\Message\ResponseFactoryInterface;
 use Psr\Http\Message\ResponseInterface;
@@ -14,10 +14,10 @@ use Yiisoft\Router\UrlGeneratorInterface;
 use Yiisoft\User\CurrentUser;
 use Yiisoft\Yii\View\Renderer\WebViewRenderer;
 
-final readonly class LoginAction
+final readonly class ReactivateAccountAction
 {
     public function __construct(
-        private AuthenticateUser $authenticateUser,
+        private ReactivateAccount $reactivateAccount,
         private CurrentUser $currentUser,
         private WebViewRenderer $viewRenderer,
         private ResponseFactoryInterface $responseFactory,
@@ -30,29 +30,17 @@ final readonly class LoginAction
             return $this->redirectDashboard();
         }
 
-        $form = LoginForm::fromInput($request->getParsedBody());
+        $form = ReactivationForm::fromInput($request->getParsedBody());
 
         if (!$form->isValid()) {
             return $this->viewRenderer->render(__DIR__ . '/template', ['form' => $form])->withStatus(422);
         }
 
-        $user = $this->authenticateUser->authenticate(
-            new AuthenticateUserCommand($form->identifier, $form->password),
+        $user = $this->reactivateAccount->reactivate(
+            new ReactivateAccountCommand($form->identifier, $form->password),
         );
 
-        if ($user === null) {
-            $form->addInvalidCredentialsError();
-
-            return $this->viewRenderer->render(__DIR__ . '/template', ['form' => $form])->withStatus(422);
-        }
-
-        if ($user->isDeleted) {
-            $form->addDeactivatedAccountError();
-
-            return $this->viewRenderer->render(__DIR__ . '/template', ['form' => $form])->withStatus(422);
-        }
-
-        if (!$this->currentUser->login(new AuthenticatedUserIdentity($user->id->toString()))) {
+        if ($user === null || !$this->currentUser->login(new AuthenticatedUserIdentity($user->id->toString()))) {
             $form->addInvalidCredentialsError();
 
             return $this->viewRenderer->render(__DIR__ . '/template', ['form' => $form])->withStatus(422);

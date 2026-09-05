@@ -14,6 +14,8 @@ final class RegisterForm
     /** @var array<string, list<string>> */
     private array $errors = [];
 
+    public bool $deactivatedAccount = false;
+
     public function __construct(
         public readonly string $username = '',
         public readonly string $email = '',
@@ -57,9 +59,16 @@ final class RegisterForm
         match ($result) {
             RegisterUserResult::UsernameTaken => $this->addError('username', 'Username is already in use.'),
             RegisterUserResult::EmailTaken => $this->addError('email', 'Email is already in use.'),
+            RegisterUserResult::DeactivatedAccount => $this->addDeactivatedAccountError(),
             RegisterUserResult::InvalidInput => $this->addError('general', 'Please check the registration details.'),
             RegisterUserResult::Registered => null,
         };
+    }
+
+    private function addDeactivatedAccountError(): void
+    {
+        $this->deactivatedAccount = true;
+        $this->addError('general', 'This account is deactivated. Reactivate it to restore access.');
     }
 
     /** @return list<string> */

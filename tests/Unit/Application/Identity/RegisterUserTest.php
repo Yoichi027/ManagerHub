@@ -158,6 +158,20 @@ final class FakeUserRepository implements UserRepository
         return null;
     }
 
+    public function findByUsernameIncludingDeleted(Username $username): ?User
+    {
+        return $this->usernameExists
+            ? User::register($username, new Email('existing@example.com'), new PasswordHash('existing-hash'), new DateTimeImmutable('2026-09-04 09:00:00', new DateTimeZone('UTC')))
+            : null;
+    }
+
+    public function findByEmailIncludingDeleted(Email $email): ?User
+    {
+        return $this->emailExists
+            ? User::register(new Username('ExistingUser'), $email, new PasswordHash('existing-hash'), new DateTimeImmutable('2026-09-04 09:00:00', new DateTimeZone('UTC')))
+            : null;
+    }
+
     public function findById(UuidInterface $id): ?User
     {
         return null;

@@ -52,10 +52,15 @@ final class RegisterFormTest extends Unit
 
         $form->addBusinessError(RegisterUserResult::UsernameTaken);
         $form->addBusinessError(RegisterUserResult::EmailTaken);
+        $form->addBusinessError(RegisterUserResult::DeactivatedAccount);
         $form->addBusinessError(RegisterUserResult::InvalidInput);
 
         assertSame(['Username is already in use.'], $form->errorsFor('username'));
         assertSame(['Email is already in use.'], $form->errorsFor('email'));
-        assertSame(['Please check the registration details.'], $form->errorsFor('general'));
+        assertSame([
+            'This account is deactivated. Reactivate it to restore access.',
+            'Please check the registration details.',
+        ], $form->errorsFor('general'));
+        assertSame(true, $form->deactivatedAccount);
     }
 }

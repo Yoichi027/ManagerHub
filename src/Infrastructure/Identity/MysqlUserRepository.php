@@ -48,6 +48,16 @@ final readonly class MysqlUserRepository implements UserRepository, IdentityRepo
         return $this->findActiveUser(['email' => $email->value]);
     }
 
+    public function findByUsernameIncludingDeleted(Username $username): ?User
+    {
+        return $this->findUser(['username' => $username->value]);
+    }
+
+    public function findByEmailIncludingDeleted(Email $email): ?User
+    {
+        return $this->findUser(['email' => $email->value]);
+    }
+
     public function findById(\Ramsey\Uuid\UuidInterface $id): ?User
     {
         return $this->findActiveUser(['id' => $id->toString()]);
@@ -103,10 +113,16 @@ final readonly class MysqlUserRepository implements UserRepository, IdentityRepo
     /** @param array<string, string> $condition */
     private function findActiveUser(array $condition): ?User
     {
+        return $this->findUser([...$condition, 'is_deleted' => false]);
+    }
+
+    /** @param array<string, string|bool> $condition */
+    private function findUser(array $condition): ?User
+    {
         $row = $this->connection
             ->select('*')
             ->from('users')
-            ->where([...$condition, 'is_deleted' => false])
+            ->where($condition)
             ->one();
 
         return $row === null ? null : $this->reconstitute($row);

@@ -28,6 +28,9 @@ $this->setTitle('Create an account');
             <?php foreach ($form->errorsFor('general') as $error): ?>
                 <div class="alert alert-danger" role="alert"><?= Html::encode($error) ?></div>
             <?php endforeach ?>
+            <?php if ($form->deactivatedAccount): ?>
+                <p class="auth-card__footer"><a href="<?= Html::encode($urlGenerator->generate('reactivate')) ?>">Reactivate account</a></p>
+            <?php endif ?>
 
             <form id="register-form" method="post" action="<?= Html::encode($urlGenerator->generate('register.submit')) ?>" novalidate>
                 <?= $csrf->hiddenInput()->render() ?>

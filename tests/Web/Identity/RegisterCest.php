@@ -218,7 +218,21 @@ final class RegisterCest
             'identifier' => $details['username'],
             'password' => $newPassword,
         ]);
-        $I->see('Username, email or password is incorrect.');
+        $I->see('This account is deactivated. Reactivate it to restore access.');
+        $I->seeLink('Reactivate account');
+
+        $I->amOnPage('/register');
+        $I->submitForm('#register-form', $details);
+        $I->seeResponseCodeIs(422);
+        $I->see('This account is deactivated. Reactivate it to restore access.');
+        $I->seeLink('Reactivate account');
+
+        $I->amOnPage('/reactivate');
+        $I->submitForm('#reactivate-form', [
+            'identifier' => $newEmail,
+            'password' => $newPassword,
+        ]);
+        $I->seeInCurrentUrl('/dashboard');
     }
 
     /** @return array{username: string, email: string, password: string} */

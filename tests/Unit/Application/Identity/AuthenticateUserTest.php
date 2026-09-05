@@ -118,6 +118,18 @@ final class AuthenticationUserRepository implements UserRepository
         return $this->user;
     }
 
+    public function findByUsernameIncludingDeleted(Username $username): ?User
+    {
+        $this->lookups++;
+        return $this->user;
+    }
+
+    public function findByEmailIncludingDeleted(Email $email): ?User
+    {
+        $this->emailLookups++;
+        return $this->user;
+    }
+
     public function findById(UuidInterface $id): ?User
     {
         return $this->user;

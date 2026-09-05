@@ -9,5 +9,6 @@ enum RegisterUserResult
     case Registered;
     case UsernameTaken;
     case EmailTaken;
+    case DeactivatedAccount;
     case InvalidInput;
 }

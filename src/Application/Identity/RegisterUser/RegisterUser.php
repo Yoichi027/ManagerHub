@@ -38,12 +38,20 @@ final readonly class RegisterUser
             return RegisterUserResult::InvalidInput;
         }
 
-        if ($this->users->existsByUsername($username)) {
-            return RegisterUserResult::UsernameTaken;
+        $userWithUsername = $this->users->findByUsernameIncludingDeleted($username);
+
+        if ($userWithUsername !== null) {
+            return $userWithUsername->isDeleted
+                ? RegisterUserResult::DeactivatedAccount
+                : RegisterUserResult::UsernameTaken;
         }
 
-        if ($this->users->existsByEmail($email)) {
-            return RegisterUserResult::EmailTaken;
+        $userWithEmail = $this->users->findByEmailIncludingDeleted($email);
+
+        if ($userWithEmail !== null) {
+            return $userWithEmail->isDeleted
+                ? RegisterUserResult::DeactivatedAccount
+                : RegisterUserResult::EmailTaken;
         }
 
         $user = User::register(
@@ -56,8 +64,10 @@ final readonly class RegisterUser
         try {
             $this->users->add($user);
         } catch (IntegrityException $exception) {
-            $usernameTaken = $this->users->existsByUsername($username);
-            $emailTaken = $this->users->existsByEmail($email);
+            $userWithUsername = $this->users->findByUsernameIncludingDeleted($username);
+            $userWithEmail = $this->users->findByEmailIncludingDeleted($email);
+            $usernameTaken = $userWithUsername !== null;
+            $emailTaken = $userWithEmail !== null;
 
             if (!$usernameTaken && !$emailTaken) {
                 throw $exception;
@@ -69,9 +79,11 @@ final readonly class RegisterUser
                 'email_taken' => $emailTaken,
             ]);
 
-            return $usernameTaken
-                ? RegisterUserResult::UsernameTaken
-                : RegisterUserResult::EmailTaken;
+            if (($userWithUsername ?? $userWithEmail)?->isDeleted) {
+                return RegisterUserResult::DeactivatedAccount;
+            }
+
+            return $usernameTaken ? RegisterUserResult::UsernameTaken : RegisterUserResult::EmailTaken;
         }
 
         return RegisterUserResult::Registered;

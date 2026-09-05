@@ -18,6 +18,7 @@ final class RegisterUserResultTest extends Unit
                 RegisterUserResult::Registered,
                 RegisterUserResult::UsernameTaken,
                 RegisterUserResult::EmailTaken,
+                RegisterUserResult::DeactivatedAccount,
                 RegisterUserResult::InvalidInput,
             ],
             RegisterUserResult::cases(),

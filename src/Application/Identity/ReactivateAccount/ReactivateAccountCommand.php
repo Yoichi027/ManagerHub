@@ -1,0 +1,13 @@
+<?php
+
+declare(strict_types=1);
+
+namespace App\Application\Identity\ReactivateAccount;
+
+final readonly class ReactivateAccountCommand
+{
+    public function __construct(
+        public string $identifier,
+        public string $password,
+    ) {}
+}

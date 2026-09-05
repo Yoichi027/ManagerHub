@@ -24,6 +24,12 @@ return [
             Route::post('/login')
                 ->action(Web\Identity\Login\LoginAction::class)
                 ->name('login.submit'),
+            Route::get('/reactivate')
+                ->action(Web\Identity\Reactivate\ShowReactivationFormAction::class)
+                ->name('reactivate'),
+            Route::post('/reactivate')
+                ->action(Web\Identity\Reactivate\ReactivateAccountAction::class)
+                ->name('reactivate.submit'),
             Route::post('/logout')
                 ->action(Web\Identity\LogoutAction::class)
                 ->name('logout'),

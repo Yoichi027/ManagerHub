@@ -2,23 +2,25 @@
 
 declare(strict_types=1);
 
-namespace App\Application\Identity\AuthenticateUser;
+namespace App\Application\Identity\ReactivateAccount;
 
 use App\Application\Identity\PasswordHasher;
+use App\Application\Shared\Time\UtcClock;
 use App\Domain\Identity\Email;
 use App\Domain\Identity\User;
 use App\Domain\Identity\UserRepository;
 use App\Domain\Identity\Username;
 use DomainException;
 
-final readonly class AuthenticateUser
+final readonly class ReactivateAccount
 {
     public function __construct(
         private UserRepository $users,
         private PasswordHasher $passwordHasher,
+        private UtcClock $clock,
     ) {}
 
-    public function authenticate(AuthenticateUserCommand $command): ?User
+    public function reactivate(ReactivateAccountCommand $command): ?User
     {
         try {
             $user = str_contains($command->identifier, '@')
@@ -28,9 +30,12 @@ final readonly class AuthenticateUser
             return null;
         }
 
-        if ($user === null || !$this->passwordHasher->verify($command->password, $user->passwordHash)) {
+        if ($user === null || !$user->isDeleted || !$this->passwordHasher->verify($command->password, $user->passwordHash)) {
             return null;
         }
+
+        $user->restore($this->clock->now());
+        $this->users->save($user);
 
         return $user;
     }

@@ -111,6 +111,8 @@ final class MysqlUserRepositoryTest extends Unit
         assertTrue($this->repository->existsByEmail($email));
         assertSame(null, $this->repository->findByUsername($username));
         assertSame(null, $this->repository->findByEmail($email));
+        assertSame($user->id->toString(), $this->repository->findByUsernameIncludingDeleted($username)?->id->toString());
+        assertSame($user->id->toString(), $this->repository->findByEmailIncludingDeleted($email)?->id->toString());
     }
 
     public function testThrowsAnIntegrityExceptionForADuplicateIdentifier(): void
