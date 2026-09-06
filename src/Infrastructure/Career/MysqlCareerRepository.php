@@ -25,7 +25,7 @@ final readonly class MysqlCareerRepository implements CareerRepository
     }
     public function findByUserId(UuidInterface $userId): array
     {
-        return array_map($this->hydrate(...), $this->connection->select('*')->from('careers')->where(['user_id' => $userId->toString(), 'is_deleted' => false])->orderBy(['updated_at' => SORT_DESC])->all());
+        return array_map($this->hydrate(...), $this->connection->select('*')->from('careers')->where(['user_id' => $userId->toString(), 'is_deleted' => false])->orderBy(['last_viewed_at' => SORT_DESC, 'created_at' => SORT_DESC])->all());
     }
     public function add(Career $career): void
     {
@@ -37,11 +37,11 @@ final readonly class MysqlCareerRepository implements CareerRepository
     }
     /** @return array<string, mixed> */ private function values(Career $career): array
     {
-        return ['id' => $career->id->toString(), 'user_id' => $career->userId->toString(), 'name' => $career->name->value, 'manager_name' => $career->managerName->value, 'game_edition' => $career->gameEdition->value, 'created_at' => $this->dateTime($career->createdAt), 'updated_at' => $this->dateTime($career->updatedAt), 'is_deleted' => $career->isDeleted, 'deleted_at' => $career->deletedAt === null ? null : $this->dateTime($career->deletedAt)];
+        return ['id' => $career->id->toString(), 'user_id' => $career->userId->toString(), 'name' => $career->name->value, 'manager_name' => $career->managerName->value, 'game_edition' => $career->gameEdition->value, 'created_at' => $this->dateTime($career->createdAt), 'updated_at' => $this->dateTime($career->updatedAt), 'is_deleted' => $career->isDeleted, 'deleted_at' => $career->deletedAt === null ? null : $this->dateTime($career->deletedAt), 'last_viewed_at' => $career->lastViewedAt === null ? null : $this->dateTime($career->lastViewedAt)];
     }
     /** @param array<string, mixed> $r */ private function hydrate(array $r): Career
     {
-        return Career::reconstitute(Uuid::fromString((string) $r['id']), Uuid::fromString((string) $r['user_id']), new CareerName((string) $r['name']), new ManagerName((string) $r['manager_name']), new GameEdition((string) $r['game_edition']), $this->instant((string) $r['created_at']), $this->instant((string) $r['updated_at']), (bool) $r['is_deleted'], $r['deleted_at'] === null ? null : $this->instant((string) $r['deleted_at']));
+        return Career::reconstitute(Uuid::fromString((string) $r['id']), Uuid::fromString((string) $r['user_id']), new CareerName((string) $r['name']), new ManagerName((string) $r['manager_name']), new GameEdition((string) $r['game_edition']), $this->instant((string) $r['created_at']), $this->instant((string) $r['updated_at']), (bool) $r['is_deleted'], $r['deleted_at'] === null ? null : $this->instant((string) $r['deleted_at']), $r['last_viewed_at'] === null ? null : $this->instant((string) $r['last_viewed_at']));
     }
     private function dateTime(DateTimeImmutable $value): string
     {

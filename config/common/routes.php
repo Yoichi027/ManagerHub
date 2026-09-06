@@ -45,6 +45,18 @@ return [
             Route::post('/careers/{id}/delete')
                 ->action(Web\Career\DeleteCareerAction::class)
                 ->name('career.delete'),
+            Route::get('/careers/{id}/squad')
+                ->action(Web\Career\Squad\Action::class)
+                ->name('career.squad'),
+            Route::post('/careers/{id}/squad')
+                ->action(Web\Career\Squad\AddManualPlayerAction::class)
+                ->name('career.squad.store'),
+            Route::post('/careers/{id}/squad/{playerId}')
+                ->action(Web\Career\Squad\UpdateSquadPlayerAction::class)
+                ->name('career.squad.update'),
+            Route::post('/careers/{id}/squad/{playerId}/delete')
+                ->action(Web\Career\Squad\DeleteSquadPlayerAction::class)
+                ->name('career.squad.delete'),
             Route::get('/careers/{id}')
                 ->action(Web\Career\Dashboard\Action::class)
                 ->name('career.dashboard'),

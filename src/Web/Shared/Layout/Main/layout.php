@@ -23,6 +23,10 @@ $this->addCssStrings($assetManager->getCssStrings());
 $this->addJsFiles($assetManager->getJsFiles());
 $this->addJsStrings($assetManager->getJsStrings());
 $this->addJsVars($assetManager->getJsVars());
+$routeName = $currentRoute->getName();
+$workspaceActive = $routeName === 'dashboard';
+$newCareerActive = in_array($routeName, ['career.create', 'career.store'], true);
+$accountActive = is_string($routeName) && str_starts_with($routeName, 'account');
 $this->beginPage()
 ?>
 <!DOCTYPE html>
@@ -65,17 +69,14 @@ $this->beginPage()
                 </button>
             </div>
             <nav class="workspace-nav" aria-label="Workspace navigation">
-                <a class="workspace-nav__item workspace-nav__item--active" href="<?= Html::encode($urlGenerator->generate('dashboard')) ?>" aria-current="page">
+                <a class="workspace-nav__item<?= $workspaceActive ? ' workspace-nav__item--active' : '' ?>" href="<?= Html::encode($urlGenerator->generate('dashboard')) ?>"<?= $workspaceActive ? ' aria-current="page"' : '' ?>>
                     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10.5L12 4l8 6.5v8.25a1.25 1.25 0 0 1-1.25 1.25H5.25A1.25 1.25 0 0 1 4 18.75V10.5zM9 20v-6h6v6"/></svg><span>Workspace</span>
                 </a>
-                <a class="workspace-nav__item" href="<?= Html::encode($urlGenerator->generate('career.create')) ?>">
+                <a class="workspace-nav__item<?= $newCareerActive ? ' workspace-nav__item--active' : '' ?>" href="<?= Html::encode($urlGenerator->generate('career.create')) ?>"<?= $newCareerActive ? ' aria-current="page"' : '' ?>>
                     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span>New career</span>
                 </a>
-                <a class="workspace-nav__item" href="<?= Html::encode($urlGenerator->generate('account')) ?>">
-                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 21a8 8 0 0 0-16 0M12 13a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"/></svg><span>Account</span>
-                </a>
             </nav>
-            <div class="workspace-sidebar__bottom"><span class="sidebar-status"><i></i><span>Signed in</span></span><form id="logout-form" method="post" action="<?= Html::encode($urlGenerator->generate('logout')) ?>"><?= $csrf->hiddenInput()->render() ?><button class="workspace-logout" type="submit"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 17l5-5-5-5M15 12H3M21 19V5a1 1 0 0 0-1-1h-6"/></svg><span>Log out</span></button></form></div>
+            <div class="workspace-sidebar__bottom"><a class="workspace-nav__item workspace-account<?= $accountActive ? ' workspace-nav__item--active' : '' ?>" href="<?= Html::encode($urlGenerator->generate('account')) ?>"<?= $accountActive ? ' aria-current="page"' : '' ?>><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 21a8 8 0 0 0-16 0M12 13a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"/></svg><span>Account</span></a><form id="logout-form" method="post" action="<?= Html::encode($urlGenerator->generate('logout')) ?>"><?= $csrf->hiddenInput()->render() ?><button class="workspace-logout" type="submit"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 17l5-5-5-5M15 12H3M21 19V5a1 1 0 0 0-1-1h-6"/></svg><span>Log out</span></button></form></div>
         </aside>
         <main class="workspace-main"><div class="workspace-main__content"><?= $content ?></div></main>
     </div>

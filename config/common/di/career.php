@@ -7,10 +7,14 @@ use App\Domain\Career\CareerRepository;
 use App\Domain\Catalog\ClubRepository;
 use App\Domain\Catalog\LeagueRepository;
 use App\Domain\Season\SeasonRepository;
+use App\Domain\Squad\PlayerRepository;
+use App\Domain\Squad\SquadPlayerRepository;
 use App\Infrastructure\Career\MysqlCareerRepository;
 use App\Infrastructure\Catalog\MysqlClubRepository;
 use App\Infrastructure\Catalog\MysqlLeagueRepository;
 use App\Infrastructure\Season\MysqlSeasonRepository;
+use App\Infrastructure\Squad\MysqlPlayerRepository;
+use App\Infrastructure\Squad\MysqlSquadPlayerRepository;
 use App\Infrastructure\Shared\Transaction\MysqlTransactionManager;
 
 return [
@@ -19,4 +23,6 @@ return [
     ClubRepository::class => MysqlClubRepository::class,
     LeagueRepository::class => MysqlLeagueRepository::class,
     TransactionManager::class => MysqlTransactionManager::class,
+    PlayerRepository::class => MysqlPlayerRepository::class,
+    SquadPlayerRepository::class => MysqlSquadPlayerRepository::class,
 ];

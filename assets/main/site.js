@@ -1,48 +1,44 @@
 (() => {
     const workspace = document.querySelector('[data-workspace]');
     const toggle = document.querySelector('[data-sidebar-toggle]');
-
-    if (!workspace || !toggle) {
-        return;
-    }
-
+    if (!workspace || !toggle) return;
     const key = 'manager-hub.sidebar-collapsed';
-    const setCollapsed = (collapsed) => {
-        workspace.classList.toggle('is-collapsed', collapsed);
-        toggle.setAttribute('aria-expanded', String(!collapsed));
-        toggle.querySelector('.visually-hidden').textContent = collapsed ? 'Expand navigation' : 'Collapse navigation';
-    };
-
+    const setCollapsed = (collapsed) => { workspace.classList.toggle('is-collapsed', collapsed); toggle.setAttribute('aria-expanded', String(!collapsed)); toggle.querySelector('.visually-hidden').textContent = collapsed ? 'Expand navigation' : 'Collapse navigation'; };
     setCollapsed(localStorage.getItem(key) === 'true');
-
-    toggle.addEventListener('click', () => {
-        const collapsed = !workspace.classList.contains('is-collapsed');
-        localStorage.setItem(key, String(collapsed));
-        setCollapsed(collapsed);
-    });
+    toggle.addEventListener('click', () => { const collapsed = !workspace.classList.contains('is-collapsed'); localStorage.setItem(key, String(collapsed)); setCollapsed(collapsed); });
 })();
-
 document.addEventListener('click', (event) => {
-    document.querySelectorAll('.career-delete[open]').forEach((details) => {
-        if (!details.contains(event.target)) {
-            details.removeAttribute('open');
-        }
-    });
-
-    const toggle = event.target.closest('[data-password-toggle]');
-
-    if (!toggle) {
-        return;
-    }
-
-    const input = document.getElementById(toggle.getAttribute('aria-controls'));
-
-    if (!(input instanceof HTMLInputElement)) {
-        return;
-    }
-
-    const isVisible = input.type === 'text';
-    input.type = isVisible ? 'password' : 'text';
-    toggle.textContent = isVisible ? 'Show' : 'Hide';
-    toggle.setAttribute('aria-pressed', String(!isVisible));
+    document.querySelectorAll('.career-delete[open]').forEach((details) => { if (!details.contains(event.target)) details.removeAttribute('open'); });
+    const toggle = event.target.closest('[data-password-toggle]'); if (!toggle) return;
+    const input = document.getElementById(toggle.getAttribute('aria-controls')); if (!(input instanceof HTMLInputElement)) return;
+    const isVisible = input.type === 'text'; input.type = isVisible ? 'password' : 'text'; toggle.textContent = isVisible ? 'Show' : 'Hide'; toggle.setAttribute('aria-pressed', String(!isVisible));
 });
+(() => {
+    const page = document.querySelector('[data-squad-page]'); if (!page) return;
+    const rows = page.querySelector('[data-squad-rows]'); const newForm = page.querySelector('[data-new-squad-player]'); const status = page.querySelector('[data-squad-status]'); const count = page.querySelector('[data-squad-count]');
+    if (!(rows instanceof HTMLTableSectionElement) || !(newForm instanceof HTMLFormElement)) return;
+    const message = (text, error = false) => { status.textContent = text; status.classList.toggle('is-error', error); };
+    const age = (date) => { if (!date) return '—'; const birth = new Date(`${date}T00:00:00`); const today = new Date(); let years = today.getFullYear() - birth.getFullYear(); const month = today.getMonth() - birth.getMonth(); if (month < 0 || (month === 0 && today.getDate() < birth.getDate())) years--; return Number.isFinite(years) && years >= 0 ? String(years) : '—'; };
+    const refreshAge = (row) => { const output = row.querySelector('[data-age]'); const birthDate = row.querySelector('[name="birth_date"]'); if (output && birthDate instanceof HTMLInputElement) output.textContent = age(birthDate.value); };
+    [...rows.querySelectorAll('tr')].forEach(refreshAge);
+    const csrf = () => newForm.querySelector('input[name="_csrf"]')?.value || '';
+    const rawMoney = (value) => { const clean = String(value).replace(/[^\d,.-]/g, ''); return clean.includes(',') ? clean.replace(/\./g, '').replace(',', '.') : clean.replace(/,/g, ''); };
+    const formatMoney = (field) => { const value = rawMoney(field.value); if (value !== '' && Number.isFinite(Number(value))) field.value = new Intl.NumberFormat('pt-PT', { style: 'currency', currency: 'EUR' }).format(Number(value)); };
+    const setMoneyBehaviour = (scope = page) => scope.querySelectorAll('[data-money]').forEach((field) => { if (field.dataset.moneyReady) return; field.dataset.moneyReady = 'true'; formatMoney(field); field.addEventListener('focus', () => { field.value = rawMoney(field.value); }); field.addEventListener('blur', () => formatMoney(field)); });
+    setMoneyBehaviour();
+    const save = async (row) => {
+        if (!row.dataset.url || row.dataset.saving === 'true') return;
+        const data = new FormData(); row.querySelectorAll('input, select').forEach((field) => data.append(field.name, field.matches('[data-money]') ? rawMoney(field.value) : field.value)); data.append('_csrf', csrf());
+        row.dataset.saving = 'true'; row.classList.add('is-saving'); message('Saving…');
+        try { const response = await fetch(row.dataset.url, { method: 'POST', body: data, credentials: 'same-origin' }); if (!response.ok) throw new Error(); message('Saved.'); row.classList.remove('has-error'); } catch (_) { message('Could not save this row. Check the values and try again.', true); row.classList.add('has-error'); } finally { delete row.dataset.saving; row.classList.remove('is-saving'); }
+    };
+    rows.addEventListener('change', (event) => { const row = event.target.closest('[data-squad-row]'); if (row) { refreshAge(row); save(row); } else if (event.target.name === 'birth_date') refreshAge(event.target.closest('tr')); });
+    rows.addEventListener('submit', async (event) => { const form = event.target.closest('[data-delete-squad-player]'); if (!(form instanceof HTMLFormElement)) return; event.preventDefault(); const row = form.closest('[data-squad-row]'); if (!(row instanceof HTMLTableRowElement)) return; message('Removing player…'); try { const response = await fetch(form.action, { method: 'POST', body: new FormData(form), credentials: 'same-origin' }); if (!response.ok) throw new Error(); row.remove(); count.textContent = String(rows.querySelectorAll('[data-squad-row]').length); message('Player removed from the squad.'); } catch (_) { message('Could not remove this player. Please try again.', true); } });
+    rows.addEventListener('keydown', (event) => { if (event.target instanceof HTMLSelectElement) return; const fields = [...rows.querySelectorAll('input, select')]; const index = fields.indexOf(event.target); if (index < 0) return; if (event.key === 'ArrowDown' || event.key === 'ArrowUp') { event.preventDefault(); fields[(index + (event.key === 'ArrowDown' ? 1 : -1) + fields.length) % fields.length].focus(); } if (event.key === 'Enter' && event.target.closest('[data-squad-row]')) { event.preventDefault(); event.target.blur(); } if (event.key === 'Enter' && event.target.closest('[data-new-row]')) { event.preventDefault(); newForm.requestSubmit(); } });
+    const newRowError = () => { const row = rows.querySelector('[data-new-row]'); const value = (name) => row?.querySelector(`[name="${name}"]`)?.value.trim() || ''; if (!value('position')) return 'Choose a position before adding the player.'; if (!value('name')) return 'Enter the player name.'; if (!value('overall') || Number(value('overall')) < 1 || Number(value('overall')) > 99) return 'Overall must be a number from 1 to 99.'; if (!value('potential') || Number(value('potential')) < 1 || Number(value('potential')) > 99) return 'Potential must be a number from 1 to 99.'; if (!/^\d+(\.\d{1,2})?$/.test(rawMoney(value('value')))) return 'Market value must be a non-negative euro amount.'; if (!/^[a-z]{2}$/i.test(value('nationality_code'))) return 'Nationality must use a two-letter country code, for example PT.'; if (!value('birth_date')) return 'Enter the player birth date to calculate age.'; return null; };
+    newForm.addEventListener('submit', async (event) => { event.preventDefault(); const validationError = newRowError(); if (validationError !== null) { message(validationError, true); return; } const data = new FormData(newForm); const newMoneyField = rows.querySelector('[data-new-row] [data-money]'); if (newMoneyField instanceof HTMLInputElement) data.set(newMoneyField.name, rawMoney(newMoneyField.value)); message('Adding player…'); try { const response = await fetch(newForm.action, { method: 'POST', body: data, credentials: 'same-origin', redirect: 'follow' }); if (!response.ok || new URL(response.url).pathname !== new URL(newForm.action).pathname) throw new Error(); const documentAfterSave = new DOMParser().parseFromString(await response.text(), 'text/html'); const updatedRows = documentAfterSave.querySelector('[data-squad-rows]'); if (!(updatedRows instanceof HTMLTableSectionElement)) throw new Error(); rows.innerHTML = updatedRows.innerHTML; newForm.reset(); [...rows.querySelectorAll('tr')].forEach(refreshAge); setMoneyBehaviour(rows); count.textContent = String(rows.querySelectorAll('[data-squad-row]').length); rows.querySelector('[data-new-row] input')?.focus(); message('Player added.'); } catch (_) { message('The player could not be saved. The row is still intact; check the highlighted values and try again.', true); } });
+    let sort = { key: 'name', direction: 'asc' };
+    const sortButtons = [...page.querySelectorAll('[data-sort]')];
+    const positionOrder = ['GK', 'RB', 'RWB', 'CB', 'LB', 'LWB', 'CDM', 'CM', 'RM', 'LM', 'CAM', 'RW', 'RF', 'CF', 'LF', 'LW', 'ST'];
+    sortButtons.forEach((button) => button.addEventListener('click', () => { const key = button.dataset.sort; sort = { key, direction: sort.key === key && sort.direction === 'asc' ? 'desc' : 'asc' }; [...rows.querySelectorAll('[data-squad-row]')].sort((a, b) => { const input = (row, name) => row.querySelector(`[name="${name}"]`)?.value || ''; const left = input(a, key); const right = input(b, key); const numeric = ['overall_initial', 'overall_current', 'potential_initial', 'potential_current', 'value_initial', 'value_current'].includes(key); const leftValue = key === 'position' ? positionOrder.indexOf(left) : (key.startsWith('value_') ? Number(rawMoney(left)) : Number(left)); const rightValue = key === 'position' ? positionOrder.indexOf(right) : (key.startsWith('value_') ? Number(rawMoney(right)) : Number(right)); return ((numeric || key === 'position') && Number.isFinite(leftValue) && Number.isFinite(rightValue) ? leftValue - rightValue : left.localeCompare(right, undefined, { sensitivity: 'base' })) * (sort.direction === 'asc' ? 1 : -1); }).forEach((row) => rows.insertBefore(row, rows.querySelector('[data-new-row]'))); sortButtons.forEach((candidate) => { const active = candidate === button; candidate.classList.toggle('is-sorted', active); candidate.setAttribute('aria-sort', active ? (sort.direction === 'asc' ? 'ascending' : 'descending') : 'none'); candidate.dataset.direction = active ? (sort.direction === 'asc' ? '↑' : '↓') : ''; }); message(`Sorted by ${button.textContent.trim()} (${sort.direction === 'asc' ? 'ascending' : 'descending'}).`); }));
+})();

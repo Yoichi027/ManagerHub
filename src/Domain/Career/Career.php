@@ -21,6 +21,7 @@ final class Career
     public private(set) DateTimeImmutable $updatedAt;
     public private(set) bool $isDeleted;
     public private(set) ?DateTimeImmutable $deletedAt;
+    public private(set) ?DateTimeImmutable $lastViewedAt;
 
     private function __construct(
         UuidInterface $id,
@@ -31,9 +32,9 @@ final class Career
         DateTimeImmutable $createdAt,
         DateTimeImmutable $updatedAt,
         bool $isDeleted,
-        ?DateTimeImmutable $deletedAt,
+        ?DateTimeImmutable $deletedAt, ?DateTimeImmutable $lastViewedAt,
     ) {
-        UtcInstant::assert($createdAt, $updatedAt, $deletedAt);
+        UtcInstant::assert($createdAt, $updatedAt, $deletedAt, $lastViewedAt);
 
         if ($updatedAt < $createdAt) {
             throw new DomainException('Updated-at timestamp cannot precede created-at timestamp.');
@@ -52,11 +53,12 @@ final class Career
         $this->updatedAt = $updatedAt;
         $this->isDeleted = $isDeleted;
         $this->deletedAt = $deletedAt;
+        $this->lastViewedAt = $lastViewedAt;
     }
 
     public static function start(CareerName $name, ManagerName $managerName, GameEdition $gameEdition, UuidInterface $userId, DateTimeImmutable $occurredAt): self
     {
-        return new self(Uuid::uuid7($occurredAt), $userId, $name, $managerName, $gameEdition, $occurredAt, $occurredAt, false, null);
+        return new self(Uuid::uuid7($occurredAt), $userId, $name, $managerName, $gameEdition, $occurredAt, $occurredAt, false, null, $occurredAt);
     }
 
     public static function reconstitute(
@@ -68,10 +70,12 @@ final class Career
         DateTimeImmutable $createdAt,
         DateTimeImmutable $updatedAt,
         bool $isDeleted,
-        ?DateTimeImmutable $deletedAt,
+        ?DateTimeImmutable $deletedAt, ?DateTimeImmutable $lastViewedAt,
     ): self {
-        return new self($id, $userId, $name, $managerName, $gameEdition, $createdAt, $updatedAt, $isDeleted, $deletedAt);
+        return new self($id, $userId, $name, $managerName, $gameEdition, $createdAt, $updatedAt, $isDeleted, $deletedAt, $lastViewedAt);
     }
+
+    public function viewed(DateTimeImmutable $occurredAt): void { UtcInstant::assert($occurredAt); $this->lastViewedAt = $occurredAt; }
 
     public function delete(DateTimeImmutable $occurredAt): void
     {

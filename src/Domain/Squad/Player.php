@@ -20,7 +20,7 @@ final class Player
             throw new DomainException('Player name is invalid.');
         } if (!preg_match('/^[A-Z]{2}$/', $nationalityCode)) {
             throw new DomainException('Nationality must use ISO alpha-2.');
-        } UtcInstant::assert($createdAt, $updatedAt, $deletedAt);
+        } UtcInstant::assert($createdAt, $updatedAt, $deletedAt); $this->id = $id;
     } public static function create(UuidInterface $owner, string $name, CalendarDate $birth, string $country, DateTimeImmutable $at): self
     {
         return new self(Uuid::uuid7($at), $owner, trim($name), $birth, strtoupper($country), $at, $at, false, null);
