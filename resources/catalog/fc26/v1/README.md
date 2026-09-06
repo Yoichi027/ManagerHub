@@ -9,7 +9,7 @@ They are not edited through the application or directly in a database.
 - Every item needs a committed UUIDv7 `id` and a unique, uppercase `code`.
 - A `code` uses uppercase ASCII letters, digits, and hyphens only. It is permanent once released.
 - `country` is the English display name used by the application.
-- `logo_url` may be `null`; when supplied it must be an absolute HTTPS URL no longer than 255 characters.
+- `logo_url` may be `null`; when supplied it must be a public media path no longer than 255 characters.
 - A club's `default_league_id` is optional and must match a league UUID in `leagues.json`.
 - Do not duplicate a club merely because it may play in a different league in a future save. The default league is only a creation-form suggestion.
 - Never change or remove an item after this catalog revision has been released. Create a new catalog revision and data migration instead.
@@ -26,21 +26,19 @@ a user for a season.
 
 ## Workflow
 
-1. Add or amend the catalog items locally.
-2. Validate the JSON and references with the catalog validation command when it is introduced.
+1. Amend the catalog only through a deliberate new revision.
+2. Validate JSON syntax and foreign-key references.
 3. Review the resulting diff.
 4. Commit the catalog together with its dedicated data migration.
 
-The initial catalog was generated from the local FC26 `Squads*` metadata draft in
-`../drafts/fc26-squads-metadata.json`. It contains 33 playable men's domestic
-leagues and 592 clubs assigned to those leagues. The draft intentionally retains
-the raw source rows, but it is not application catalog data.
+This revision contains 33 playable men's domestic leagues and 592 clubs assigned
+to those leagues.
 
 International, continental, generic, free-agent, created-player, youth, Rest of
 World, and women's competitions are deliberately excluded from this revision,
 along with their clubs. They are not selectable Career Mode leagues in Manager Hub.
 Every league currently uses the provisional 1 July to 30 June calendar. Logo URLs
-use the `/media/catalog/fc26/...` convention and are materialized by the
-administrative media importer; the image files themselves are intentionally not
-committed to Git. Review the calendar exceptions before the initial data migration
-is created.
+use the `/media/catalog/fc26/...` convention; the image files themselves are
+intentionally not committed to Git. Restore them from the operational backup when
+setting up an environment. Review the calendar exceptions before the initial data
+migration is created.

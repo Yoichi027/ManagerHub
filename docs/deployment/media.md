@@ -6,31 +6,13 @@ The catalog stores a relative public URL such as
 
 ## Local development
 
-The importer defaults to `public/media`. The directory is ignored by Git, so it
-can be regenerated without changing the application source.
-
-Run a dry run first:
-
-```powershell
-python tools/import_fc26_catalog_media.py
-```
-
-Download the catalog assets and update the catalog URLs only after the files
-were written successfully:
-
-```powershell
-python tools/import_fc26_catalog_media.py --apply --update-catalog
-```
+Restore the separately backed-up media tree into `public/media`. The directory is
+ignored by Git and is never part of application source.
 
 ## Production
 
 Create a persistent directory outside the deployment release, for example
-`/var/lib/managerhub/media`, and configure the deployment environment:
-
-```text
-MANAGERHUB_MEDIA_PATH=/var/lib/managerhub/media
-MANAGERHUB_MEDIA_BASE_URL=/media
-```
+`/var/lib/managerhub/media`, then restore the backed-up media tree there.
 
 Serve that directory directly from Nginx. The application must not handle these
 files through PHP.
@@ -44,13 +26,12 @@ location /media/ {
 }
 ```
 
-Run the importer once on the server after the persistent directory and Nginx
-rule exist. Later deployments reuse the same directory.
+Later deployments reuse the same directory and never need the catalog media
+source files.
 
 ## Operational rules
 
 - Do not commit files below `public/media`.
-- Do not run the importer from a web request or background job.
 - Missing images remain `null` or use the UI fallback; they must never prevent a
   catalog import or page render.
 - Player images follow the same media path convention but must be cached only
