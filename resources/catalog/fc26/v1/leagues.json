@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "game_edition": "FC26",
+  "items": [
+    {
+      "id": "01991a73-9e51-7a0f-8e99-6f5e00b33b01",
+      "code": "PT-PRIMEIRA-LIGA",
+      "name": "Primeira Liga",
+      "country": "Portugal",
+      "logo_url": null,
+      "season_start_month": 7,
+      "season_start_day": 1,
+      "season_end_month": 6,
+      "season_end_day": 30
+    }
+  ]
+}

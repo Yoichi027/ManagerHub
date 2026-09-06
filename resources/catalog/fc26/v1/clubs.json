@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "game_edition": "FC26",
+  "items": [
+    {
+      "id": "01991a73-a331-7d25-8872-4f6950c3b401",
+      "code": "PT-SL-BENFICA",
+      "name": "SL Benfica",
+      "country": "Portugal",
+      "logo_url": null,
+      "default_league_code": "PT-PRIMEIRA-LIGA"
+    }
+  ]
+}
