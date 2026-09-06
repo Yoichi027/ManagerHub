@@ -39,6 +39,8 @@ the raw source rows, but it is not application catalog data.
 International, continental, generic, free-agent, created-player, youth, Rest of
 World, and women's competitions are deliberately excluded from this revision,
 along with their clubs. They are not selectable Career Mode leagues in Manager Hub.
-Every league currently uses the provisional 1 July to 30 June calendar and every
-`logo_url` is `null`; review those fields before the initial data migration is
-created.
+Every league currently uses the provisional 1 July to 30 June calendar. Logo URLs
+use the `/media/catalog/fc26/...` convention and are materialized by the
+administrative media importer; the image files themselves are intentionally not
+committed to Git. Review the calendar exceptions before the initial data migration
+is created.

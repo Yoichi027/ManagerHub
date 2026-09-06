@@ -1,0 +1,3 @@
+# Media is persistent operational data, never source-controlled application code.
+*
+!.gitignore

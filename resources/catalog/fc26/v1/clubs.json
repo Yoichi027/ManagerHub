@@ -7,7 +7,7 @@
       "code": "DE-1-FC-HEIDENHEIM",
       "name": "1. FC Heidenheim",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-785f-9d93-63b0fd177483.png",
       "default_league_id": "01a0761e-11c5-787c-b07b-955b78d27b98"
     },
     {
@@ -15,7 +15,7 @@
       "code": "DE-1-FC-KAISERSLAUTERN",
       "name": "1. FC Kaiserslautern",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7aec-8a11-78c93dddd36c.png",
       "default_league_id": "01a0761e-11c5-7553-830c-b1db72a0e15e"
     },
     {
@@ -23,7 +23,7 @@
       "code": "DE-1-FC-KOLN",
       "name": "1. FC Köln",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-74d8-b5c7-a8ba92357ccf.png",
       "default_league_id": "01a0761e-11c5-787c-b07b-955b78d27b98"
     },
     {
@@ -31,7 +31,7 @@
       "code": "DE-1-FC-MAGDEBURG",
       "name": "1. FC Magdeburg",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-791b-882f-b173f6b313ce.png",
       "default_league_id": "01a0761e-11c5-7553-830c-b1db72a0e15e"
     },
     {
@@ -39,7 +39,7 @@
       "code": "DE-1-FC-NURNBERG",
       "name": "1. FC Nürnberg",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7520-9184-b1b16eb58108.png",
       "default_league_id": "01a0761e-11c5-7553-830c-b1db72a0e15e"
     },
     {
@@ -47,7 +47,7 @@
       "code": "DE-1-FC-SAARBRUCKEN",
       "name": "1. FC Saarbrücken",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-741e-a599-ab3f3b0ce8ac.png",
       "default_league_id": "01a0761e-11c5-715c-8d61-19ba765322aa"
     },
     {
@@ -55,7 +55,7 @@
       "code": "DE-1-FC-SCHWEINFURT-05",
       "name": "1. FC Schweinfurt 05",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-703d-be2b-2922d85aed27.png",
       "default_league_id": "01a0761e-11c5-715c-8d61-19ba765322aa"
     },
     {
@@ -63,7 +63,7 @@
       "code": "DE-1-FC-UNION-BERLIN",
       "name": "1. FC Union Berlin",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7a89-8632-287ea8e4bac9.png",
       "default_league_id": "01a0761e-11c5-787c-b07b-955b78d27b98"
     },
     {
@@ -71,7 +71,7 @@
       "code": "DE-1-FSV-MAINZ-05",
       "name": "1. FSV Mainz 05",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-708d-8486-880069efbb4a.png",
       "default_league_id": "01a0761e-11c5-787c-b07b-955b78d27b98"
     },
     {
@@ -79,7 +79,7 @@
       "code": "SCO-ABERDEEN",
       "name": "Aberdeen",
       "country": "Scotland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-78e4-a4a3-11a3131521bd.png",
       "default_league_id": "01a0761e-11c5-7a8c-ac4c-ba3b415b2179"
     },
     {
@@ -87,7 +87,7 @@
       "code": "ENG-ACCRINGTON-STANLEY",
       "name": "Accrington Stanley",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7dcb-9588-b3facae6e1cd.png",
       "default_league_id": "01a0761e-11c5-74d4-80e1-be8a2caff971"
     },
     {
@@ -95,7 +95,7 @@
       "code": "ES-AD-CEUTA",
       "name": "AD Ceuta",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-762b-857f-b8095234e75f.png",
       "default_league_id": "01a0761e-11c5-7738-9446-6f5f1c43a8ee"
     },
     {
@@ -103,7 +103,7 @@
       "code": "AU-ADELAIDE-UNITED",
       "name": "Adelaide United",
       "country": "Australia",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-79a9-935e-0d5461626a2c.png",
       "default_league_id": "01a0761e-11c5-7bd4-bb44-75609bd06a29"
     },
     {
@@ -111,7 +111,7 @@
       "code": "ENG-AFC-BOURNEMOUTH",
       "name": "AFC Bournemouth",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-79ff-9ebb-160f8bfab532.png",
       "default_league_id": "01a0761e-11c5-73b1-83a4-75b6a304378a"
     },
     {
@@ -119,7 +119,7 @@
       "code": "ENG-AFC-WIMBLEDON",
       "name": "AFC Wimbledon",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7706-ae83-c2b85f0ee22f.png",
       "default_league_id": "01a0761e-11c5-72c0-a788-1ed4fa6a2db1"
     },
     {
@@ -127,7 +127,7 @@
       "code": "DK-AGF",
       "name": "AGF",
       "country": "Denmark",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-77f4-a9b0-613ff994f156.png",
       "default_league_id": "01a0761e-11c5-767d-8406-3309c085bfc7"
     },
     {
@@ -135,7 +135,7 @@
       "code": "SE-AIK",
       "name": "AIK",
       "country": "Sweden",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7271-ad2c-450c22417311.png",
       "default_league_id": "01a0761e-11c5-73d0-9304-9999f43d3e0f"
     },
     {
@@ -143,7 +143,7 @@
       "code": "FR-AJ-AUXERRE",
       "name": "AJ Auxerre",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-758e-81cb-9a0d275acdf1.png",
       "default_league_id": "01a0761e-11c5-74e3-982d-8a170240c634"
     },
     {
@@ -151,7 +151,7 @@
       "code": "NL-AJAX",
       "name": "Ajax",
       "country": "Netherlands",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7d87-90d8-439ed7ecd8e1.png",
       "default_league_id": "01a0761e-11c5-7669-9cb0-543647efb0e0"
     },
     {
@@ -159,7 +159,7 @@
       "code": "SA-AL-AHLI",
       "name": "Al Ahli",
       "country": "Saudi Arabia",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7fca-9952-03eb8de9ae51.png",
       "default_league_id": "01a0761e-11c5-714d-9110-b318311d0898"
     },
     {
@@ -167,7 +167,7 @@
       "code": "SA-AL-ETTIFAQ",
       "name": "Al Ettifaq",
       "country": "Saudi Arabia",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7992-beec-f06d13e51bef.png",
       "default_league_id": "01a0761e-11c5-714d-9110-b318311d0898"
     },
     {
@@ -175,7 +175,7 @@
       "code": "SA-AL-FATEH",
       "name": "Al Fateh",
       "country": "Saudi Arabia",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-79b2-8f8b-a45d4c8d0a8f.png",
       "default_league_id": "01a0761e-11c5-714d-9110-b318311d0898"
     },
     {
@@ -183,7 +183,7 @@
       "code": "SA-AL-FAYHA",
       "name": "Al Fayha",
       "country": "Saudi Arabia",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7c0d-ad7b-8708bd2577b6.png",
       "default_league_id": "01a0761e-11c5-714d-9110-b318311d0898"
     },
     {
@@ -191,7 +191,7 @@
       "code": "SA-AL-HAZEM",
       "name": "Al Hazem",
       "country": "Saudi Arabia",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-75e6-9007-e10ba694ed7b.png",
       "default_league_id": "01a0761e-11c5-714d-9110-b318311d0898"
     },
     {
@@ -199,7 +199,7 @@
       "code": "SA-AL-HILAL",
       "name": "Al Hilal",
       "country": "Saudi Arabia",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-787e-97a9-652ad8a3cb05.png",
       "default_league_id": "01a0761e-11c5-714d-9110-b318311d0898"
     },
     {
@@ -207,7 +207,7 @@
       "code": "SA-AL-ITTIHAD",
       "name": "Al Ittihad",
       "country": "Saudi Arabia",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7ad2-ab5f-1c6bfe711f25.png",
       "default_league_id": "01a0761e-11c5-714d-9110-b318311d0898"
     },
     {
@@ -215,7 +215,7 @@
       "code": "SA-AL-KHALEEJ",
       "name": "Al Khaleej",
       "country": "Saudi Arabia",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-72cf-a34d-f82a080e1c70.png",
       "default_league_id": "01a0761e-11c5-714d-9110-b318311d0898"
     },
     {
@@ -223,7 +223,7 @@
       "code": "SA-AL-KHOLOOD",
       "name": "Al Kholood",
       "country": "Saudi Arabia",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-71b8-a630-a6bf12925ddc.png",
       "default_league_id": "01a0761e-11c5-714d-9110-b318311d0898"
     },
     {
@@ -231,7 +231,7 @@
       "code": "SA-AL-NAJMAH",
       "name": "Al Najmah",
       "country": "Saudi Arabia",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7b93-8ef3-7158bc873aaa.png",
       "default_league_id": "01a0761e-11c5-714d-9110-b318311d0898"
     },
     {
@@ -239,7 +239,7 @@
       "code": "SA-AL-NASSR",
       "name": "Al Nassr",
       "country": "Saudi Arabia",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7a81-af26-1afc8cedb4ad.png",
       "default_league_id": "01a0761e-11c5-714d-9110-b318311d0898"
     },
     {
@@ -247,7 +247,7 @@
       "code": "SA-AL-OKHDOOD",
       "name": "Al Okhdood",
       "country": "Saudi Arabia",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7c9f-9560-b74f08e4fbb4.png",
       "default_league_id": "01a0761e-11c5-714d-9110-b318311d0898"
     },
     {
@@ -255,7 +255,7 @@
       "code": "SA-AL-QADSIAH",
       "name": "Al Qadsiah",
       "country": "Saudi Arabia",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7aa7-8125-db6124d9b899.png",
       "default_league_id": "01a0761e-11c5-714d-9110-b318311d0898"
     },
     {
@@ -263,7 +263,7 @@
       "code": "SA-AL-RIYADH",
       "name": "Al Riyadh",
       "country": "Saudi Arabia",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-78a9-b135-5f31e18fbf4d.png",
       "default_league_id": "01a0761e-11c5-714d-9110-b318311d0898"
     },
     {
@@ -271,7 +271,7 @@
       "code": "SA-AL-SHABAB",
       "name": "Al Shabab",
       "country": "Saudi Arabia",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7487-bf33-930c8bafc0ea.png",
       "default_league_id": "01a0761e-11c5-714d-9110-b318311d0898"
     },
     {
@@ -279,7 +279,7 @@
       "code": "SA-AL-TAAWOUN",
       "name": "Al Taawoun",
       "country": "Saudi Arabia",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7bf3-a175-1999ea12b79f.png",
       "default_league_id": "01a0761e-11c5-714d-9110-b318311d0898"
     },
     {
@@ -287,7 +287,7 @@
       "code": "ES-ALBACETE-BALOMPIE",
       "name": "Albacete Balompié",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-73e9-8f21-0695cc00fc24.png",
       "default_league_id": "01a0761e-11c5-7738-9446-6f5f1c43a8ee"
     },
     {
@@ -295,7 +295,7 @@
       "code": "AR-ALDOSIVI",
       "name": "Aldosivi",
       "country": "Argentina",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7e91-8c8a-4382504ce62c.png",
       "default_league_id": "01a0761e-11c5-7d22-bb0e-80cf2ac0bb18"
     },
     {
@@ -303,7 +303,7 @@
       "code": "DE-ALEMANNIA-AACHEN",
       "name": "Alemannia Aachen",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7abb-a0cd-8f5e658b647b.png",
       "default_league_id": "01a0761e-11c5-715c-8d61-19ba765322aa"
     },
     {
@@ -311,7 +311,7 @@
       "code": "AT-ALTACH",
       "name": "Altach",
       "country": "Austria",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-78fe-a58e-0f5f4006e2e9.png",
       "default_league_id": "01a0761e-11c5-7f96-bb60-fca2de36046e"
     },
     {
@@ -319,7 +319,7 @@
       "code": "PT-ALVERCA",
       "name": "Alverca",
       "country": "Portugal",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7246-9094-025ad95046f8.png",
       "default_league_id": "01a0761e-11c5-7881-a04d-9462a5f5f38b"
     },
     {
@@ -327,7 +327,7 @@
       "code": "FR-AMIENS-SC",
       "name": "Amiens SC",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7ec8-9300-a71be07892fb.png",
       "default_league_id": "01a0761e-11c5-77a2-8edc-bf58cdfd4d3f"
     },
     {
@@ -335,7 +335,7 @@
       "code": "BE-ANDERLECHT",
       "name": "Anderlecht",
       "country": "Belgium",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-764a-8106-dae64610be24.png",
       "default_league_id": "01a0761e-11c5-7133-afbf-19c7c2e9939d"
     },
     {
@@ -343,7 +343,7 @@
       "code": "FR-ANGERS-SCO",
       "name": "Angers SCO",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-77d6-a615-a29f8f3424fa.png",
       "default_league_id": "01a0761e-11c5-74e3-982d-8a170240c634"
     },
     {
@@ -351,7 +351,7 @@
       "code": "TR-ANTALYASPOR",
       "name": "Antalyaspor",
       "country": "Turkey",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7303-b35a-b1855640ff23.png",
       "default_league_id": "01a0761e-11c5-7f1c-9dac-78c1abd3fd4e"
     },
     {
@@ -359,7 +359,7 @@
       "code": "BE-ANTWERP",
       "name": "Antwerp",
       "country": "Belgium",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-71b2-9e6e-85265879812d.png",
       "default_league_id": "01a0761e-11c5-7133-afbf-19c7c2e9939d"
     },
     {
@@ -367,7 +367,7 @@
       "code": "AR-ARGENTINOS-JUNIORS",
       "name": "Argentinos Juniors",
       "country": "Argentina",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7231-8f98-9aefe3243645.png",
       "default_league_id": "01a0761e-11c5-7d22-bb0e-80cf2ac0bb18"
     },
     {
@@ -375,7 +375,7 @@
       "code": "PL-ARKA-GDYNIA",
       "name": "Arka Gdynia",
       "country": "Poland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7e8f-b59d-d003a0602b78.png",
       "default_league_id": "01a0761e-11c5-7412-ab7e-0f5b28a2846d"
     },
     {
@@ -383,7 +383,7 @@
       "code": "DE-ARMINIA-BIELEFELD",
       "name": "Arminia Bielefeld",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7e53-a3b8-d0ccaa75cd67.png",
       "default_league_id": "01a0761e-11c5-7553-830c-b1db72a0e15e"
     },
     {
@@ -391,7 +391,7 @@
       "code": "PT-AROUCA",
       "name": "Arouca",
       "country": "Portugal",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-78f5-9c6e-9d895f21a8ea.png",
       "default_league_id": "01a0761e-11c5-7881-a04d-9462a5f5f38b"
     },
     {
@@ -399,7 +399,7 @@
       "code": "ENG-ARSENAL",
       "name": "Arsenal",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7f21-ade1-f8675866d2f4.png",
       "default_league_id": "01a0761e-11c5-73b1-83a4-75b6a304378a"
     },
     {
@@ -407,7 +407,7 @@
       "code": "FR-AS-MONACO",
       "name": "AS Monaco",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-72c1-a356-358e38cb89f4.png",
       "default_league_id": "01a0761e-11c5-74e3-982d-8a170240c634"
     },
     {
@@ -415,7 +415,7 @@
       "code": "FR-AS-NANCY",
       "name": "AS Nancy",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-710d-a878-0b3bbc3e0d00.png",
       "default_league_id": "01a0761e-11c5-77a2-8edc-bf58cdfd4d3f"
     },
     {
@@ -423,7 +423,7 @@
       "code": "FR-AS-SAINT-ETIENNE",
       "name": "AS Saint-Étienne",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-786c-b33e-795b6397ff76.png",
       "default_league_id": "01a0761e-11c5-77a2-8edc-bf58cdfd4d3f"
     },
     {
@@ -431,7 +431,7 @@
       "code": "ENG-ASTON-VILLA",
       "name": "Aston Villa",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7537-95f6-d412238a6019.png",
       "default_league_id": "01a0761e-11c5-73b1-83a4-75b6a304378a"
     },
     {
@@ -439,7 +439,7 @@
       "code": "ES-ATHLETIC-CLUB-DE-BILBAO",
       "name": "Athletic Club de Bilbao",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7832-a467-3516a1db0e21.png",
       "default_league_id": "01a0761e-11c5-75b0-a6f0-382f69d2aca7"
     },
     {
@@ -447,7 +447,7 @@
       "code": "US-ATLANTA-UNITED-FC",
       "name": "Atlanta United FC",
       "country": "United States",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7c9b-a190-dd1d109a717b.png",
       "default_league_id": "01a0761e-11c5-76fa-a224-833ed977c998"
     },
     {
@@ -455,7 +455,7 @@
       "code": "ES-ATLETICO-DE-MADRID",
       "name": "Atlético de Madrid",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-794f-8c1d-f5ce8b7da74f.png",
       "default_league_id": "01a0761e-11c5-75b0-a6f0-382f69d2aca7"
     },
     {
@@ -463,7 +463,7 @@
       "code": "AR-ATLETICO-TUCUMAN",
       "name": "Atlético Tucumán",
       "country": "Argentina",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7378-a7ae-6efcabc6f0bd.png",
       "default_league_id": "01a0761e-11c5-7d22-bb0e-80cf2ac0bb18"
     },
     {
@@ -471,7 +471,7 @@
       "code": "AU-AUCKLAND-FC",
       "name": "Auckland FC",
       "country": "Australia",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-76cd-86e2-a8faa457f898.png",
       "default_league_id": "01a0761e-11c5-7bd4-bb44-75609bd06a29"
     },
     {
@@ -479,7 +479,7 @@
       "code": "US-AUSTIN-FC",
       "name": "Austin FC",
       "country": "United States",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7e94-a97d-87e15f47c118.png",
       "default_league_id": "01a0761e-11c5-76fa-a224-833ed977c998"
     },
     {
@@ -487,7 +487,7 @@
       "code": "AT-AUSTRIA-WIEN",
       "name": "Austria Wien",
       "country": "Austria",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c5-7fa3-927f-d864125ba89e.png",
       "default_league_id": "01a0761e-11c5-7f96-bb60-fca2de36046e"
     },
     {
@@ -495,7 +495,7 @@
       "code": "IT-AVELLINO",
       "name": "Avellino",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7cfd-9ce1-1948b24f8f15.png",
       "default_league_id": "01a0761e-11c5-747d-a0d5-3aac62f0151a"
     },
     {
@@ -503,7 +503,7 @@
       "code": "PT-AVS-FUTEBOL-SAD",
       "name": "AVS Futebol SAD",
       "country": "Portugal",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-75aa-8e1e-121042f37045.png",
       "default_league_id": "01a0761e-11c5-7881-a04d-9462a5f5f38b"
     },
     {
@@ -511,7 +511,7 @@
       "code": "NL-AZ",
       "name": "AZ",
       "country": "Netherlands",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7847-8d85-b87f1ab79081.png",
       "default_league_id": "01a0761e-11c5-7669-9cb0-543647efb0e0"
     },
     {
@@ -519,7 +519,7 @@
       "code": "AR-BANFIELD",
       "name": "Banfield",
       "country": "Argentina",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-72a0-b6e8-9c9859346bec.png",
       "default_league_id": "01a0761e-11c5-7d22-bb0e-80cf2ac0bb18"
     },
     {
@@ -527,7 +527,7 @@
       "code": "IT-BARI",
       "name": "Bari",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7d1a-aca1-c406e99ed90b.png",
       "default_league_id": "01a0761e-11c5-747d-a0d5-3aac62f0151a"
     },
     {
@@ -535,7 +535,7 @@
       "code": "ENG-BARNET",
       "name": "Barnet",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7220-820e-2f49b48f175c.png",
       "default_league_id": "01a0761e-11c5-74d4-80e1-be8a2caff971"
     },
     {
@@ -543,7 +543,7 @@
       "code": "ENG-BARNSLEY",
       "name": "Barnsley",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7779-83eb-1b23b305985e.png",
       "default_league_id": "01a0761e-11c5-72c0-a788-1ed4fa6a2db1"
     },
     {
@@ -551,7 +551,7 @@
       "code": "AR-BARRACAS-CENTRAL",
       "name": "Barracas Central",
       "country": "Argentina",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7364-9129-2f0b3a3cdf9f.png",
       "default_league_id": "01a0761e-11c5-7d22-bb0e-80cf2ac0bb18"
     },
     {
@@ -559,7 +559,7 @@
       "code": "ENG-BARROW",
       "name": "Barrow",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-74f4-905e-69a6ae9d2b09.png",
       "default_league_id": "01a0761e-11c5-74d4-80e1-be8a2caff971"
     },
     {
@@ -567,7 +567,7 @@
       "code": "DE-BAYER-04-LEVERKUSEN",
       "name": "Bayer 04 Leverkusen",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7482-af86-52fead323e39.png",
       "default_league_id": "01a0761e-11c5-787c-b07b-955b78d27b98"
     },
     {
@@ -575,7 +575,7 @@
       "code": "DE-BAYERN-MUNCHEN",
       "name": "Bayern München",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7826-868a-d1e7aa2341df.png",
       "default_league_id": "01a0761e-11c5-787c-b07b-955b78d27b98"
     },
     {
@@ -583,7 +583,7 @@
       "code": "CN-BEIJING-GUOAN",
       "name": "Beijing Guoan",
       "country": "China",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7712-b4f8-a8455b4bb6cd.png",
       "default_league_id": "01a0761e-11c5-7f85-9f5a-677ab3b916a0"
     },
     {
@@ -591,7 +591,7 @@
       "code": "AR-BELGRANO-DE-CORDOBA",
       "name": "Belgrano de Córdoba",
       "country": "Argentina",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-74e2-a346-0f214b6f803f.png",
       "default_league_id": "01a0761e-11c5-7d22-bb0e-80cf2ac0bb18"
     },
     {
@@ -599,7 +599,7 @@
       "code": "PT-BENFICA",
       "name": "Benfica",
       "country": "Portugal",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7674-9f50-54e07133f316.png",
       "default_league_id": "01a0761e-11c5-7881-a04d-9462a5f5f38b"
     },
     {
@@ -607,7 +607,7 @@
       "code": "IN-BENGALURU-FC",
       "name": "Bengaluru FC",
       "country": "India",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7c20-bc98-6af083f7df8b.png",
       "default_league_id": "01a0761e-11c5-7a73-89ce-f5825e3902ca"
     },
     {
@@ -615,7 +615,7 @@
       "code": "IT-BERGAMO-CALCIO",
       "name": "Bergamo Calcio",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-75d3-b646-ff23d276158f.png",
       "default_league_id": "01a0761e-11c5-761f-8921-8d506ebfe333"
     },
     {
@@ -623,7 +623,7 @@
       "code": "TR-BESIKTAS",
       "name": "Beşiktaş",
       "country": "Turkey",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7156-bc45-851a045ab78c.png",
       "default_league_id": "01a0761e-11c5-7f1c-9dac-78c1abd3fd4e"
     },
     {
@@ -631,7 +631,7 @@
       "code": "ENG-BIRMINGHAM-CITY",
       "name": "Birmingham City",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-78a1-829c-81af447b2846.png",
       "default_league_id": "01a0761e-11c5-76e8-a4ea-b7d77aff126a"
     },
     {
@@ -639,7 +639,7 @@
       "code": "SE-BK-HACKEN",
       "name": "BK Häcken",
       "country": "Sweden",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7517-8315-78c6cdc3ae6c.png",
       "default_league_id": "01a0761e-11c5-73d0-9304-9999f43d3e0f"
     },
     {
@@ -647,7 +647,7 @@
       "code": "ENG-BLACKBURN-ROVERS",
       "name": "Blackburn Rovers",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7051-a5dd-ba77bf3dd96c.png",
       "default_league_id": "01a0761e-11c5-76e8-a4ea-b7d77aff126a"
     },
     {
@@ -655,7 +655,7 @@
       "code": "ENG-BLACKPOOL",
       "name": "Blackpool",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-70a2-8677-a245ad82973d.png",
       "default_league_id": "01a0761e-11c5-72c0-a788-1ed4fa6a2db1"
     },
     {
@@ -663,7 +663,7 @@
       "code": "AT-BLAU-WEI-LINZ",
       "name": "Blau-Weiß Linz",
       "country": "Austria",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7915-8cd4-92731aa25e4c.png",
       "default_league_id": "01a0761e-11c5-7f96-bb60-fca2de36046e"
     },
     {
@@ -671,7 +671,7 @@
       "code": "AR-BOCA-JUNIORS",
       "name": "Boca Juniors",
       "country": "Argentina",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-70e3-9011-6ed0b3c1ce8c.png",
       "default_league_id": "01a0761e-11c5-7d22-bb0e-80cf2ac0bb18"
     },
     {
@@ -679,7 +679,7 @@
       "code": "IE-BOHEMIANS",
       "name": "Bohemians",
       "country": "Ireland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7791-bc17-9ba1ba35017b.png",
       "default_league_id": "01a0761e-11c5-78b1-83b4-fc63bbc04675"
     },
     {
@@ -687,7 +687,7 @@
       "code": "IT-BOLOGNA",
       "name": "Bologna",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7670-9293-bace83b900c4.png",
       "default_league_id": "01a0761e-11c5-761f-8921-8d506ebfe333"
     },
     {
@@ -695,7 +695,7 @@
       "code": "ENG-BOLTON-WANDERERS",
       "name": "Bolton Wanderers",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7f4d-b06b-45f754e60a90.png",
       "default_league_id": "01a0761e-11c5-72c0-a788-1ed4fa6a2db1"
     },
     {
@@ -703,7 +703,7 @@
       "code": "DE-BORUSSIA-DORTMUND",
       "name": "Borussia Dortmund",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7a30-873b-f56a67d31078.png",
       "default_league_id": "01a0761e-11c5-787c-b07b-955b78d27b98"
     },
     {
@@ -711,7 +711,7 @@
       "code": "DE-BORUSSIA-M-GLADBACH",
       "name": "Borussia M'gladbach",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7f8e-8602-e603e67d98a6.png",
       "default_league_id": "01a0761e-11c5-787c-b07b-955b78d27b98"
     },
     {
@@ -719,7 +719,7 @@
       "code": "ENG-BRADFORD-CITY",
       "name": "Bradford City",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7c51-9b8c-b8d87c22e9ce.png",
       "default_league_id": "01a0761e-11c5-72c0-a788-1ed4fa6a2db1"
     },
     {
@@ -727,7 +727,7 @@
       "code": "ENG-BRENTFORD",
       "name": "Brentford",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-70dc-8c9b-d04be9b7e97a.png",
       "default_league_id": "01a0761e-11c5-73b1-83a4-75b6a304378a"
     },
     {
@@ -735,7 +735,7 @@
       "code": "ENG-BRIGHTON-HOVE-ALBION",
       "name": "Brighton & Hove Albion",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7cd1-9c5a-605a2bfbc604.png",
       "default_league_id": "01a0761e-11c5-73b1-83a4-75b6a304378a"
     },
     {
@@ -743,7 +743,7 @@
       "code": "AU-BRISBANE-ROAR",
       "name": "Brisbane Roar",
       "country": "Australia",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7406-84f1-9690011653e9.png",
       "default_league_id": "01a0761e-11c5-7bd4-bb44-75609bd06a29"
     },
     {
@@ -751,7 +751,7 @@
       "code": "ENG-BRISTOL-CITY",
       "name": "Bristol City",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7ea9-a20e-3ad9840b523c.png",
       "default_league_id": "01a0761e-11c5-76e8-a4ea-b7d77aff126a"
     },
     {
@@ -759,7 +759,7 @@
       "code": "ENG-BRISTOL-ROVERS",
       "name": "Bristol Rovers",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7cb7-b943-aa886388d583.png",
       "default_league_id": "01a0761e-11c5-74d4-80e1-be8a2caff971"
     },
     {
@@ -767,7 +767,7 @@
       "code": "ENG-BROMLEY",
       "name": "Bromley",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7c2f-911a-da90360a4de3.png",
       "default_league_id": "01a0761e-11c5-74d4-80e1-be8a2caff971"
     },
     {
@@ -775,7 +775,7 @@
       "code": "PL-BRUK-BET-TERMALICA-NIECIECZA",
       "name": "Bruk-Bet Termalica Nieciecza",
       "country": "Poland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7d6c-b6bb-85483d168d1c.png",
       "default_league_id": "01a0761e-11c5-7412-ab7e-0f5b28a2846d"
     },
     {
@@ -783,7 +783,7 @@
       "code": "NO-BRYNE-FK",
       "name": "Bryne FK",
       "country": "Norway",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7a07-8c23-96edf876e2a4.png",
       "default_league_id": "01a0761e-11c5-7dd5-9830-fc3bfed5ce4a"
     },
     {
@@ -791,7 +791,7 @@
       "code": "DK-BRNDBY-IF",
       "name": "Brøndby IF",
       "country": "Denmark",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7a95-891e-50318ae90399.png",
       "default_league_id": "01a0761e-11c5-767d-8406-3309c085bfc7"
     },
     {
@@ -799,7 +799,7 @@
       "code": "CH-BSC-YOUNG-BOYS",
       "name": "BSC Young Boys",
       "country": "Switzerland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-75fb-b537-3f9a6cf9be81.png",
       "default_league_id": "01a0761e-11c5-7a31-a27f-091a25248dc1"
     },
     {
@@ -807,7 +807,7 @@
       "code": "ES-BURGOS-CF",
       "name": "Burgos CF",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7dfb-978e-65af42b252da.png",
       "default_league_id": "01a0761e-11c5-7738-9446-6f5f1c43a8ee"
     },
     {
@@ -815,7 +815,7 @@
       "code": "ENG-BURNLEY",
       "name": "Burnley",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7c04-8310-36a3a9cd4247.png",
       "default_league_id": "01a0761e-11c5-73b1-83a4-75b6a304378a"
     },
     {
@@ -823,7 +823,7 @@
       "code": "ENG-BURTON-ALBION",
       "name": "Burton Albion",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7112-9919-fd37574c06c3.png",
       "default_league_id": "01a0761e-11c5-72c0-a788-1ed4fa6a2db1"
     },
     {
@@ -831,7 +831,7 @@
       "code": "ES-CA-OSASUNA",
       "name": "CA Osasuna",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-78a8-8cf6-2be886470068.png",
       "default_league_id": "01a0761e-11c5-75b0-a6f0-382f69d2aca7"
     },
     {
@@ -839,7 +839,7 @@
       "code": "IT-CAGLIARI",
       "name": "Cagliari",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7dbd-8542-85d7b88ff8bc.png",
       "default_league_id": "01a0761e-11c5-761f-8921-8d506ebfe333"
     },
     {
@@ -847,7 +847,7 @@
       "code": "ENG-CAMBRIDGE-UNITED",
       "name": "Cambridge United",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7497-8786-c8fb6e53c0f7.png",
       "default_league_id": "01a0761e-11c5-74d4-80e1-be8a2caff971"
     },
     {
@@ -855,7 +855,7 @@
       "code": "ENG-CARDIFF-CITY",
       "name": "Cardiff City",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7b8d-98dc-f2cc37c84118.png",
       "default_league_id": "01a0761e-11c5-72c0-a788-1ed4fa6a2db1"
     },
     {
@@ -863,7 +863,7 @@
       "code": "IT-CARRARESE",
       "name": "Carrarese",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7c52-b050-9dee83ecda3c.png",
       "default_league_id": "01a0761e-11c5-747d-a0d5-3aac62f0151a"
     },
     {
@@ -871,7 +871,7 @@
       "code": "PT-CASA-PIA",
       "name": "Casa Pia",
       "country": "Portugal",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7f96-9e15-1e3d9417bdd5.png",
       "default_league_id": "01a0761e-11c5-7881-a04d-9462a5f5f38b"
     },
     {
@@ -879,7 +879,7 @@
       "code": "IT-CATANZARO",
       "name": "Catanzaro",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7a7b-b956-1eea3f88614a.png",
       "default_league_id": "01a0761e-11c5-747d-a0d5-3aac62f0151a"
     },
     {
@@ -887,7 +887,7 @@
       "code": "ES-CD-CASTELLON",
       "name": "CD Castellón",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-78b0-92bd-304f5bbb5773.png",
       "default_league_id": "01a0761e-11c5-7738-9446-6f5f1c43a8ee"
     },
     {
@@ -895,7 +895,7 @@
       "code": "ES-CD-LEGANES",
       "name": "CD Leganés",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7099-811d-6fb3aa8e6e9c.png",
       "default_league_id": "01a0761e-11c5-7738-9446-6f5f1c43a8ee"
     },
     {
@@ -903,7 +903,7 @@
       "code": "ES-CD-MIRANDES",
       "name": "CD Mirandés",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7f56-9dcd-2b56dfdd0351.png",
       "default_league_id": "01a0761e-11c5-7738-9446-6f5f1c43a8ee"
     },
     {
@@ -911,7 +911,7 @@
       "code": "SCO-CELTIC",
       "name": "Celtic",
       "country": "Scotland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7775-b003-fc46655bf8ae.png",
       "default_league_id": "01a0761e-11c5-7a8c-ac4c-ba3b415b2179"
     },
     {
@@ -919,7 +919,7 @@
       "code": "AU-CENTRAL-COAST-MARINERS",
       "name": "Central Coast Mariners",
       "country": "Australia",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-74fb-a95b-805a24077559.png",
       "default_league_id": "01a0761e-11c5-7bd4-bb44-75609bd06a29"
     },
     {
@@ -927,7 +927,7 @@
       "code": "AR-CENTRAL-CORDOBA",
       "name": "Central Córdoba",
       "country": "Argentina",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-78ac-a705-1123d9cc5060.png",
       "default_league_id": "01a0761e-11c5-7d22-bb0e-80cf2ac0bb18"
     },
     {
@@ -935,7 +935,7 @@
       "code": "BE-CERCLE-BRUGGE",
       "name": "Cercle Brugge",
       "country": "Belgium",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7f91-b17b-9e906ea97b08.png",
       "default_league_id": "01a0761e-11c5-7133-afbf-19c7c2e9939d"
     },
     {
@@ -943,7 +943,7 @@
       "code": "IT-CESENA",
       "name": "Cesena",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7ee1-afec-87d4f6c2eb36.png",
       "default_league_id": "01a0761e-11c5-747d-a0d5-3aac62f0151a"
     },
     {
@@ -951,7 +951,7 @@
       "code": "US-CF-MONTREAL",
       "name": "CF Montréal",
       "country": "United States",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7d00-98be-d0b823bc8369.png",
       "default_league_id": "01a0761e-11c5-76fa-a224-833ed977c998"
     },
     {
@@ -959,7 +959,7 @@
       "code": "RO-CFR-CLUJ",
       "name": "CFR Cluj",
       "country": "Romania",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-72d9-a97b-1622dfb8a9df.png",
       "default_league_id": "01a0761e-11c5-7d81-9770-e45cd37220f5"
     },
     {
@@ -967,7 +967,7 @@
       "code": "CN-CHANGCHUN-YATAI",
       "name": "Changchun Yatai",
       "country": "China",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7a3e-b58f-5132c10c4c98.png",
       "default_league_id": "01a0761e-11c5-7f85-9f5a-677ab3b916a0"
     },
     {
@@ -975,7 +975,7 @@
       "code": "BE-CHARLEROI",
       "name": "Charleroi",
       "country": "Belgium",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-70ba-94c8-af3a49619327.png",
       "default_league_id": "01a0761e-11c5-7133-afbf-19c7c2e9939d"
     },
     {
@@ -983,7 +983,7 @@
       "code": "US-CHARLOTTE-FC",
       "name": "Charlotte FC",
       "country": "United States",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7dec-90ed-b710a396b195.png",
       "default_league_id": "01a0761e-11c5-76fa-a224-833ed977c998"
     },
     {
@@ -991,7 +991,7 @@
       "code": "ENG-CHARLTON-ATHLETIC",
       "name": "Charlton Athletic",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7a02-bdd1-5410cbb35013.png",
       "default_league_id": "01a0761e-11c5-76e8-a4ea-b7d77aff126a"
     },
     {
@@ -999,7 +999,7 @@
       "code": "ENG-CHELSEA",
       "name": "Chelsea",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7b65-9826-03a4ec9ed631.png",
       "default_league_id": "01a0761e-11c5-73b1-83a4-75b6a304378a"
     },
     {
@@ -1007,7 +1007,7 @@
       "code": "ENG-CHELTENHAM-TOWN",
       "name": "Cheltenham Town",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-76ab-be97-7e5af7d203ed.png",
       "default_league_id": "01a0761e-11c5-74d4-80e1-be8a2caff971"
     },
     {
@@ -1015,7 +1015,7 @@
       "code": "CN-CHENGDU-RONGCHENG-F-C",
       "name": "Chengdu Rongcheng F.C.",
       "country": "China",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-756b-866b-fd7f5263c750.png",
       "default_league_id": "01a0761e-11c5-7f85-9f5a-677ab3b916a0"
     },
     {
@@ -1023,7 +1023,7 @@
       "code": "IN-CHENNAIYIN-FC",
       "name": "Chennaiyin FC",
       "country": "India",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-708c-acde-16c59f76e3cf.png",
       "default_league_id": "01a0761e-11c5-7a73-89ce-f5825e3902ca"
     },
     {
@@ -1031,7 +1031,7 @@
       "code": "ENG-CHESTERFIELD",
       "name": "Chesterfield",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-71e1-8dc5-b0f6f8ccb7af.png",
       "default_league_id": "01a0761e-11c5-74d4-80e1-be8a2caff971"
     },
     {
@@ -1039,7 +1039,7 @@
       "code": "US-CHICAGO-FIRE-FC",
       "name": "Chicago Fire FC",
       "country": "United States",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7773-92b8-ee7f31ec3381.png",
       "default_league_id": "01a0761e-11c5-76fa-a224-833ed977c998"
     },
     {
@@ -1047,7 +1047,7 @@
       "code": "FR-CLERMONT-FOOT",
       "name": "Clermont Foot",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7568-8c14-379dab2782f5.png",
       "default_league_id": "01a0761e-11c5-77a2-8edc-bf58cdfd4d3f"
     },
     {
@@ -1055,7 +1055,7 @@
       "code": "BE-CLUB-BRUGGE",
       "name": "Club Brugge",
       "country": "Belgium",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-744f-af83-3284baa7783d.png",
       "default_league_id": "01a0761e-11c5-7133-afbf-19c7c2e9939d"
     },
     {
@@ -1063,7 +1063,7 @@
       "code": "ENG-COLCHESTER-UNITED",
       "name": "Colchester United",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-73e3-9fc0-f6384dac6393.png",
       "default_league_id": "01a0761e-11c5-74d4-80e1-be8a2caff971"
     },
     {
@@ -1071,7 +1071,7 @@
       "code": "US-COLORADO-RAPIDS",
       "name": "Colorado Rapids",
       "country": "United States",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-72eb-86e3-9132739a948f.png",
       "default_league_id": "01a0761e-11c5-76fa-a224-833ed977c998"
     },
     {
@@ -1079,7 +1079,7 @@
       "code": "US-COLUMBUS-CREW",
       "name": "Columbus Crew",
       "country": "United States",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-78e3-85b2-3b9c8cbecb5e.png",
       "default_league_id": "01a0761e-11c5-76fa-a224-833ed977c998"
     },
     {
@@ -1087,7 +1087,7 @@
       "code": "IT-COMO",
       "name": "Como",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-77f2-bd8c-82397a26e1b3.png",
       "default_league_id": "01a0761e-11c5-761f-8921-8d506ebfe333"
     },
     {
@@ -1095,7 +1095,7 @@
       "code": "TR-CORENDON-ALANYASPOR",
       "name": "Corendon Alanyaspor",
       "country": "Turkey",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-74ac-88c6-be223a04bb50.png",
       "default_league_id": "01a0761e-11c5-7f1c-9dac-78c1abd3fd4e"
     },
     {
@@ -1103,7 +1103,7 @@
       "code": "IE-CORK-CITY",
       "name": "Cork City",
       "country": "Ireland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7750-907a-9d063e63f12d.png",
       "default_league_id": "01a0761e-11c5-78b1-83b4-fc63bbc04675"
     },
     {
@@ -1111,7 +1111,7 @@
       "code": "ENG-COVENTRY-CITY",
       "name": "Coventry City",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7681-9b71-d3959fc45631.png",
       "default_league_id": "01a0761e-11c5-76e8-a4ea-b7d77aff126a"
     },
     {
@@ -1119,7 +1119,7 @@
       "code": "PL-CRACOVIA",
       "name": "Cracovia",
       "country": "Poland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-78c0-be2a-fbd81ff70352.png",
       "default_league_id": "01a0761e-11c5-7412-ab7e-0f5b28a2846d"
     },
     {
@@ -1127,7 +1127,7 @@
       "code": "ENG-CRAWLEY-TOWN",
       "name": "Crawley Town",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-72ad-8128-d03b5cd34186.png",
       "default_league_id": "01a0761e-11c5-74d4-80e1-be8a2caff971"
     },
     {
@@ -1135,7 +1135,7 @@
       "code": "IT-CREMONESE",
       "name": "Cremonese",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-76d3-a8f2-538fe412172b.png",
       "default_league_id": "01a0761e-11c5-761f-8921-8d506ebfe333"
     },
     {
@@ -1143,7 +1143,7 @@
       "code": "ENG-CREWE-ALEXANDRA",
       "name": "Crewe Alexandra",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-773e-9017-6b9020bd8e5d.png",
       "default_league_id": "01a0761e-11c5-74d4-80e1-be8a2caff971"
     },
     {
@@ -1151,7 +1151,7 @@
       "code": "ENG-CRYSTAL-PALACE",
       "name": "Crystal Palace",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-77cb-b792-d9532c8a3d7b.png",
       "default_league_id": "01a0761e-11c5-73b1-83a4-75b6a304378a"
     },
     {
@@ -1159,7 +1159,7 @@
       "code": "ES-CULTURAL-LEONESA",
       "name": "Cultural Leonesa",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7423-bb2c-262e554b0cb1.png",
       "default_league_id": "01a0761e-11c5-7738-9446-6f5f1c43a8ee"
     },
     {
@@ -1167,7 +1167,7 @@
       "code": "ES-CADIZ-CF",
       "name": "Cádiz CF",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7e5f-b1ca-cbe36b8deb1c.png",
       "default_league_id": "01a0761e-11c5-7738-9446-6f5f1c43a8ee"
     },
     {
@@ -1175,7 +1175,7 @@
       "code": "ES-CORDOBA-CF",
       "name": "Córdoba CF",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7806-9828-57e5d4ec30b1.png",
       "default_league_id": "01a0761e-11c5-7738-9446-6f5f1c43a8ee"
     },
     {
@@ -1183,7 +1183,7 @@
       "code": "US-D-C-UNITED",
       "name": "D.C. United",
       "country": "United States",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7f72-bb1b-786528f0ca0d.png",
       "default_league_id": "01a0761e-11c5-76fa-a224-833ed977c998"
     },
     {
@@ -1191,7 +1191,7 @@
       "code": "KR-DAEGU-FC",
       "name": "Daegu FC",
       "country": "South Korea",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-70b3-ab6a-b5aa429caa9b.png",
       "default_league_id": "01a0761e-11c5-78a1-b953-76bd3abfc5e3"
     },
     {
@@ -1199,7 +1199,7 @@
       "code": "KR-DAEJEON-HANA-CITIZEN",
       "name": "Daejeon Hana Citizen",
       "country": "South Korea",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7d98-b1f2-6d0e8743e673.png",
       "default_league_id": "01a0761e-11c5-78a1-b953-76bd3abfc5e3"
     },
     {
@@ -1207,7 +1207,7 @@
       "code": "CN-DALIAN-YINGBO-FC",
       "name": "Dalian Yingbo FC",
       "country": "China",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-75ec-bb61-ad7f87d3d01a.png",
       "default_league_id": "01a0761e-11c5-7f85-9f5a-677ab3b916a0"
     },
     {
@@ -1215,7 +1215,7 @@
       "code": "SA-DAMAC-FC",
       "name": "Damac FC",
       "country": "Saudi Arabia",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7a43-ae76-edf8bc1e1da1.png",
       "default_league_id": "01a0761e-11c5-714d-9110-b318311d0898"
     },
     {
@@ -1223,7 +1223,7 @@
       "code": "AR-DEFENSA-Y-JUSTICIA",
       "name": "Defensa y Justicia",
       "country": "Argentina",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-71fc-aa61-ce0e53a9161c.png",
       "default_league_id": "01a0761e-11c5-7d22-bb0e-80cf2ac0bb18"
     },
     {
@@ -1231,7 +1231,7 @@
       "code": "SE-DEGERFORS-IF",
       "name": "Degerfors IF",
       "country": "Sweden",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7722-8787-70f124c08f37.png",
       "default_league_id": "01a0761e-11c5-73d0-9304-9999f43d3e0f"
     },
     {
@@ -1239,7 +1239,7 @@
       "code": "BE-DENDER",
       "name": "Dender",
       "country": "Belgium",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-706f-8c7e-764da9c90e9e.png",
       "default_league_id": "01a0761e-11c5-7133-afbf-19c7c2e9939d"
     },
     {
@@ -1247,7 +1247,7 @@
       "code": "ES-DEPORTIVO-ALAVES",
       "name": "Deportivo Alavés",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-765d-8c03-bf24eff795a4.png",
       "default_league_id": "01a0761e-11c5-75b0-a6f0-382f69d2aca7"
     },
     {
@@ -1255,7 +1255,7 @@
       "code": "AR-DEPORTIVO-RIESTRA",
       "name": "Deportivo Riestra",
       "country": "Argentina",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7bd7-a153-7b280862e460.png",
       "default_league_id": "01a0761e-11c5-7d22-bb0e-80cf2ac0bb18"
     },
     {
@@ -1263,7 +1263,7 @@
       "code": "ENG-DERBY-COUNTY",
       "name": "Derby County",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-76cc-81eb-ca4167b4f8da.png",
       "default_league_id": "01a0761e-11c5-76e8-a4ea-b7d77aff126a"
     },
     {
@@ -1271,7 +1271,7 @@
       "code": "IE-DERRY-CITY",
       "name": "Derry City",
       "country": "Ireland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7a4c-bdff-9951ebd4ea49.png",
       "default_league_id": "01a0761e-11c5-78b1-83b4-fc63bbc04675"
     },
     {
@@ -1279,7 +1279,7 @@
       "code": "RO-DINAMO-BUCURESTI",
       "name": "Dinamo București",
       "country": "Romania",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7a5d-8776-ff337d3596e6.png",
       "default_league_id": "01a0761e-11c5-7d81-9770-e45cd37220f5"
     },
     {
@@ -1287,7 +1287,7 @@
       "code": "SE-DJURGARDENS-IF",
       "name": "Djurgårdens IF",
       "country": "Sweden",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-72d1-b992-dd975596241d.png",
       "default_league_id": "01a0761e-11c5-73d0-9304-9999f43d3e0f"
     },
     {
@@ -1295,7 +1295,7 @@
       "code": "ENG-DONCASTER-ROVERS",
       "name": "Doncaster Rovers",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7188-9536-5859a8491616.png",
       "default_league_id": "01a0761e-11c5-72c0-a788-1ed4fa6a2db1"
     },
     {
@@ -1303,7 +1303,7 @@
       "code": "IE-DROGHEDA-UNITED",
       "name": "Drogheda United",
       "country": "Ireland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-76ef-8996-cc0de1496ff9.png",
       "default_league_id": "01a0761e-11c5-78b1-83b4-fc63bbc04675"
     },
     {
@@ -1311,7 +1311,7 @@
       "code": "SCO-DUNDEE-FC",
       "name": "Dundee FC",
       "country": "Scotland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-78f6-b9f5-6ff8e5b7c854.png",
       "default_league_id": "01a0761e-11c5-7a8c-ac4c-ba3b415b2179"
     },
     {
@@ -1319,7 +1319,7 @@
       "code": "SCO-DUNDEE-UNITED",
       "name": "Dundee United",
       "country": "Scotland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7ccb-9986-fd28773c0cba.png",
       "default_league_id": "01a0761e-11c5-7a8c-ac4c-ba3b415b2179"
     },
     {
@@ -1327,7 +1327,7 @@
       "code": "DE-DYNAMO-DRESDEN",
       "name": "Dynamo Dresden",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7743-a690-f13429a6db9e.png",
       "default_league_id": "01a0761e-11c5-7553-830c-b1db72a0e15e"
     },
     {
@@ -1335,7 +1335,7 @@
       "code": "IN-EAST-BENGAL-FC",
       "name": "East Bengal FC",
       "country": "India",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-712c-86d6-3b17a68ee04b.png",
       "default_league_id": "01a0761e-11c5-7a73-89ce-f5825e3902ca"
     },
     {
@@ -1343,7 +1343,7 @@
       "code": "DE-EINTRACHT-BRAUNSCHWEIG",
       "name": "Eintracht Braunschweig",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7fff-a611-a8c71361ba7e.png",
       "default_league_id": "01a0761e-11c5-7553-830c-b1db72a0e15e"
     },
     {
@@ -1351,7 +1351,7 @@
       "code": "DE-EINTRACHT-FRANKFURT",
       "name": "Eintracht Frankfurt",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7c2c-bed0-fa4c663d2a8e.png",
       "default_league_id": "01a0761e-11c5-787c-b07b-955b78d27b98"
     },
     {
@@ -1359,7 +1359,7 @@
       "code": "ES-ELCHE-CF",
       "name": "Elche CF",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7981-a911-c4c3014fb363.png",
       "default_league_id": "01a0761e-11c5-75b0-a6f0-382f69d2aca7"
     },
     {
@@ -1367,7 +1367,7 @@
       "code": "IT-EMPOLI",
       "name": "Empoli",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-75f6-83c8-f78a5872dc69.png",
       "default_league_id": "01a0761e-11c5-747d-a0d5-3aac62f0151a"
     },
     {
@@ -1375,7 +1375,7 @@
       "code": "FR-EN-AVANT-GUINGAMP",
       "name": "En Avant Guingamp",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7c9a-8a91-262a2eaac1e3.png",
       "default_league_id": "01a0761e-11c5-77a2-8edc-bf58cdfd4d3f"
     },
     {
@@ -1383,7 +1383,7 @@
       "code": "DE-ENERGIE-COTTBUS",
       "name": "Energie Cottbus",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-764a-acc6-745093acb156.png",
       "default_league_id": "01a0761e-11c5-715c-8d61-19ba765322aa"
     },
     {
@@ -1391,7 +1391,7 @@
       "code": "IT-ENTELLA",
       "name": "Entella",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7f87-95ec-f8f623f213aa.png",
       "default_league_id": "01a0761e-11c5-747d-a0d5-3aac62f0151a"
     },
     {
@@ -1399,7 +1399,7 @@
       "code": "DE-ERZGEBIRGE-AUE",
       "name": "Erzgebirge Aue",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7fe4-996c-43c1577487f5.png",
       "default_league_id": "01a0761e-11c5-715c-8d61-19ba765322aa"
     },
     {
@@ -1407,7 +1407,7 @@
       "code": "FR-ESTAC-TROYES",
       "name": "ESTAC Troyes",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7c1f-b27b-812fdcf08a22.png",
       "default_league_id": "01a0761e-11c5-77a2-8edc-bf58cdfd4d3f"
     },
     {
@@ -1415,7 +1415,7 @@
       "code": "PT-ESTORIL",
       "name": "Estoril",
       "country": "Portugal",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7dcf-bef3-5dd80c7609df.png",
       "default_league_id": "01a0761e-11c5-7881-a04d-9462a5f5f38b"
     },
     {
@@ -1423,7 +1423,7 @@
       "code": "PT-ESTRELA-DA-AMADORA",
       "name": "Estrela da Amadora",
       "country": "Portugal",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7091-8a71-7155628a21ed.png",
       "default_league_id": "01a0761e-11c5-7881-a04d-9462a5f5f38b"
     },
     {
@@ -1431,7 +1431,7 @@
       "code": "AR-ESTUDIANTES-DE-LA-PLATA",
       "name": "Estudiantes de La Plata",
       "country": "Argentina",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7da2-adb3-2d5e4049e8d3.png",
       "default_league_id": "01a0761e-11c5-7d22-bb0e-80cf2ac0bb18"
     },
     {
@@ -1439,7 +1439,7 @@
       "code": "ENG-EVERTON",
       "name": "Everton",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-72fd-99cf-daa21c78bfc4.png",
       "default_league_id": "01a0761e-11c5-73b1-83a4-75b6a304378a"
     },
     {
@@ -1447,7 +1447,7 @@
       "code": "NL-EXCELSIOR",
       "name": "Excelsior",
       "country": "Netherlands",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7328-8b9d-88c0bed9ae3f.png",
       "default_league_id": "01a0761e-11c5-7669-9cb0-543647efb0e0"
     },
     {
@@ -1455,7 +1455,7 @@
       "code": "ENG-EXETER-CITY",
       "name": "Exeter City",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7552-892b-cbdb60a68024.png",
       "default_league_id": "01a0761e-11c5-72c0-a788-1ed4fa6a2db1"
     },
     {
@@ -1463,7 +1463,7 @@
       "code": "TR-EYUPSPOR",
       "name": "Eyüpspor",
       "country": "Turkey",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-72ce-ab4b-f4e784f122c3.png",
       "default_league_id": "01a0761e-11c5-7f1c-9dac-78c1abd3fd4e"
     },
     {
@@ -1471,7 +1471,7 @@
       "code": "SCO-FALKIRK",
       "name": "Falkirk",
       "country": "Scotland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7df0-94d0-d0856f0881b2.png",
       "default_league_id": "01a0761e-11c5-7a8c-ac4c-ba3b415b2179"
     },
     {
@@ -1479,7 +1479,7 @@
       "code": "PT-FAMALICAO",
       "name": "Famalicão",
       "country": "Portugal",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-738d-8975-1cbd354d4911.png",
       "default_league_id": "01a0761e-11c5-7881-a04d-9462a5f5f38b"
     },
     {
@@ -1487,7 +1487,7 @@
       "code": "RO-FARUL-CONSTANTA",
       "name": "Farul Constanța",
       "country": "Romania",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-79fc-84d0-939954b8996a.png",
       "default_league_id": "01a0761e-11c5-7d81-9770-e45cd37220f5"
     },
     {
@@ -1495,7 +1495,7 @@
       "code": "TR-FATIH-KARAGUMRUK-S-K",
       "name": "Fatih Karagümrük S.K.",
       "country": "Turkey",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7216-a2e7-e390488d5104.png",
       "default_league_id": "01a0761e-11c5-7f1c-9dac-78c1abd3fd4e"
     },
     {
@@ -1503,7 +1503,7 @@
       "code": "ES-FC-ANDORRA",
       "name": "FC Andorra",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7c97-ba9a-53caba5ff9f6.png",
       "default_league_id": "01a0761e-11c5-7738-9446-6f5f1c43a8ee"
     },
     {
@@ -1511,7 +1511,7 @@
       "code": "FR-FC-ANNECY",
       "name": "FC Annecy",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-75af-9473-4e1e072e13dd.png",
       "default_league_id": "01a0761e-11c5-77a2-8edc-bf58cdfd4d3f"
     },
     {
@@ -1519,7 +1519,7 @@
       "code": "KR-FC-ANYANG",
       "name": "FC Anyang",
       "country": "South Korea",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7a1d-bc7d-8a02d2c30e0f.png",
       "default_league_id": "01a0761e-11c5-78a1-b953-76bd3abfc5e3"
     },
     {
@@ -1527,7 +1527,7 @@
       "code": "RO-FC-ARGES",
       "name": "FC Argeș",
       "country": "Romania",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-73a5-9fe6-8eaccb69ae64.png",
       "default_league_id": "01a0761e-11c5-7d81-9770-e45cd37220f5"
     },
     {
@@ -1535,7 +1535,7 @@
       "code": "DE-FC-AUGSBURG",
       "name": "FC Augsburg",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7fb8-90e4-ea3f8d1f856f.png",
       "default_league_id": "01a0761e-11c5-787c-b07b-955b78d27b98"
     },
     {
@@ -1543,7 +1543,7 @@
       "code": "ES-FC-BARCELONA",
       "name": "FC Barcelona",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-71a3-a440-f465496a1c80.png",
       "default_league_id": "01a0761e-11c5-75b0-a6f0-382f69d2aca7"
     },
     {
@@ -1551,7 +1551,7 @@
       "code": "CH-FC-BASEL",
       "name": "FC Basel",
       "country": "Switzerland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7787-9867-118f80c0db8f.png",
       "default_league_id": "01a0761e-11c5-7a31-a27f-091a25248dc1"
     },
     {
@@ -1559,7 +1559,7 @@
       "code": "RO-FC-BOTOSANI",
       "name": "FC Botoșani",
       "country": "Romania",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-76dd-b8fc-65a924f4c0a2.png",
       "default_league_id": "01a0761e-11c5-7d81-9770-e45cd37220f5"
     },
     {
@@ -1567,7 +1567,7 @@
       "code": "US-FC-CINCINNATI",
       "name": "FC Cincinnati",
       "country": "United States",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7124-9342-bfca52da35db.png",
       "default_league_id": "01a0761e-11c5-76fa-a224-833ed977c998"
     },
     {
@@ -1575,7 +1575,7 @@
       "code": "US-FC-DALLAS",
       "name": "FC Dallas",
       "country": "United States",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7d78-9543-69a57401a7a6.png",
       "default_league_id": "01a0761e-11c5-76fa-a224-833ed977c998"
     },
     {
@@ -1583,7 +1583,7 @@
       "code": "DK-FC-FREDERICIA",
       "name": "FC Fredericia",
       "country": "Denmark",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7de0-8cda-eb2cb56658a5.png",
       "default_league_id": "01a0761e-11c5-767d-8406-3309c085bfc7"
     },
     {
@@ -1591,7 +1591,7 @@
       "code": "IN-FC-GOA",
       "name": "FC Goa",
       "country": "India",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-791f-9543-256abd2e5906.png",
       "default_league_id": "01a0761e-11c5-7a73-89ce-f5825e3902ca"
     },
     {
@@ -1599,7 +1599,7 @@
       "code": "NL-FC-GRONINGEN",
       "name": "FC Groningen",
       "country": "Netherlands",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7beb-bb16-9b03d43e6570.png",
       "default_league_id": "01a0761e-11c5-7669-9cb0-543647efb0e0"
     },
     {
@@ -1607,7 +1607,7 @@
       "code": "RO-FC-HERMANNSTADT",
       "name": "FC Hermannstadt",
       "country": "Romania",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7297-84f6-be46f2aa3aa9.png",
       "default_league_id": "01a0761e-11c5-7d81-9770-e45cd37220f5"
     },
     {
@@ -1615,7 +1615,7 @@
       "code": "DE-FC-INGOLSTADT-04",
       "name": "FC Ingolstadt 04",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7506-8e9a-2921d670c484.png",
       "default_league_id": "01a0761e-11c5-715c-8d61-19ba765322aa"
     },
     {
@@ -1623,7 +1623,7 @@
       "code": "DK-FC-KBENHAVN",
       "name": "FC København",
       "country": "Denmark",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7255-9303-531cd2fdd5ac.png",
       "default_league_id": "01a0761e-11c5-767d-8406-3309c085bfc7"
     },
     {
@@ -1631,7 +1631,7 @@
       "code": "CH-FC-LAUSANNE-SPORT",
       "name": "FC Lausanne-Sport",
       "country": "Switzerland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-70a5-b252-74a783364eb3.png",
       "default_league_id": "01a0761e-11c5-7a31-a27f-091a25248dc1"
     },
     {
@@ -1639,7 +1639,7 @@
       "code": "FR-FC-LORIENT",
       "name": "FC Lorient",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-780d-9190-b6ee58b10a5c.png",
       "default_league_id": "01a0761e-11c5-74e3-982d-8a170240c634"
     },
     {
@@ -1647,7 +1647,7 @@
       "code": "CH-FC-LUGANO",
       "name": "FC Lugano",
       "country": "Switzerland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-74f1-a3d0-d2b1e5004b9b.png",
       "default_league_id": "01a0761e-11c5-7a31-a27f-091a25248dc1"
     },
     {
@@ -1655,7 +1655,7 @@
       "code": "CH-FC-LUZERN",
       "name": "FC Luzern",
       "country": "Switzerland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-740e-8bc4-62482cc3d218.png",
       "default_league_id": "01a0761e-11c5-7a31-a27f-091a25248dc1"
     },
     {
@@ -1663,7 +1663,7 @@
       "code": "FR-FC-METZ",
       "name": "FC Metz",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-759e-b255-bf4c6b517ac9.png",
       "default_league_id": "01a0761e-11c5-74e3-982d-8a170240c634"
     },
     {
@@ -1671,7 +1671,7 @@
       "code": "DK-FC-MIDTJYLLAND",
       "name": "FC Midtjylland",
       "country": "Denmark",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-74b9-9b5f-d570cd681c06.png",
       "default_league_id": "01a0761e-11c5-767d-8406-3309c085bfc7"
     },
     {
@@ -1679,7 +1679,7 @@
       "code": "FR-FC-NANTES",
       "name": "FC Nantes",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-79eb-9520-1f83999833c6.png",
       "default_league_id": "01a0761e-11c5-74e3-982d-8a170240c634"
     },
     {
@@ -1687,7 +1687,7 @@
       "code": "DK-FC-NORDSJLLAND",
       "name": "FC Nordsjælland",
       "country": "Denmark",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7ca1-97a6-17582d54c8e8.png",
       "default_league_id": "01a0761e-11c5-767d-8406-3309c085bfc7"
     },
     {
@@ -1695,7 +1695,7 @@
       "code": "PT-FC-PORTO",
       "name": "FC Porto",
       "country": "Portugal",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7b7e-bbf1-32be6f4c33e0.png",
       "default_league_id": "01a0761e-11c5-7881-a04d-9462a5f5f38b"
     },
     {
@@ -1703,7 +1703,7 @@
       "code": "RO-FC-RAPID",
       "name": "FC Rapid",
       "country": "Romania",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-72f6-aa66-1634e5835642.png",
       "default_league_id": "01a0761e-11c5-7d81-9770-e45cd37220f5"
     },
     {
@@ -1711,7 +1711,7 @@
       "code": "DE-FC-SCHALKE-04",
       "name": "FC Schalke 04",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7e1e-9883-03aa20f1eb2d.png",
       "default_league_id": "01a0761e-11c5-7553-830c-b1db72a0e15e"
     },
     {
@@ -1719,7 +1719,7 @@
       "code": "KR-FC-SEOUL",
       "name": "FC Seoul",
       "country": "South Korea",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7aa7-9c56-7e11b2dd06a0.png",
       "default_league_id": "01a0761e-11c5-78a1-b953-76bd3abfc5e3"
     },
     {
@@ -1727,7 +1727,7 @@
       "code": "CH-FC-SION",
       "name": "FC Sion",
       "country": "Switzerland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7885-9146-6bbf2f8acbf3.png",
       "default_league_id": "01a0761e-11c5-7a31-a27f-091a25248dc1"
     },
     {
@@ -1735,7 +1735,7 @@
       "code": "CH-FC-ST-GALLEN",
       "name": "FC St. Gallen",
       "country": "Switzerland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7dd3-8b35-762559e5ef66.png",
       "default_league_id": "01a0761e-11c5-7a31-a27f-091a25248dc1"
     },
     {
@@ -1743,7 +1743,7 @@
       "code": "DE-FC-ST-PAULI",
       "name": "FC St. Pauli",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-785f-a6d0-bcac4f215f58.png",
       "default_league_id": "01a0761e-11c5-787c-b07b-955b78d27b98"
     },
     {
@@ -1751,7 +1751,7 @@
       "code": "CH-FC-THUN",
       "name": "FC Thun",
       "country": "Switzerland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7c11-a352-a2489811bb2f.png",
       "default_league_id": "01a0761e-11c5-7a31-a27f-091a25248dc1"
     },
     {
@@ -1759,7 +1759,7 @@
       "code": "NL-FC-TWENTE",
       "name": "FC Twente",
       "country": "Netherlands",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7d77-8c3c-edc101812aaf.png",
       "default_league_id": "01a0761e-11c5-7669-9cb0-543647efb0e0"
     },
     {
@@ -1767,7 +1767,7 @@
       "code": "NL-FC-UTRECHT",
       "name": "FC Utrecht",
       "country": "Netherlands",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7ade-be87-3fd65f4e040f.png",
       "default_league_id": "01a0761e-11c5-7669-9cb0-543647efb0e0"
     },
     {
@@ -1775,7 +1775,7 @@
       "code": "NL-FC-VOLENDAM",
       "name": "FC Volendam",
       "country": "Netherlands",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7c4c-8d8a-9ff23851ab0f.png",
       "default_league_id": "01a0761e-11c5-7669-9cb0-543647efb0e0"
     },
     {
@@ -1783,7 +1783,7 @@
       "code": "CH-FC-WINTERTHUR",
       "name": "FC Winterthur",
       "country": "Switzerland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-71ac-a3a4-20d6be7f1a3d.png",
       "default_league_id": "01a0761e-11c5-7a31-a27f-091a25248dc1"
     },
     {
@@ -1791,7 +1791,7 @@
       "code": "CH-FC-ZURICH",
       "name": "FC Zürich",
       "country": "Switzerland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7cf9-a309-54923b1030d3.png",
       "default_league_id": "01a0761e-11c5-7a31-a27f-091a25248dc1"
     },
     {
@@ -1799,7 +1799,7 @@
       "code": "RO-FCSB",
       "name": "FCSB",
       "country": "Romania",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7ef1-83ea-9fa6d5c23aac.png",
       "default_league_id": "01a0761e-11c5-7d81-9770-e45cd37220f5"
     },
     {
@@ -1807,7 +1807,7 @@
       "code": "TR-FENERBAHCE",
       "name": "Fenerbahçe",
       "country": "Turkey",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-71a9-832f-bc63d3b2025b.png",
       "default_league_id": "01a0761e-11c5-7f1c-9dac-78c1abd3fd4e"
     },
     {
@@ -1815,7 +1815,7 @@
       "code": "NL-FEYENOORD",
       "name": "Feyenoord",
       "country": "Netherlands",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-77ff-9fbc-c55b3a6f4d78.png",
       "default_league_id": "01a0761e-11c5-7669-9cb0-543647efb0e0"
     },
     {
@@ -1823,7 +1823,7 @@
       "code": "IT-FIORENTINA",
       "name": "Fiorentina",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7c58-9563-abbcd721685c.png",
       "default_league_id": "01a0761e-11c5-761f-8921-8d506ebfe333"
     },
     {
@@ -1831,7 +1831,7 @@
       "code": "NO-FK-BOD-GLIMT",
       "name": "FK Bodø/Glimt",
       "country": "Norway",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-79e9-9e8b-fcb34e4bcb1f.png",
       "default_league_id": "01a0761e-11c5-7dd5-9830-fc3bfed5ce4a"
     },
     {
@@ -1839,7 +1839,7 @@
       "code": "RO-FK-CSIKSZEREDA-MIERCUREA-CIUC",
       "name": "FK Csíkszereda Miercurea Ciuc",
       "country": "Romania",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7af1-8511-1aa6bc5223d2.png",
       "default_league_id": "01a0761e-11c5-7d81-9770-e45cd37220f5"
     },
     {
@@ -1847,7 +1847,7 @@
       "code": "NO-FK-HAUGESUND",
       "name": "FK Haugesund",
       "country": "Norway",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-79f8-8949-59cbde853acb.png",
       "default_league_id": "01a0761e-11c5-7dd5-9830-fc3bfed5ce4a"
     },
     {
@@ -1855,7 +1855,7 @@
       "code": "ENG-FLEETWOOD-TOWN",
       "name": "Fleetwood Town",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-732a-bd0c-95fcd8adf8f0.png",
       "default_league_id": "01a0761e-11c5-74d4-80e1-be8a2caff971"
     },
     {
@@ -1863,7 +1863,7 @@
       "code": "DE-FORTUNA-DUSSELDORF",
       "name": "Fortuna Düsseldorf",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-72d7-8115-dfe5a70663a9.png",
       "default_league_id": "01a0761e-11c5-7553-830c-b1db72a0e15e"
     },
     {
@@ -1871,7 +1871,7 @@
       "code": "NL-FORTUNA-SITTARD",
       "name": "Fortuna Sittard",
       "country": "Netherlands",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-779b-b33a-b29e9b382c94.png",
       "default_league_id": "01a0761e-11c5-7669-9cb0-543647efb0e0"
     },
     {
@@ -1879,7 +1879,7 @@
       "code": "NO-FREDRIKSTAD-FK",
       "name": "Fredrikstad FK",
       "country": "Norway",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-742f-861b-c12eed91ca8c.png",
       "default_league_id": "01a0761e-11c5-7dd5-9830-fc3bfed5ce4a"
     },
     {
@@ -1887,7 +1887,7 @@
       "code": "IT-FROSINONE",
       "name": "Frosinone",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-77f5-ae3e-03b1fc3f7f1b.png",
       "default_league_id": "01a0761e-11c5-747d-a0d5-3aac62f0151a"
     },
     {
@@ -1895,7 +1895,7 @@
       "code": "ENG-FULHAM",
       "name": "Fulham",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7985-9607-2ab891a1cdb0.png",
       "default_league_id": "01a0761e-11c5-73b1-83a4-75b6a304378a"
     },
     {
@@ -1903,7 +1903,7 @@
       "code": "SE-GAIS",
       "name": "GAIS",
       "country": "Sweden",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-700a-8e73-b6ddbb24a879.png",
       "default_league_id": "01a0761e-11c5-73d0-9304-9999f43d3e0f"
     },
     {
@@ -1911,7 +1911,7 @@
       "code": "TR-GALATASARAY",
       "name": "Galatasaray",
       "country": "Turkey",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-713a-9fa0-c0cfa56503aa.png",
       "default_league_id": "01a0761e-11c5-7f1c-9dac-78c1abd3fd4e"
     },
     {
@@ -1919,7 +1919,7 @@
       "code": "IE-GALWAY-UNITED",
       "name": "Galway United",
       "country": "Ireland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-78ae-88a4-72ec362133cf.png",
       "default_league_id": "01a0761e-11c5-78b1-83b4-fc63bbc04675"
     },
     {
@@ -1927,7 +1927,7 @@
       "code": "KR-GANGWON-FC",
       "name": "Gangwon FC",
       "country": "South Korea",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7d7f-a64d-2a78d8a8b4cc.png",
       "default_league_id": "01a0761e-11c5-78a1-b953-76bd3abfc5e3"
     },
     {
@@ -1935,7 +1935,7 @@
       "code": "TR-GAZIANTEP-FK",
       "name": "Gaziantep FK",
       "country": "Turkey",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7b08-a8db-601d4e95de81.png",
       "default_league_id": "01a0761e-11c5-7f1c-9dac-78c1abd3fd4e"
     },
     {
@@ -1943,7 +1943,7 @@
       "code": "BE-GENK",
       "name": "Genk",
       "country": "Belgium",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-74b9-8ee0-bf0546801405.png",
       "default_league_id": "01a0761e-11c5-7133-afbf-19c7c2e9939d"
     },
     {
@@ -1951,7 +1951,7 @@
       "code": "IT-GENOA",
       "name": "Genoa",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7983-9eca-11d063b2aef8.png",
       "default_league_id": "01a0761e-11c5-761f-8921-8d506ebfe333"
     },
     {
@@ -1959,7 +1959,7 @@
       "code": "BE-GENT",
       "name": "Gent",
       "country": "Belgium",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-753c-b822-b73ab57aec83.png",
       "default_league_id": "01a0761e-11c5-7133-afbf-19c7c2e9939d"
     },
     {
@@ -1967,7 +1967,7 @@
       "code": "TR-GENCLERBIRLIGI",
       "name": "Gençlerbirliği",
       "country": "Turkey",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-767d-893c-669991426505.png",
       "default_league_id": "01a0761e-11c5-7f1c-9dac-78c1abd3fd4e"
     },
     {
@@ -1975,7 +1975,7 @@
       "code": "ES-GETAFE-CF",
       "name": "Getafe CF",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7b6f-b26c-ddb2858c545d.png",
       "default_league_id": "01a0761e-11c5-75b0-a6f0-382f69d2aca7"
     },
     {
@@ -1983,7 +1983,7 @@
       "code": "PT-GIL-VICENTE-FC",
       "name": "Gil Vicente FC",
       "country": "Portugal",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7c80-8d45-587bbbb7eaa4.png",
       "default_league_id": "01a0761e-11c5-7881-a04d-9462a5f5f38b"
     },
     {
@@ -1991,7 +1991,7 @@
       "code": "ENG-GILLINGHAM",
       "name": "Gillingham",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7861-9d00-bd20c42c5588.png",
       "default_league_id": "01a0761e-11c5-74d4-80e1-be8a2caff971"
     },
     {
@@ -1999,7 +1999,7 @@
       "code": "KR-GIMCHEON-SANGMU",
       "name": "Gimcheon Sangmu",
       "country": "South Korea",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-775d-a957-f7156c4f8080.png",
       "default_league_id": "01a0761e-11c5-78a1-b953-76bd3abfc5e3"
     },
     {
@@ -2007,7 +2007,7 @@
       "code": "AR-GIMNASIA-Y-ESGRIMA-LA-PLATA",
       "name": "Gimnasia y Esgrima La Plata",
       "country": "Argentina",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-79de-8aa6-ed340ae069fd.png",
       "default_league_id": "01a0761e-11c5-7d22-bb0e-80cf2ac0bb18"
     },
     {
@@ -2015,7 +2015,7 @@
       "code": "ES-GIRONA-FC",
       "name": "Girona FC",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7813-8732-25c9745e96ef.png",
       "default_league_id": "01a0761e-11c5-75b0-a6f0-382f69d2aca7"
     },
     {
@@ -2023,7 +2023,7 @@
       "code": "PL-GKS-KATOWICE",
       "name": "GKS Katowice",
       "country": "Poland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7582-9f92-2bdd8695dc0a.png",
       "default_league_id": "01a0761e-11c5-7412-ab7e-0f5b28a2846d"
     },
     {
@@ -2031,7 +2031,7 @@
       "code": "NL-GO-AHEAD-EAGLES",
       "name": "Go Ahead Eagles",
       "country": "Netherlands",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7baf-a2a5-a41673889ce8.png",
       "default_league_id": "01a0761e-11c5-7669-9cb0-543647efb0e0"
     },
     {
@@ -2039,7 +2039,7 @@
       "code": "AR-GODOY-CRUZ",
       "name": "Godoy Cruz",
       "country": "Argentina",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-70cf-a72c-b6a82090c20b.png",
       "default_league_id": "01a0761e-11c5-7d22-bb0e-80cf2ac0bb18"
     },
     {
@@ -2047,7 +2047,7 @@
       "code": "ES-GRANADA-CF",
       "name": "Granada CF",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7b23-b619-dc13f7646ecd.png",
       "default_league_id": "01a0761e-11c5-7738-9446-6f5f1c43a8ee"
     },
     {
@@ -2055,7 +2055,7 @@
       "code": "CH-GRASSHOPPER-CLUB-ZURICH",
       "name": "Grasshopper Club Zürich",
       "country": "Switzerland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7cfe-ba83-b55fb1c9a172.png",
       "default_league_id": "01a0761e-11c5-7a31-a27f-091a25248dc1"
     },
     {
@@ -2063,7 +2063,7 @@
       "code": "AT-GRAZER-AK",
       "name": "Grazer AK",
       "country": "Austria",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-78ab-a941-d0441586c4ce.png",
       "default_league_id": "01a0761e-11c5-7f96-bb60-fca2de36046e"
     },
     {
@@ -2071,7 +2071,7 @@
       "code": "FR-GRENOBLE-FOOT-38",
       "name": "Grenoble Foot 38",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7dab-9700-1d7a5e8d2967.png",
       "default_league_id": "01a0761e-11c5-77a2-8edc-bf58cdfd4d3f"
     },
     {
@@ -2079,7 +2079,7 @@
       "code": "ENG-GRIMSBY-TOWN",
       "name": "Grimsby Town",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-768a-aab8-8f6124c74911.png",
       "default_league_id": "01a0761e-11c5-74d4-80e1-be8a2caff971"
     },
     {
@@ -2087,7 +2087,7 @@
       "code": "KR-GWANGJU-FC",
       "name": "Gwangju FC",
       "country": "South Korea",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7c8c-a124-2962e2b32724.png",
       "default_league_id": "01a0761e-11c5-78a1-b953-76bd3abfc5e3"
     },
     {
@@ -2095,7 +2095,7 @@
       "code": "PL-GORNIK-ZABRZE",
       "name": "Górnik Zabrze",
       "country": "Poland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-749e-97ff-26a2ff23eeaf.png",
       "default_league_id": "01a0761e-11c5-7412-ab7e-0f5b28a2846d"
     },
     {
@@ -2103,7 +2103,7 @@
       "code": "TR-GOZTEPE",
       "name": "Göztepe",
       "country": "Turkey",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-718e-b867-0ebaba46b330.png",
       "default_league_id": "01a0761e-11c5-7f1c-9dac-78c1abd3fd4e"
     },
     {
@@ -2111,7 +2111,7 @@
       "code": "SE-HALMSTADS-BK",
       "name": "Halmstads BK",
       "country": "Sweden",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7818-8cc1-f536d65dc3f7.png",
       "default_league_id": "01a0761e-11c5-73d0-9304-9999f43d3e0f"
     },
     {
@@ -2119,7 +2119,7 @@
       "code": "DE-HAMBURGER-SV",
       "name": "Hamburger SV",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7afa-8e14-41c62f57aae2.png",
       "default_league_id": "01a0761e-11c5-787c-b07b-955b78d27b98"
     },
     {
@@ -2127,7 +2127,7 @@
       "code": "NO-HAMKAM-FOTBALL",
       "name": "HamKam Fotball",
       "country": "Norway",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7391-b8fa-cc58416e1565.png",
       "default_league_id": "01a0761e-11c5-7dd5-9830-fc3bfed5ce4a"
     },
     {
@@ -2135,7 +2135,7 @@
       "code": "SE-HAMMARBY-IF",
       "name": "Hammarby IF",
       "country": "Sweden",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7a63-8dc6-1dd8a33be614.png",
       "default_league_id": "01a0761e-11c5-73d0-9304-9999f43d3e0f"
     },
     {
@@ -2143,7 +2143,7 @@
       "code": "DE-HANNOVER-96",
       "name": "Hannover 96",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-75e4-96c7-625a15ccf13f.png",
       "default_league_id": "01a0761e-11c5-7553-830c-b1db72a0e15e"
     },
     {
@@ -2151,7 +2151,7 @@
       "code": "DE-HANSA-ROSTOCK",
       "name": "Hansa Rostock",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7250-8889-6bfbc257e9dc.png",
       "default_league_id": "01a0761e-11c5-715c-8d61-19ba765322aa"
     },
     {
@@ -2159,7 +2159,7 @@
       "code": "ENG-HARROGATE-TOWN",
       "name": "Harrogate Town",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-755e-a7fc-f72956e602dd.png",
       "default_league_id": "01a0761e-11c5-74d4-80e1-be8a2caff971"
     },
     {
@@ -2167,7 +2167,7 @@
       "code": "AT-HARTBERG",
       "name": "Hartberg",
       "country": "Austria",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-780d-ad34-c938d91bd5bd.png",
       "default_league_id": "01a0761e-11c5-7f96-bb60-fca2de36046e"
     },
     {
@@ -2175,7 +2175,7 @@
       "code": "SCO-HEART-OF-MIDLOTHIAN",
       "name": "Heart of Midlothian",
       "country": "Scotland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7495-93ee-ac65525071d0.png",
       "default_league_id": "01a0761e-11c5-7a8c-ac4c-ba3b415b2179"
     },
     {
@@ -2183,7 +2183,7 @@
       "code": "IT-HELLAS-VERONA",
       "name": "Hellas Verona",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7bd1-902e-1276ee5de65e.png",
       "default_league_id": "01a0761e-11c5-761f-8921-8d506ebfe333"
     },
     {
@@ -2191,7 +2191,7 @@
       "code": "CN-HENAN-FC",
       "name": "Henan FC",
       "country": "China",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7bdb-8add-95ef1b38a4b2.png",
       "default_league_id": "01a0761e-11c5-7f85-9f5a-677ab3b916a0"
     },
     {
@@ -2199,7 +2199,7 @@
       "code": "NL-HERACLES-ALMELO",
       "name": "Heracles Almelo",
       "country": "Netherlands",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7891-8e57-fcd005415528.png",
       "default_league_id": "01a0761e-11c5-7669-9cb0-543647efb0e0"
     },
     {
@@ -2207,7 +2207,7 @@
       "code": "DE-HERTHA-BSC",
       "name": "Hertha BSC",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7770-9502-e52f41ef19cf.png",
       "default_league_id": "01a0761e-11c5-7553-830c-b1db72a0e15e"
     },
     {
@@ -2215,7 +2215,7 @@
       "code": "SCO-HIBERNIAN",
       "name": "Hibernian",
       "country": "Scotland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7baf-8db2-929470a1e2a5.png",
       "default_league_id": "01a0761e-11c5-7a8c-ac4c-ba3b415b2179"
     },
     {
@@ -2223,7 +2223,7 @@
       "code": "DE-HOLSTEIN-KIEL",
       "name": "Holstein Kiel",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7ed1-a5c2-7f00dbfb2ed1.png",
       "default_league_id": "01a0761e-11c5-7553-830c-b1db72a0e15e"
     },
     {
@@ -2231,7 +2231,7 @@
       "code": "US-HOUSTON-DYNAMO",
       "name": "Houston Dynamo",
       "country": "United States",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-79e3-9619-aa0337f29199.png",
       "default_league_id": "01a0761e-11c5-76fa-a224-833ed977c998"
     },
     {
@@ -2239,7 +2239,7 @@
       "code": "ENG-HUDDERSFIELD-TOWN",
       "name": "Huddersfield Town",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-779d-9ef5-7e19457d87e6.png",
       "default_league_id": "01a0761e-11c5-72c0-a788-1ed4fa6a2db1"
     },
     {
@@ -2247,7 +2247,7 @@
       "code": "ENG-HULL-CITY",
       "name": "Hull City",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-73dc-ae9a-2fdaa69f26cd.png",
       "default_league_id": "01a0761e-11c5-76e8-a4ea-b7d77aff126a"
     },
     {
@@ -2255,7 +2255,7 @@
       "code": "AR-HURACAN",
       "name": "Huracán",
       "country": "Argentina",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7298-82e0-df08d1d8d964.png",
       "default_league_id": "01a0761e-11c5-7d22-bb0e-80cf2ac0bb18"
     },
     {
@@ -2263,7 +2263,7 @@
       "code": "SE-IF-BROMMAPOJKARNA",
       "name": "IF Brommapojkarna",
       "country": "Sweden",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7e22-98f0-47143ddf5546.png",
       "default_league_id": "01a0761e-11c5-73d0-9304-9999f43d3e0f"
     },
     {
@@ -2271,7 +2271,7 @@
       "code": "SE-IF-ELFSBORG",
       "name": "IF Elfsborg",
       "country": "Sweden",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7cca-b1c0-51ef00783236.png",
       "default_league_id": "01a0761e-11c5-73d0-9304-9999f43d3e0f"
     },
     {
@@ -2279,7 +2279,7 @@
       "code": "SE-IFK-GOTEBORG",
       "name": "IFK Göteborg",
       "country": "Sweden",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7706-9a86-62838a2047ea.png",
       "default_league_id": "01a0761e-11c5-73d0-9304-9999f43d3e0f"
     },
     {
@@ -2287,7 +2287,7 @@
       "code": "SE-IFK-NORRKOPING",
       "name": "IFK Norrköping",
       "country": "Sweden",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7eed-9d62-1faa9cbe6fe8.png",
       "default_league_id": "01a0761e-11c5-73d0-9304-9999f43d3e0f"
     },
     {
@@ -2295,7 +2295,7 @@
       "code": "SE-IFK-VARNAMO",
       "name": "IFK Värnamo",
       "country": "Sweden",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-77c7-b4b6-71eb981ea9a8.png",
       "default_league_id": "01a0761e-11c5-73d0-9304-9999f43d3e0f"
     },
     {
@@ -2303,7 +2303,7 @@
       "code": "SE-IK-SIRIUS",
       "name": "IK Sirius",
       "country": "Sweden",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-786d-a9be-11a2774909f7.png",
       "default_league_id": "01a0761e-11c5-73d0-9304-9999f43d3e0f"
     },
     {
@@ -2311,7 +2311,7 @@
       "code": "AR-INDEPENDIENTE",
       "name": "Independiente",
       "country": "Argentina",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7b33-a547-c09974fdd7ae.png",
       "default_league_id": "01a0761e-11c5-7d22-bb0e-80cf2ac0bb18"
     },
     {
@@ -2319,7 +2319,7 @@
       "code": "AR-INDEPENDIENTE-RIVADAVIA",
       "name": "Independiente Rivadavia",
       "country": "Argentina",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7bae-8290-95fffea75e14.png",
       "default_league_id": "01a0761e-11c5-7d22-bb0e-80cf2ac0bb18"
     },
     {
@@ -2327,7 +2327,7 @@
       "code": "AR-INSTITUTO-DE-CORDOBA",
       "name": "Instituto de Córdoba",
       "country": "Argentina",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7d27-84d0-f1042d5b21fb.png",
       "default_league_id": "01a0761e-11c5-7d22-bb0e-80cf2ac0bb18"
     },
     {
@@ -2335,7 +2335,7 @@
       "code": "US-INTER-MIAMI",
       "name": "Inter Miami",
       "country": "United States",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7cde-a916-152cda99825d.png",
       "default_league_id": "01a0761e-11c5-76fa-a224-833ed977c998"
     },
     {
@@ -2343,7 +2343,7 @@
       "code": "ENG-IPSWICH-TOWN",
       "name": "Ipswich Town",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7064-af96-c0eb51b6579b.png",
       "default_league_id": "01a0761e-11c5-76e8-a4ea-b7d77aff126a"
     },
     {
@@ -2351,7 +2351,7 @@
       "code": "TR-ISTANBUL-BASAKSEHIR-FK",
       "name": "İstanbul Başakşehir FK",
       "country": "Turkey",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7ef9-9836-2d94a7db4252.png",
       "default_league_id": "01a0761e-11c5-7f1c-9dac-78c1abd3fd4e"
     },
     {
@@ -2359,7 +2359,7 @@
       "code": "PL-JAGIELLONIA-BIAYSTOK",
       "name": "Jagiellonia Białystok",
       "country": "Poland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-74e4-9e48-8b3c03bedbdd.png",
       "default_league_id": "01a0761e-11c5-7412-ab7e-0f5b28a2846d"
     },
     {
@@ -2367,7 +2367,7 @@
       "code": "DE-JAHN-REGENSBURG",
       "name": "Jahn Regensburg",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7516-8b0f-4895c54bef5d.png",
       "default_league_id": "01a0761e-11c5-715c-8d61-19ba765322aa"
     },
     {
@@ -2375,7 +2375,7 @@
       "code": "IN-JAMSHEDPUR-FC",
       "name": "Jamshedpur FC",
       "country": "India",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7df0-9a97-28a117ba074a.png",
       "default_league_id": "01a0761e-11c5-7a73-89ce-f5825e3902ca"
     },
     {
@@ -2383,7 +2383,7 @@
       "code": "KR-JEJU-SK-FC",
       "name": "Jeju SK FC",
       "country": "South Korea",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-797c-a602-325a9b323e90.png",
       "default_league_id": "01a0761e-11c5-78a1-b953-76bd3abfc5e3"
     },
     {
@@ -2391,7 +2391,7 @@
       "code": "KR-JEONBUK-HYUNDAI-MOTORS",
       "name": "Jeonbuk Hyundai Motors",
       "country": "South Korea",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7646-9eff-085d9b1b3657.png",
       "default_league_id": "01a0761e-11c5-78a1-b953-76bd3abfc5e3"
     },
     {
@@ -2399,7 +2399,7 @@
       "code": "IT-JUVE-STABIA",
       "name": "Juve Stabia",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7a59-8204-2efcdf3b57db.png",
       "default_league_id": "01a0761e-11c5-747d-a0d5-3aac62f0151a"
     },
     {
@@ -2407,7 +2407,7 @@
       "code": "IT-JUVENTUS",
       "name": "Juventus",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7914-a93c-30ef9d2ce0bd.png",
       "default_league_id": "01a0761e-11c5-761f-8921-8d506ebfe333"
     },
     {
@@ -2415,7 +2415,7 @@
       "code": "DE-KARLSRUHER-SC",
       "name": "Karlsruher SC",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-76c0-bb11-2f996a1fe454.png",
       "default_league_id": "01a0761e-11c5-7553-830c-b1db72a0e15e"
     },
     {
@@ -2423,7 +2423,7 @@
       "code": "TR-KASMPASA",
       "name": "Kasımpaşa",
       "country": "Turkey",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-70d5-9377-4d53c7084dba.png",
       "default_league_id": "01a0761e-11c5-7f1c-9dac-78c1abd3fd4e"
     },
     {
@@ -2431,7 +2431,7 @@
       "code": "TR-KAYSERISPOR",
       "name": "Kayserispor",
       "country": "Turkey",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-72c5-a552-f0dc742c2448.png",
       "default_league_id": "01a0761e-11c5-7f1c-9dac-78c1abd3fd4e"
     },
     {
@@ -2439,7 +2439,7 @@
       "code": "IN-KERALA-BLASTERS-FC",
       "name": "Kerala Blasters FC",
       "country": "India",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-74a1-93c2-9fae7cae2ab2.png",
       "default_league_id": "01a0761e-11c5-7a73-89ce-f5825e3902ca"
     },
     {
@@ -2447,7 +2447,7 @@
       "code": "NO-KFUM-KAMERATENE-OSLO",
       "name": "KFUM-Kameratene Oslo",
       "country": "Norway",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7e5c-be4f-227a99fdb5ac.png",
       "default_league_id": "01a0761e-11c5-7dd5-9830-fc3bfed5ce4a"
     },
     {
@@ -2455,7 +2455,7 @@
       "code": "SCO-KILMARNOCK",
       "name": "Kilmarnock",
       "country": "Scotland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7f96-9632-3af9d0b12707.png",
       "default_league_id": "01a0761e-11c5-7a8c-ac4c-ba3b415b2179"
     },
     {
@@ -2463,7 +2463,7 @@
       "code": "TR-KOCAELISPOR",
       "name": "Kocaelispor",
       "country": "Turkey",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7ccb-ae0f-73f5cd21d953.png",
       "default_league_id": "01a0761e-11c5-7f1c-9dac-78c1abd3fd4e"
     },
     {
@@ -2471,7 +2471,7 @@
       "code": "TR-KONYASPOR",
       "name": "Konyaspor",
       "country": "Turkey",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-783b-90a2-eac9bcf46f2a.png",
       "default_league_id": "01a0761e-11c5-7f1c-9dac-78c1abd3fd4e"
     },
     {
@@ -2479,7 +2479,7 @@
       "code": "PL-KORONA-KIELCE",
       "name": "Korona Kielce",
       "country": "Poland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-725e-bd86-164b28dd4d92.png",
       "default_league_id": "01a0761e-11c5-7412-ab7e-0f5b28a2846d"
     },
     {
@@ -2487,7 +2487,7 @@
       "code": "NO-KRISTIANSUND-BK",
       "name": "Kristiansund BK",
       "country": "Norway",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7df5-8735-31872f1a6a51.png",
       "default_league_id": "01a0761e-11c5-7dd5-9830-fc3bfed5ce4a"
     },
     {
@@ -2495,7 +2495,7 @@
       "code": "BE-KV-MECHELEN",
       "name": "KV Mechelen",
       "country": "Belgium",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-75e0-af2d-c7a27a1de97f.png",
       "default_league_id": "01a0761e-11c5-7133-afbf-19c7c2e9939d"
     },
     {
@@ -2503,7 +2503,7 @@
       "code": "AR-LANUS",
       "name": "Lanús",
       "country": "Argentina",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7972-90a3-3a7a27d94f75.png",
       "default_league_id": "01a0761e-11c5-7d22-bb0e-80cf2ac0bb18"
     },
     {
@@ -2511,7 +2511,7 @@
       "code": "AT-LASK",
       "name": "LASK",
       "country": "Austria",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7051-871a-7b2020c39217.png",
       "default_league_id": "01a0761e-11c5-7f96-bb60-fca2de36046e"
     },
     {
@@ -2519,7 +2519,7 @@
       "code": "IT-LATIUM",
       "name": "Latium",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-75bc-81a1-177bcc6cf84e.png",
       "default_league_id": "01a0761e-11c5-761f-8921-8d506ebfe333"
     },
     {
@@ -2527,7 +2527,7 @@
       "code": "FR-LE-HAVRE-AC",
       "name": "Le Havre AC",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7c69-9690-b52135690ccd.png",
       "default_league_id": "01a0761e-11c5-74e3-982d-8a170240c634"
     },
     {
@@ -2535,7 +2535,7 @@
       "code": "FR-LE-MANS-FC",
       "name": "Le Mans FC",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-739b-bf25-d858cc5a8fb9.png",
       "default_league_id": "01a0761e-11c5-77a2-8edc-bf58cdfd4d3f"
     },
     {
@@ -2543,7 +2543,7 @@
       "code": "IT-LECCE",
       "name": "Lecce",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7056-aad5-1ffe6eb8da72.png",
       "default_league_id": "01a0761e-11c5-761f-8921-8d506ebfe333"
     },
     {
@@ -2551,7 +2551,7 @@
       "code": "PL-LECH-POZNAN",
       "name": "Lech Poznań",
       "country": "Poland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-79b0-b65d-c4b6434d97e3.png",
       "default_league_id": "01a0761e-11c5-7412-ab7e-0f5b28a2846d"
     },
     {
@@ -2559,7 +2559,7 @@
       "code": "PL-LECHIA-GDANSK",
       "name": "Lechia Gdańsk",
       "country": "Poland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7356-8390-8c42c7c01f0f.png",
       "default_league_id": "01a0761e-11c5-7412-ab7e-0f5b28a2846d"
     },
     {
@@ -2567,7 +2567,7 @@
       "code": "ENG-LEEDS-UNITED",
       "name": "Leeds United",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7878-b026-5118b0c33a37.png",
       "default_league_id": "01a0761e-11c5-73b1-83a4-75b6a304378a"
     },
     {
@@ -2575,7 +2575,7 @@
       "code": "PL-LEGIA-WARSZAWA",
       "name": "Legia Warszawa",
       "country": "Poland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-73f7-bd42-481ba710d3cf.png",
       "default_league_id": "01a0761e-11c5-7412-ab7e-0f5b28a2846d"
     },
     {
@@ -2583,7 +2583,7 @@
       "code": "ENG-LEICESTER-CITY",
       "name": "Leicester City",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-730a-9b4b-904c97ee1537.png",
       "default_league_id": "01a0761e-11c5-76e8-a4ea-b7d77aff126a"
     },
     {
@@ -2591,7 +2591,7 @@
       "code": "ES-LEVANTE-UD",
       "name": "Levante UD",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-77ff-aa05-df3a63c40785.png",
       "default_league_id": "01a0761e-11c5-75b0-a6f0-382f69d2aca7"
     },
     {
@@ -2599,7 +2599,7 @@
       "code": "ENG-LEYTON-ORIENT",
       "name": "Leyton Orient",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-739a-a1a1-d54fb083fcbd.png",
       "default_league_id": "01a0761e-11c5-72c0-a788-1ed4fa6a2db1"
     },
     {
@@ -2607,7 +2607,7 @@
       "code": "ENG-LINCOLN-CITY",
       "name": "Lincoln City",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7b65-a4be-421f42d5cb58.png",
       "default_league_id": "01a0761e-11c5-72c0-a788-1ed4fa6a2db1"
     },
     {
@@ -2615,7 +2615,7 @@
       "code": "ENG-LIVERPOOL",
       "name": "Liverpool",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-726d-8db3-abb5389c7779.png",
       "default_league_id": "01a0761e-11c5-73b1-83a4-75b6a304378a"
     },
     {
@@ -2623,7 +2623,7 @@
       "code": "SCO-LIVINGSTON",
       "name": "Livingston",
       "country": "Scotland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7a97-8ba2-843bc2fcd35b.png",
       "default_league_id": "01a0761e-11c5-7a8c-ac4c-ba3b415b2179"
     },
     {
@@ -2631,7 +2631,7 @@
       "code": "IT-LOMBARDIA-FC",
       "name": "Lombardia FC",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-70ff-9723-402fff521b5d.png",
       "default_league_id": "01a0761e-11c5-761f-8921-8d506ebfe333"
     },
     {
@@ -2639,7 +2639,7 @@
       "code": "US-LOS-ANGELES-FC",
       "name": "Los Angeles FC",
       "country": "United States",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7242-a30d-dc2c45e41f72.png",
       "default_league_id": "01a0761e-11c5-76fa-a224-833ed977c998"
     },
     {
@@ -2647,7 +2647,7 @@
       "code": "US-LOS-ANGELES-GALAXY",
       "name": "Los Angeles Galaxy",
       "country": "United States",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-7bf3-a290-d54629e7e0a4.png",
       "default_league_id": "01a0761e-11c5-76fa-a224-833ed977c998"
     },
     {
@@ -2655,7 +2655,7 @@
       "code": "FR-LOSC-LILLE",
       "name": "LOSC Lille",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c6-720c-a46f-8c34b1a6c732.png",
       "default_league_id": "01a0761e-11c5-74e3-982d-8a170240c634"
     },
     {
@@ -2663,7 +2663,7 @@
       "code": "ENG-LUTON-TOWN",
       "name": "Luton Town",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7577-90e1-24287b7edcbe.png",
       "default_league_id": "01a0761e-11c5-72c0-a788-1ed4fa6a2db1"
     },
     {
@@ -2671,7 +2671,7 @@
       "code": "AU-MACARTHUR-FC",
       "name": "Macarthur FC",
       "country": "Australia",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-77bf-a881-2289c54b5cb0.png",
       "default_league_id": "01a0761e-11c5-7bd4-bb44-75609bd06a29"
     },
     {
@@ -2679,7 +2679,7 @@
       "code": "SE-MALMO-FF",
       "name": "Malmö FF",
       "country": "Sweden",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7316-959c-8282995dd5da.png",
       "default_league_id": "01a0761e-11c5-73d0-9304-9999f43d3e0f"
     },
     {
@@ -2687,7 +2687,7 @@
       "code": "ENG-MANCHESTER-CITY",
       "name": "Manchester City",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-705c-b56a-ecf642c2d973.png",
       "default_league_id": "01a0761e-11c5-73b1-83a4-75b6a304378a"
     },
     {
@@ -2695,7 +2695,7 @@
       "code": "ENG-MANCHESTER-UNITED",
       "name": "Manchester United",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7ad0-8994-301a87a564e9.png",
       "default_league_id": "01a0761e-11c5-73b1-83a4-75b6a304378a"
     },
     {
@@ -2703,7 +2703,7 @@
       "code": "ENG-MANSFIELD-TOWN",
       "name": "Mansfield Town",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7d47-81ec-aed450fb9058.png",
       "default_league_id": "01a0761e-11c5-72c0-a788-1ed4fa6a2db1"
     },
     {
@@ -2711,7 +2711,7 @@
       "code": "IT-MANTOVA",
       "name": "Mantova",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7de2-8ce6-aa7774692cad.png",
       "default_league_id": "01a0761e-11c5-747d-a0d5-3aac62f0151a"
     },
     {
@@ -2719,7 +2719,7 @@
       "code": "CN-MEIZHOU-HAKKA",
       "name": "Meizhou Hakka",
       "country": "China",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-75bf-a788-830d000082d5.png",
       "default_league_id": "01a0761e-11c5-7f85-9f5a-677ab3b916a0"
     },
     {
@@ -2727,7 +2727,7 @@
       "code": "AU-MELBOURNE-CITY",
       "name": "Melbourne City",
       "country": "Australia",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7f87-852d-c900c0f53021.png",
       "default_league_id": "01a0761e-11c5-7bd4-bb44-75609bd06a29"
     },
     {
@@ -2735,7 +2735,7 @@
       "code": "AU-MELBOURNE-VICTORY",
       "name": "Melbourne Victory",
       "country": "Australia",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7f93-a639-88455d181155.png",
       "default_league_id": "01a0761e-11c5-7bd4-bb44-75609bd06a29"
     },
     {
@@ -2743,7 +2743,7 @@
       "code": "RO-METALOGLOBUS-BUCURESTI",
       "name": "Metaloglobus București",
       "country": "Romania",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7844-b5b2-9021dc12e871.png",
       "default_league_id": "01a0761e-11c5-7d81-9770-e45cd37220f5"
     },
     {
@@ -2751,7 +2751,7 @@
       "code": "ENG-MIDDLESBROUGH",
       "name": "Middlesbrough",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-728a-8111-daed029a880d.png",
       "default_league_id": "01a0761e-11c5-76e8-a4ea-b7d77aff126a"
     },
     {
@@ -2759,7 +2759,7 @@
       "code": "IT-MILANO-FC",
       "name": "Milano FC",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-770b-bbc5-ea9dab8de19c.png",
       "default_league_id": "01a0761e-11c5-761f-8921-8d506ebfe333"
     },
     {
@@ -2767,7 +2767,7 @@
       "code": "ENG-MILLWALL",
       "name": "Millwall",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7271-a2f4-0eec316c8dcb.png",
       "default_league_id": "01a0761e-11c5-76e8-a4ea-b7d77aff126a"
     },
     {
@@ -2775,7 +2775,7 @@
       "code": "ENG-MILTON-KEYNES-DONS",
       "name": "Milton Keynes Dons",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-78ac-9cf9-f89e5edf8897.png",
       "default_league_id": "01a0761e-11c5-74d4-80e1-be8a2caff971"
     },
     {
@@ -2783,7 +2783,7 @@
       "code": "US-MINNESOTA-UNITED-FC",
       "name": "Minnesota United FC",
       "country": "United States",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7667-a795-c3249f2462f4.png",
       "default_league_id": "01a0761e-11c5-76fa-a224-833ed977c998"
     },
     {
@@ -2791,7 +2791,7 @@
       "code": "SE-MJALLBY-AIF",
       "name": "Mjällby AIF",
       "country": "Sweden",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7b02-8c6c-895e4692bade.png",
       "default_league_id": "01a0761e-11c5-73d0-9304-9999f43d3e0f"
     },
     {
@@ -2799,7 +2799,7 @@
       "code": "IT-MODENA",
       "name": "Modena",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-74bd-849f-4d23c13f3ea7.png",
       "default_league_id": "01a0761e-11c5-747d-a0d5-3aac62f0151a"
     },
     {
@@ -2807,7 +2807,7 @@
       "code": "IN-MOHAMMEDAN-SC",
       "name": "Mohammedan SC",
       "country": "India",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7ed0-90e0-a63e5ccea5fd.png",
       "default_league_id": "01a0761e-11c5-7a73-89ce-f5825e3902ca"
     },
     {
@@ -2815,7 +2815,7 @@
       "code": "IN-MOHUN-BAGAN-SUPER-GIANT",
       "name": "Mohun Bagan Super Giant",
       "country": "India",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7833-a876-47229cfc3ff8.png",
       "default_league_id": "01a0761e-11c5-7a73-89ce-f5825e3902ca"
     },
     {
@@ -2823,7 +2823,7 @@
       "code": "NO-MOLDE-FK",
       "name": "Molde FK",
       "country": "Norway",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7562-8aee-f69cc70c2f2c.png",
       "default_league_id": "01a0761e-11c5-7dd5-9830-fc3bfed5ce4a"
     },
     {
@@ -2831,7 +2831,7 @@
       "code": "FR-MONTPELLIER-HSC",
       "name": "Montpellier HSC",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-775b-b333-2bec8a49095b.png",
       "default_league_id": "01a0761e-11c5-77a2-8edc-bf58cdfd4d3f"
     },
     {
@@ -2839,7 +2839,7 @@
       "code": "IT-MONZA",
       "name": "Monza",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7280-a08c-3967e15ecd6a.png",
       "default_league_id": "01a0761e-11c5-747d-a0d5-3aac62f0151a"
     },
     {
@@ -2847,7 +2847,7 @@
       "code": "PT-MOREIRENSE",
       "name": "Moreirense",
       "country": "Portugal",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7b56-a5ec-e583e8ce05de.png",
       "default_league_id": "01a0761e-11c5-7881-a04d-9462a5f5f38b"
     },
     {
@@ -2855,7 +2855,7 @@
       "code": "SCO-MOTHERWELL",
       "name": "Motherwell",
       "country": "Scotland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-789c-a713-2ca196a5dd67.png",
       "default_league_id": "01a0761e-11c5-7a8c-ac4c-ba3b415b2179"
     },
     {
@@ -2863,7 +2863,7 @@
       "code": "PL-MOTOR-LUBLIN",
       "name": "Motor Lublin",
       "country": "Poland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7438-8e2c-c367864fe96d.png",
       "default_league_id": "01a0761e-11c5-7412-ab7e-0f5b28a2846d"
     },
     {
@@ -2871,7 +2871,7 @@
       "code": "DE-MSV-DUISBURG",
       "name": "MSV Duisburg",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7e56-9751-066af9ef9b99.png",
       "default_league_id": "01a0761e-11c5-715c-8d61-19ba765322aa"
     },
     {
@@ -2879,7 +2879,7 @@
       "code": "IN-MUMBAI-CITY-FC",
       "name": "Mumbai City FC",
       "country": "India",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7626-af5e-1f5363e87d2d.png",
       "default_league_id": "01a0761e-11c5-7a73-89ce-f5825e3902ca"
     },
     {
@@ -2887,7 +2887,7 @@
       "code": "ES-MALAGA-CF",
       "name": "Málaga CF",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7328-9b4a-6eb086da0f40.png",
       "default_league_id": "01a0761e-11c5-7738-9446-6f5f1c43a8ee"
     },
     {
@@ -2895,7 +2895,7 @@
       "code": "NL-N-E-C-NIJMEGEN",
       "name": "N.E.C. Nijmegen",
       "country": "Netherlands",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7338-9664-a4a086e324e2.png",
       "default_league_id": "01a0761e-11c5-7669-9cb0-543647efb0e0"
     },
     {
@@ -2903,7 +2903,7 @@
       "code": "NL-NAC-BREDA",
       "name": "NAC Breda",
       "country": "Netherlands",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7a55-9411-f311df8703d1.png",
       "default_league_id": "01a0761e-11c5-7669-9cb0-543647efb0e0"
     },
     {
@@ -2911,7 +2911,7 @@
       "code": "PT-NACIONAL-DA-MADEIRA",
       "name": "Nacional da Madeira",
       "country": "Portugal",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7ebd-b521-bf57449cbe7a.png",
       "default_league_id": "01a0761e-11c5-7881-a04d-9462a5f5f38b"
     },
     {
@@ -2919,7 +2919,7 @@
       "code": "IT-NAPOLI",
       "name": "Napoli",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7e23-869e-560eb25f8933.png",
       "default_league_id": "01a0761e-11c5-761f-8921-8d506ebfe333"
     },
     {
@@ -2927,7 +2927,7 @@
       "code": "US-NASHVILLE-SC",
       "name": "Nashville SC",
       "country": "United States",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7f90-97f0-aa0db8285d69.png",
       "default_league_id": "01a0761e-11c5-76fa-a224-833ed977c998"
     },
     {
@@ -2935,7 +2935,7 @@
       "code": "SA-NEOM-SC",
       "name": "NEOM SC",
       "country": "Saudi Arabia",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7606-8b04-ae6b5dbfa4ff.png",
       "default_league_id": "01a0761e-11c5-714d-9110-b318311d0898"
     },
     {
@@ -2943,7 +2943,7 @@
       "code": "US-NEW-ENGLAND-REVOLUTION",
       "name": "New England Revolution",
       "country": "United States",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7ccf-9a4f-c5752f25bfbb.png",
       "default_league_id": "01a0761e-11c5-76fa-a224-833ed977c998"
     },
     {
@@ -2951,7 +2951,7 @@
       "code": "US-NEW-YORK-CITY-FC",
       "name": "New York City FC",
       "country": "United States",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-762d-b80a-57152e01d84e.png",
       "default_league_id": "01a0761e-11c5-76fa-a224-833ed977c998"
     },
     {
@@ -2959,7 +2959,7 @@
       "code": "AU-NEWCASTLE-JETS",
       "name": "Newcastle Jets",
       "country": "Australia",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7743-a6a1-f19d13003ef9.png",
       "default_league_id": "01a0761e-11c5-7bd4-bb44-75609bd06a29"
     },
     {
@@ -2967,7 +2967,7 @@
       "code": "ENG-NEWCASTLE-UNITED",
       "name": "Newcastle United",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-74fd-b7dc-72ec5e860f7f.png",
       "default_league_id": "01a0761e-11c5-73b1-83a4-75b6a304378a"
     },
     {
@@ -2975,7 +2975,7 @@
       "code": "AR-NEWELL-S-OLD-BOYS",
       "name": "Newell's Old Boys",
       "country": "Argentina",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7b7e-9153-a5deac3f7cc5.png",
       "default_league_id": "01a0761e-11c5-7d22-bb0e-80cf2ac0bb18"
     },
     {
@@ -2983,7 +2983,7 @@
       "code": "ENG-NEWPORT-COUNTY",
       "name": "Newport County",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-72c3-84b7-55235e180e94.png",
       "default_league_id": "01a0761e-11c5-74d4-80e1-be8a2caff971"
     },
     {
@@ -2991,7 +2991,7 @@
       "code": "ENG-NORTHAMPTON-TOWN",
       "name": "Northampton Town",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7d74-849d-032f7d5edac0.png",
       "default_league_id": "01a0761e-11c5-72c0-a788-1ed4fa6a2db1"
     },
     {
@@ -2999,7 +2999,7 @@
       "code": "IN-NORTHEAST-UNITED",
       "name": "NorthEast United",
       "country": "India",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-782d-b97c-b6d4458ef727.png",
       "default_league_id": "01a0761e-11c5-7a73-89ce-f5825e3902ca"
     },
     {
@@ -3007,7 +3007,7 @@
       "code": "ENG-NORWICH-CITY",
       "name": "Norwich City",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-70bf-b36a-c9c54cd9b6e1.png",
       "default_league_id": "01a0761e-11c5-76e8-a4ea-b7d77aff126a"
     },
     {
@@ -3015,7 +3015,7 @@
       "code": "ENG-NOTTINGHAM-FOREST",
       "name": "Nottingham Forest",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7c5c-b50f-b08633490811.png",
       "default_league_id": "01a0761e-11c5-73b1-83a4-75b6a304378a"
     },
     {
@@ -3023,7 +3023,7 @@
       "code": "ENG-NOTTS-COUNTY",
       "name": "Notts County",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7c9a-817e-38629815de58.png",
       "default_league_id": "01a0761e-11c5-74d4-80e1-be8a2caff971"
     },
     {
@@ -3031,7 +3031,7 @@
       "code": "DK-ODENSE-BOLDKLUB",
       "name": "Odense Boldklub",
       "country": "Denmark",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7d2f-9fc9-95a2a7a4a3c3.png",
       "default_league_id": "01a0761e-11c5-767d-8406-3309c085bfc7"
     },
     {
@@ -3039,7 +3039,7 @@
       "code": "IN-ODISHA-FC",
       "name": "Odisha FC",
       "country": "India",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-75e9-937f-bc9049be43af.png",
       "default_league_id": "01a0761e-11c5-7a73-89ce-f5825e3902ca"
     },
     {
@@ -3047,7 +3047,7 @@
       "code": "FR-OGC-NICE",
       "name": "OGC Nice",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7a21-bc00-a75a3dc57aa2.png",
       "default_league_id": "01a0761e-11c5-74e3-982d-8a170240c634"
     },
     {
@@ -3055,7 +3055,7 @@
       "code": "BE-OH-LEUVEN",
       "name": "OH Leuven",
       "country": "Belgium",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-734c-b758-7b77c10d3420.png",
       "default_league_id": "01a0761e-11c5-7133-afbf-19c7c2e9939d"
     },
     {
@@ -3063,7 +3063,7 @@
       "code": "ENG-OLDHAM-ATHLETIC",
       "name": "Oldham Athletic",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7cd4-867b-782574711838.png",
       "default_league_id": "01a0761e-11c5-74d4-80e1-be8a2caff971"
     },
     {
@@ -3071,7 +3071,7 @@
       "code": "FR-OLYMPIQUE-DE-MARSEILLE",
       "name": "Olympique de Marseille",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7f6c-b91b-eca65b9249d2.png",
       "default_league_id": "01a0761e-11c5-74e3-982d-8a170240c634"
     },
     {
@@ -3079,7 +3079,7 @@
       "code": "FR-OLYMPIQUE-LYONNAIS",
       "name": "Olympique Lyonnais",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-79ef-bc12-159c0d4f4042.png",
       "default_league_id": "01a0761e-11c5-74e3-982d-8a170240c634"
     },
     {
@@ -3087,7 +3087,7 @@
       "code": "US-ORLANDO-CITY-SC",
       "name": "Orlando City SC",
       "country": "United States",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7961-ad13-6f783c4914cc.png",
       "default_league_id": "01a0761e-11c5-76fa-a224-833ed977c998"
     },
     {
@@ -3095,7 +3095,7 @@
       "code": "ENG-OXFORD-UNITED",
       "name": "Oxford United",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7bdf-8227-2fccd405b130.png",
       "default_league_id": "01a0761e-11c5-76e8-a4ea-b7d77aff126a"
     },
     {
@@ -3103,7 +3103,7 @@
       "code": "IT-PADOVA",
       "name": "Padova",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7773-95fe-9888605382c8.png",
       "default_league_id": "01a0761e-11c5-747d-a0d5-3aac62f0151a"
     },
     {
@@ -3111,7 +3111,7 @@
       "code": "IT-PALERMO",
       "name": "Palermo",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-766a-9234-2a959531075a.png",
       "default_league_id": "01a0761e-11c5-747d-a0d5-3aac62f0151a"
     },
     {
@@ -3119,7 +3119,7 @@
       "code": "FR-PARIS-FC",
       "name": "Paris FC",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7bc1-89b9-29c0426d724e.png",
       "default_league_id": "01a0761e-11c5-74e3-982d-8a170240c634"
     },
     {
@@ -3127,7 +3127,7 @@
       "code": "FR-PARIS-SAINT-GERMAIN",
       "name": "Paris Saint-Germain",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7aaf-84af-a9b9fdec8c53.png",
       "default_league_id": "01a0761e-11c5-74e3-982d-8a170240c634"
     },
     {
@@ -3135,7 +3135,7 @@
       "code": "IT-PARMA",
       "name": "Parma",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7106-a24d-c3db1cc0f741.png",
       "default_league_id": "01a0761e-11c5-761f-8921-8d506ebfe333"
     },
     {
@@ -3143,7 +3143,7 @@
       "code": "FR-PAU-FC",
       "name": "Pau FC",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-73b5-be3a-adeaa17267d2.png",
       "default_league_id": "01a0761e-11c5-77a2-8edc-bf58cdfd4d3f"
     },
     {
@@ -3151,7 +3151,7 @@
       "code": "NL-PEC-ZWOLLE",
       "name": "PEC Zwolle",
       "country": "Netherlands",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7693-a5f4-d314a86833ed.png",
       "default_league_id": "01a0761e-11c5-7669-9cb0-543647efb0e0"
     },
     {
@@ -3159,7 +3159,7 @@
       "code": "AU-PERTH-GLORY",
       "name": "Perth Glory",
       "country": "Australia",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7917-94fa-fd274a98c81d.png",
       "default_league_id": "01a0761e-11c5-7bd4-bb44-75609bd06a29"
     },
     {
@@ -3167,7 +3167,7 @@
       "code": "IT-PESCARA",
       "name": "Pescara",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-71d4-bab0-b74fea014ac4.png",
       "default_league_id": "01a0761e-11c5-747d-a0d5-3aac62f0151a"
     },
     {
@@ -3175,7 +3175,7 @@
       "code": "ENG-PETERBOROUGH-UNITED",
       "name": "Peterborough United",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-73cf-844e-1484b412e727.png",
       "default_league_id": "01a0761e-11c5-72c0-a788-1ed4fa6a2db1"
     },
     {
@@ -3183,7 +3183,7 @@
       "code": "RO-PETROLUL-PLOIESTI",
       "name": "Petrolul Ploiești",
       "country": "Romania",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7480-a26d-909b27d3c25d.png",
       "default_league_id": "01a0761e-11c5-7d81-9770-e45cd37220f5"
     },
     {
@@ -3191,7 +3191,7 @@
       "code": "US-PHILADELPHIA-UNION",
       "name": "Philadelphia Union",
       "country": "United States",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7f82-bf2a-dd9015031c5c.png",
       "default_league_id": "01a0761e-11c5-76fa-a224-833ed977c998"
     },
     {
@@ -3199,7 +3199,7 @@
       "code": "PL-PIAST-GLIWICE",
       "name": "Piast Gliwice",
       "country": "Poland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7356-9364-e04568696a32.png",
       "default_league_id": "01a0761e-11c5-7412-ab7e-0f5b28a2846d"
     },
     {
@@ -3207,7 +3207,7 @@
       "code": "IT-PISA",
       "name": "Pisa",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7c67-9d82-89738a7aa140.png",
       "default_league_id": "01a0761e-11c5-761f-8921-8d506ebfe333"
     },
     {
@@ -3215,7 +3215,7 @@
       "code": "AR-PLATENSE",
       "name": "Platense",
       "country": "Argentina",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-74cc-8af8-d138ad0ec848.png",
       "default_league_id": "01a0761e-11c5-7d22-bb0e-80cf2ac0bb18"
     },
     {
@@ -3223,7 +3223,7 @@
       "code": "ENG-PLYMOUTH-ARGYLE",
       "name": "Plymouth Argyle",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7c13-a94c-200d880aaacb.png",
       "default_league_id": "01a0761e-11c5-72c0-a788-1ed4fa6a2db1"
     },
     {
@@ -3231,7 +3231,7 @@
       "code": "PL-POGON-SZCZECIN",
       "name": "Pogoń Szczecin",
       "country": "Poland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-705b-b2f4-b52927e5e803.png",
       "default_league_id": "01a0761e-11c5-7412-ab7e-0f5b28a2846d"
     },
     {
@@ -3239,7 +3239,7 @@
       "code": "KR-POHANG-STEELERS",
       "name": "Pohang Steelers",
       "country": "South Korea",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7fcf-a45b-5eb94889a618.png",
       "default_league_id": "01a0761e-11c5-78a1-b953-76bd3abfc5e3"
     },
     {
@@ -3247,7 +3247,7 @@
       "code": "ENG-PORT-VALE",
       "name": "Port Vale",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7ab9-b5e6-5315d3f788c8.png",
       "default_league_id": "01a0761e-11c5-72c0-a788-1ed4fa6a2db1"
     },
     {
@@ -3255,7 +3255,7 @@
       "code": "US-PORTLAND-TIMBERS",
       "name": "Portland Timbers",
       "country": "United States",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-78ef-8ba3-e00b4af1cae0.png",
       "default_league_id": "01a0761e-11c5-76fa-a224-833ed977c998"
     },
     {
@@ -3263,7 +3263,7 @@
       "code": "ENG-PORTSMOUTH",
       "name": "Portsmouth",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7b54-bf4e-2ad036b2b073.png",
       "default_league_id": "01a0761e-11c5-76e8-a4ea-b7d77aff126a"
     },
     {
@@ -3271,7 +3271,7 @@
       "code": "ENG-PRESTON-NORTH-END",
       "name": "Preston North End",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-76b1-819b-b90c8dc65a8c.png",
       "default_league_id": "01a0761e-11c5-76e8-a4ea-b7d77aff126a"
     },
     {
@@ -3279,7 +3279,7 @@
       "code": "DE-PREUEN-MUNSTER",
       "name": "Preußen Münster",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-775f-853f-c97613fb2b86.png",
       "default_league_id": "01a0761e-11c5-7553-830c-b1db72a0e15e"
     },
     {
@@ -3287,7 +3287,7 @@
       "code": "NL-PSV",
       "name": "PSV",
       "country": "Netherlands",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7022-9617-9ff8825e5a26.png",
       "default_league_id": "01a0761e-11c5-7669-9cb0-543647efb0e0"
     },
     {
@@ -3295,7 +3295,7 @@
       "code": "IN-PUNJAB-FC",
       "name": "Punjab FC",
       "country": "India",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7994-a7bd-841a83a3a723.png",
       "default_league_id": "01a0761e-11c5-7a73-89ce-f5825e3902ca"
     },
     {
@@ -3303,7 +3303,7 @@
       "code": "CN-QINGDAO-HAINIU-FC",
       "name": "Qingdao Hainiu FC",
       "country": "China",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7d15-9123-e3712c34abf2.png",
       "default_league_id": "01a0761e-11c5-7f85-9f5a-677ab3b916a0"
     },
     {
@@ -3311,7 +3311,7 @@
       "code": "CN-QINGDAO-WEST-COAST-FC",
       "name": "Qingdao West Coast FC",
       "country": "China",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7870-81d0-d18878213ed9.png",
       "default_league_id": "01a0761e-11c5-7f85-9f5a-677ab3b916a0"
     },
     {
@@ -3319,7 +3319,7 @@
       "code": "ENG-QUEENS-PARK-RANGERS",
       "name": "Queens Park Rangers",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7d0c-a1a6-a15b100cf713.png",
       "default_league_id": "01a0761e-11c5-76e8-a4ea-b7d77aff126a"
     },
     {
@@ -3327,7 +3327,7 @@
       "code": "BE-RAAL-LA-LOUVIERE",
       "name": "RAAL La Louvière",
       "country": "Belgium",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-739e-8612-66561e984eb3.png",
       "default_league_id": "01a0761e-11c5-7133-afbf-19c7c2e9939d"
     },
     {
@@ -3335,7 +3335,7 @@
       "code": "AR-RACING-CLUB-DE-AVELLANEDA",
       "name": "Racing Club de Avellaneda",
       "country": "Argentina",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-727a-96df-8849eb76c7ff.png",
       "default_league_id": "01a0761e-11c5-7d22-bb0e-80cf2ac0bb18"
     },
     {
@@ -3343,7 +3343,7 @@
       "code": "ES-RACING-DE-SANTANDER",
       "name": "Racing de Santander",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7f77-9e9c-ae62795ab809.png",
       "default_league_id": "01a0761e-11c5-7738-9446-6f5f1c43a8ee"
     },
     {
@@ -3351,7 +3351,7 @@
       "code": "PL-RADOMIAK-RADOM",
       "name": "Radomiak Radom",
       "country": "Poland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7909-b835-177fd920975f.png",
       "default_league_id": "01a0761e-11c5-7412-ab7e-0f5b28a2846d"
     },
     {
@@ -3359,7 +3359,7 @@
       "code": "PL-RAKOW-CZESTOCHOWA",
       "name": "Raków Częstochowa",
       "country": "Poland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-71fe-9f61-cba5fef6b84a.png",
       "default_league_id": "01a0761e-11c5-7412-ab7e-0f5b28a2846d"
     },
     {
@@ -3367,7 +3367,7 @@
       "code": "DK-RANDERS-FC",
       "name": "Randers FC",
       "country": "Denmark",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-72f2-a779-c8a99923dbac.png",
       "default_league_id": "01a0761e-11c5-767d-8406-3309c085bfc7"
     },
     {
@@ -3375,7 +3375,7 @@
       "code": "SCO-RANGERS",
       "name": "Rangers",
       "country": "Scotland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-73b2-a5d3-0916fde2c1ff.png",
       "default_league_id": "01a0761e-11c5-7a8c-ac4c-ba3b415b2179"
     },
     {
@@ -3383,7 +3383,7 @@
       "code": "ES-RAYO-VALLECANO",
       "name": "Rayo Vallecano",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7f88-b4ce-f6b34a322a34.png",
       "default_league_id": "01a0761e-11c5-75b0-a6f0-382f69d2aca7"
     },
     {
@@ -3391,7 +3391,7 @@
       "code": "DE-RB-LEIPZIG",
       "name": "RB Leipzig",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-72d7-8c68-94bf992d2cdb.png",
       "default_league_id": "01a0761e-11c5-787c-b07b-955b78d27b98"
     },
     {
@@ -3399,7 +3399,7 @@
       "code": "AT-RB-SALZBURG",
       "name": "RB Salzburg",
       "country": "Austria",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7206-8de8-035b1323b164.png",
       "default_league_id": "01a0761e-11c5-7f96-bb60-fca2de36046e"
     },
     {
@@ -3407,7 +3407,7 @@
       "code": "ES-RC-CELTA-DE-VIGO",
       "name": "RC Celta de Vigo",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7039-b42d-4137059ecb4b.png",
       "default_league_id": "01a0761e-11c5-75b0-a6f0-382f69d2aca7"
     },
     {
@@ -3415,7 +3415,7 @@
       "code": "ES-RC-DEPORTIVO",
       "name": "RC Deportivo",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7084-877e-6a593f6819af.png",
       "default_league_id": "01a0761e-11c5-7738-9446-6f5f1c43a8ee"
     },
     {
@@ -3423,7 +3423,7 @@
       "code": "FR-RC-LENS",
       "name": "RC Lens",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7b79-8045-61e55e17fe17.png",
       "default_league_id": "01a0761e-11c5-74e3-982d-8a170240c634"
     },
     {
@@ -3431,7 +3431,7 @@
       "code": "FR-RC-STRASBOURG",
       "name": "RC Strasbourg",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-71ed-8fb4-73d992d8c56c.png",
       "default_league_id": "01a0761e-11c5-74e3-982d-8a170240c634"
     },
     {
@@ -3439,7 +3439,7 @@
       "code": "ES-RCD-ESPANYOL",
       "name": "RCD Espanyol",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7930-b922-41fc4d73aa92.png",
       "default_league_id": "01a0761e-11c5-75b0-a6f0-382f69d2aca7"
     },
     {
@@ -3447,7 +3447,7 @@
       "code": "ES-RCD-MALLORCA",
       "name": "RCD Mallorca",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7d37-ab02-95d85dfe54a7.png",
       "default_league_id": "01a0761e-11c5-75b0-a6f0-382f69d2aca7"
     },
     {
@@ -3455,7 +3455,7 @@
       "code": "ENG-READING",
       "name": "Reading",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7dea-9348-0ec71e1f1adb.png",
       "default_league_id": "01a0761e-11c5-72c0-a788-1ed4fa6a2db1"
     },
     {
@@ -3463,7 +3463,7 @@
       "code": "ES-REAL-BETIS-BALOMPIE",
       "name": "Real Betis Balompié",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-70f7-83f3-40064fc07399.png",
       "default_league_id": "01a0761e-11c5-75b0-a6f0-382f69d2aca7"
     },
     {
@@ -3471,7 +3471,7 @@
       "code": "ES-REAL-MADRID",
       "name": "Real Madrid",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7610-ac81-b084ab387de0.png",
       "default_league_id": "01a0761e-11c5-75b0-a6f0-382f69d2aca7"
     },
     {
@@ -3479,7 +3479,7 @@
       "code": "ES-REAL-OVIEDO",
       "name": "Real Oviedo",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-72bf-a6bc-da1bd1e8563b.png",
       "default_league_id": "01a0761e-11c5-75b0-a6f0-382f69d2aca7"
     },
     {
@@ -3487,7 +3487,7 @@
       "code": "US-REAL-SALT-LAKE",
       "name": "Real Salt Lake",
       "country": "United States",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7bc8-9218-96a9724a9467.png",
       "default_league_id": "01a0761e-11c5-76fa-a224-833ed977c998"
     },
     {
@@ -3495,7 +3495,7 @@
       "code": "ES-REAL-SOCIEDAD",
       "name": "Real Sociedad",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7b13-80b4-61500c07148e.png",
       "default_league_id": "01a0761e-11c5-75b0-a6f0-382f69d2aca7"
     },
     {
@@ -3503,7 +3503,7 @@
       "code": "ES-REAL-SOCIEDAD-B",
       "name": "Real Sociedad B",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-731d-aa71-0d9910293923.png",
       "default_league_id": "01a0761e-11c5-7738-9446-6f5f1c43a8ee"
     },
     {
@@ -3511,7 +3511,7 @@
       "code": "ES-REAL-SPORTING-DE-GIJON",
       "name": "Real Sporting de Gijón",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7f54-8c67-c4c4d607d6a9.png",
       "default_league_id": "01a0761e-11c5-7738-9446-6f5f1c43a8ee"
     },
     {
@@ -3519,7 +3519,7 @@
       "code": "ES-REAL-VALLADOLID",
       "name": "Real Valladolid",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7e1f-bd82-89aef01ae29b.png",
       "default_league_id": "01a0761e-11c5-7738-9446-6f5f1c43a8ee"
     },
     {
@@ -3527,7 +3527,7 @@
       "code": "ES-REAL-ZARAGOZA",
       "name": "Real Zaragoza",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7ab2-aa41-66277379cb60.png",
       "default_league_id": "01a0761e-11c5-7738-9446-6f5f1c43a8ee"
     },
     {
@@ -3535,7 +3535,7 @@
       "code": "US-RED-BULL-NEW-YORK",
       "name": "Red Bull New York",
       "country": "United States",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7b9f-8ebc-1f496cf09fa3.png",
       "default_league_id": "01a0761e-11c5-76fa-a224-833ed977c998"
     },
     {
@@ -3543,7 +3543,7 @@
       "code": "FR-RED-STAR-FC-FRANCE",
       "name": "Red Star FC (FRANCE)",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-71c1-a406-f8af8e0c9cb7.png",
       "default_league_id": "01a0761e-11c5-77a2-8edc-bf58cdfd4d3f"
     },
     {
@@ -3551,7 +3551,7 @@
       "code": "IT-REGGIANA",
       "name": "Reggiana",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7367-a4b6-54d68261da67.png",
       "default_league_id": "01a0761e-11c5-747d-a0d5-3aac62f0151a"
     },
     {
@@ -3559,7 +3559,7 @@
       "code": "PT-RIO-AVE",
       "name": "Rio Ave",
       "country": "Portugal",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7e7f-acbe-642850f02b9a.png",
       "default_league_id": "01a0761e-11c5-7881-a04d-9462a5f5f38b"
     },
     {
@@ -3567,7 +3567,7 @@
       "code": "AR-RIVER-PLATE",
       "name": "River Plate",
       "country": "Argentina",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7002-8bc9-1075bcd91a25.png",
       "default_league_id": "01a0761e-11c5-7d22-bb0e-80cf2ac0bb18"
     },
     {
@@ -3575,7 +3575,7 @@
       "code": "FR-RODEZ-AVEYRON-FOOTBALL",
       "name": "Rodez Aveyron Football",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-718f-b136-d7c38d174ede.png",
       "default_league_id": "01a0761e-11c5-77a2-8edc-bf58cdfd4d3f"
     },
     {
@@ -3583,7 +3583,7 @@
       "code": "IT-ROMA",
       "name": "Roma",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7b7f-a74c-e54a700c230a.png",
       "default_league_id": "01a0761e-11c5-761f-8921-8d506ebfe333"
     },
     {
@@ -3591,7 +3591,7 @@
       "code": "AR-ROSARIO-CENTRAL",
       "name": "Rosario Central",
       "country": "Argentina",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7bb8-974b-78637702e2cb.png",
       "default_league_id": "01a0761e-11c5-7d22-bb0e-80cf2ac0bb18"
     },
     {
@@ -3599,7 +3599,7 @@
       "code": "NO-ROSENBORG-BK",
       "name": "Rosenborg BK",
       "country": "Norway",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7874-a0c0-12274d88f82e.png",
       "default_league_id": "01a0761e-11c5-7dd5-9830-fc3bfed5ce4a"
     },
     {
@@ -3607,7 +3607,7 @@
       "code": "DE-ROT-WEI-ESSEN",
       "name": "Rot-Weiß Essen",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-79f7-954b-d38f1ac61aad.png",
       "default_league_id": "01a0761e-11c5-715c-8d61-19ba765322aa"
     },
     {
@@ -3615,7 +3615,7 @@
       "code": "ENG-ROTHERHAM-UNITED",
       "name": "Rotherham United",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-723b-b353-6d66d8725581.png",
       "default_league_id": "01a0761e-11c5-72c0-a788-1ed4fa6a2db1"
     },
     {
@@ -3623,7 +3623,7 @@
       "code": "ENG-SALFORD-CITY",
       "name": "Salford City",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7fd2-8a60-23928f749196.png",
       "default_league_id": "01a0761e-11c5-74d4-80e1-be8a2caff971"
     },
     {
@@ -3631,7 +3631,7 @@
       "code": "IT-SAMPDORIA",
       "name": "Sampdoria",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-736a-8f44-bfcb8396e646.png",
       "default_league_id": "01a0761e-11c5-747d-a0d5-3aac62f0151a"
     },
     {
@@ -3639,7 +3639,7 @@
       "code": "TR-SAMSUNSPOR",
       "name": "Samsunspor",
       "country": "Turkey",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7652-8e96-03bf395f614f.png",
       "default_league_id": "01a0761e-11c5-7f1c-9dac-78c1abd3fd4e"
     },
     {
@@ -3647,7 +3647,7 @@
       "code": "US-SAN-DIEGO-FC",
       "name": "San Diego FC",
       "country": "United States",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7ce2-804a-4353571d5603.png",
       "default_league_id": "01a0761e-11c5-76fa-a224-833ed977c998"
     },
     {
@@ -3655,7 +3655,7 @@
       "code": "US-SAN-JOSE-EARTHQUAKES",
       "name": "San Jose Earthquakes",
       "country": "United States",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7516-a01e-a59d3e837719.png",
       "default_league_id": "01a0761e-11c5-76fa-a224-833ed977c998"
     },
     {
@@ -3663,7 +3663,7 @@
       "code": "AR-SAN-LORENZO-DE-ALMAGRO",
       "name": "San Lorenzo de Almagro",
       "country": "Argentina",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-774d-ad71-2cc0d02caba2.png",
       "default_league_id": "01a0761e-11c5-7d22-bb0e-80cf2ac0bb18"
     },
     {
@@ -3671,7 +3671,7 @@
       "code": "AR-SAN-MARTIN-DE-SAN-JUAN",
       "name": "San Martín de San Juan",
       "country": "Argentina",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7b65-b0ff-4abc1ae62650.png",
       "default_league_id": "01a0761e-11c5-7d22-bb0e-80cf2ac0bb18"
     },
     {
@@ -3679,7 +3679,7 @@
       "code": "NO-SANDEFJORD-FOTBALL",
       "name": "Sandefjord Fotball",
       "country": "Norway",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7799-ad43-daa28657ec59.png",
       "default_league_id": "01a0761e-11c5-7dd5-9830-fc3bfed5ce4a"
     },
     {
@@ -3687,7 +3687,7 @@
       "code": "PT-SANTA-CLARA",
       "name": "Santa Clara",
       "country": "Portugal",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-71df-ab20-b99c71dc6bde.png",
       "default_league_id": "01a0761e-11c5-7881-a04d-9462a5f5f38b"
     },
     {
@@ -3695,7 +3695,7 @@
       "code": "AR-SARMIENTO",
       "name": "Sarmiento",
       "country": "Argentina",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7fdd-95f4-8e9b17c76f79.png",
       "default_league_id": "01a0761e-11c5-7d22-bb0e-80cf2ac0bb18"
     },
     {
@@ -3703,7 +3703,7 @@
       "code": "NO-SARPSBORG-08",
       "name": "Sarpsborg 08",
       "country": "Norway",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-70ed-872f-d9ace71809b0.png",
       "default_league_id": "01a0761e-11c5-7dd5-9830-fc3bfed5ce4a"
     },
     {
@@ -3711,7 +3711,7 @@
       "code": "IT-SASSUOLO",
       "name": "Sassuolo",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7195-94df-cc6da50a3c4a.png",
       "default_league_id": "01a0761e-11c5-761f-8921-8d506ebfe333"
     },
     {
@@ -3719,7 +3719,7 @@
       "code": "FR-SC-BASTIA",
       "name": "SC Bastia",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-78d0-a8af-56d0da9b4b64.png",
       "default_league_id": "01a0761e-11c5-77a2-8edc-bf58cdfd4d3f"
     },
     {
@@ -3727,7 +3727,7 @@
       "code": "IN-SC-DELHI",
       "name": "SC Delhi",
       "country": "India",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7925-9242-c290ff46d30c.png",
       "default_league_id": "01a0761e-11c5-7a73-89ce-f5825e3902ca"
     },
     {
@@ -3735,7 +3735,7 @@
       "code": "DE-SC-FREIBURG",
       "name": "SC Freiburg",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7e36-b9b4-bd78a7134e67.png",
       "default_league_id": "01a0761e-11c5-787c-b07b-955b78d27b98"
     },
     {
@@ -3743,7 +3743,7 @@
       "code": "NL-SC-HEERENVEEN",
       "name": "sc Heerenveen",
       "country": "Netherlands",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-741a-93b2-5791b79d78cf.png",
       "default_league_id": "01a0761e-11c5-7669-9cb0-543647efb0e0"
     },
     {
@@ -3751,7 +3751,7 @@
       "code": "RO-SC-OTELUL-GALATI",
       "name": "SC Oțelul Galați",
       "country": "Romania",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7683-90e4-7d006b28a5dc.png",
       "default_league_id": "01a0761e-11c5-7d81-9770-e45cd37220f5"
     },
     {
@@ -3759,7 +3759,7 @@
       "code": "DE-SC-PADERBORN-07",
       "name": "SC Paderborn 07",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-78eb-8d00-40d3eaf3d6d6.png",
       "default_league_id": "01a0761e-11c5-7553-830c-b1db72a0e15e"
     },
     {
@@ -3767,7 +3767,7 @@
       "code": "DE-SC-VERL",
       "name": "SC Verl",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-700e-9a68-847277fa4dec.png",
       "default_league_id": "01a0761e-11c5-715c-8d61-19ba765322aa"
     },
     {
@@ -3775,7 +3775,7 @@
       "code": "ES-SD-EIBAR",
       "name": "SD Eibar",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-70e5-ae0a-590a78d5ceb5.png",
       "default_league_id": "01a0761e-11c5-7738-9446-6f5f1c43a8ee"
     },
     {
@@ -3783,7 +3783,7 @@
       "code": "ES-SD-HUESCA",
       "name": "SD Huesca",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7a2a-9b5a-bfc062231c87.png",
       "default_league_id": "01a0761e-11c5-7738-9446-6f5f1c43a8ee"
     },
     {
@@ -3791,7 +3791,7 @@
       "code": "US-SEATTLE-SOUNDERS",
       "name": "Seattle Sounders",
       "country": "United States",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7a3f-8b1b-302f18a6f86e.png",
       "default_league_id": "01a0761e-11c5-76fa-a224-833ed977c998"
     },
     {
@@ -3799,7 +3799,7 @@
       "code": "CH-SERVETTE-FC",
       "name": "Servette FC",
       "country": "Switzerland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-74cc-8c83-e0c47cf6d353.png",
       "default_league_id": "01a0761e-11c5-7a31-a27f-091a25248dc1"
     },
     {
@@ -3807,7 +3807,7 @@
       "code": "ES-SEVILLA-FC",
       "name": "Sevilla FC",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-793f-b920-cbd9960d74c8.png",
       "default_league_id": "01a0761e-11c5-75b0-a6f0-382f69d2aca7"
     },
     {
@@ -3815,7 +3815,7 @@
       "code": "IE-SHAMROCK-ROVERS",
       "name": "Shamrock Rovers",
       "country": "Ireland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7e96-8b06-b80c0c59723f.png",
       "default_league_id": "01a0761e-11c5-78b1-83b4-fc63bbc04675"
     },
     {
@@ -3823,7 +3823,7 @@
       "code": "CN-SHANDONG-TAISHAN",
       "name": "Shandong Taishan",
       "country": "China",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-73f2-ac89-90f0d766ea96.png",
       "default_league_id": "01a0761e-11c5-7f85-9f5a-677ab3b916a0"
     },
     {
@@ -3831,7 +3831,7 @@
       "code": "CN-SHANGHAI-PORT",
       "name": "Shanghai Port",
       "country": "China",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-79a3-9e72-04bed3419e96.png",
       "default_league_id": "01a0761e-11c5-7f85-9f5a-677ab3b916a0"
     },
     {
@@ -3839,7 +3839,7 @@
       "code": "CN-SHANGHAI-SHENHUA",
       "name": "Shanghai Shenhua",
       "country": "China",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-750e-a6be-b71ea732c759.png",
       "default_league_id": "01a0761e-11c5-7f85-9f5a-677ab3b916a0"
     },
     {
@@ -3847,7 +3847,7 @@
       "code": "ENG-SHEFFIELD-UNITED",
       "name": "Sheffield United",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7aa0-be0b-1c42af430408.png",
       "default_league_id": "01a0761e-11c5-76e8-a4ea-b7d77aff126a"
     },
     {
@@ -3855,7 +3855,7 @@
       "code": "ENG-SHEFFIELD-WEDNESDAY",
       "name": "Sheffield Wednesday",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7c82-b1c5-03a22858aa61.png",
       "default_league_id": "01a0761e-11c5-76e8-a4ea-b7d77aff126a"
     },
     {
@@ -3863,7 +3863,7 @@
       "code": "IE-SHELBOURNE",
       "name": "Shelbourne",
       "country": "Ireland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7d7d-81d8-6caaa9941ee4.png",
       "default_league_id": "01a0761e-11c5-78b1-83b4-fc63bbc04675"
     },
     {
@@ -3871,7 +3871,7 @@
       "code": "CN-SHENZHEN-PENG-CITY",
       "name": "Shenzhen Peng City",
       "country": "China",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7319-b1e0-17de12183067.png",
       "default_league_id": "01a0761e-11c5-7f85-9f5a-677ab3b916a0"
     },
     {
@@ -3879,7 +3879,7 @@
       "code": "ENG-SHREWSBURY-TOWN",
       "name": "Shrewsbury Town",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7102-848c-e0fa5f63b2f9.png",
       "default_league_id": "01a0761e-11c5-74d4-80e1-be8a2caff971"
     },
     {
@@ -3887,7 +3887,7 @@
       "code": "DK-SILKEBORG-IF",
       "name": "Silkeborg IF",
       "country": "Denmark",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7be4-b006-cc414ea7e794.png",
       "default_league_id": "01a0761e-11c5-767d-8406-3309c085bfc7"
     },
     {
@@ -3895,7 +3895,7 @@
       "code": "BE-SINT-TRUIDEN",
       "name": "Sint-Truiden",
       "country": "Belgium",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7439-99b7-562522c8463f.png",
       "default_league_id": "01a0761e-11c5-7133-afbf-19c7c2e9939d"
     },
     {
@@ -3903,7 +3903,7 @@
       "code": "NO-SK-BRANN",
       "name": "SK Brann",
       "country": "Norway",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-72e0-ac89-6ce98a54a08c.png",
       "default_league_id": "01a0761e-11c5-7dd5-9830-fc3bfed5ce4a"
     },
     {
@@ -3911,7 +3911,7 @@
       "code": "AT-SK-RAPID",
       "name": "SK Rapid",
       "country": "Austria",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-707c-8e1c-f04e8a5aeee3.png",
       "default_league_id": "01a0761e-11c5-7f96-bb60-fca2de36046e"
     },
     {
@@ -3919,7 +3919,7 @@
       "code": "IE-SLIGO-ROVERS",
       "name": "Sligo Rovers",
       "country": "Ireland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7af5-87aa-991d21f11923.png",
       "default_league_id": "01a0761e-11c5-78b1-83b4-fc63bbc04675"
     },
     {
@@ -3927,7 +3927,7 @@
       "code": "ENG-SOUTHAMPTON",
       "name": "Southampton",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7dc6-bee7-b0776c821df4.png",
       "default_league_id": "01a0761e-11c5-76e8-a4ea-b7d77aff126a"
     },
     {
@@ -3935,7 +3935,7 @@
       "code": "NL-SPARTA-ROTTERDAM",
       "name": "Sparta Rotterdam",
       "country": "Netherlands",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7dad-b464-01008556b7b7.png",
       "default_league_id": "01a0761e-11c5-7669-9cb0-543647efb0e0"
     },
     {
@@ -3943,7 +3943,7 @@
       "code": "IT-SPEZIA",
       "name": "Spezia",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-76d7-9eec-495cab31b593.png",
       "default_league_id": "01a0761e-11c5-747d-a0d5-3aac62f0151a"
     },
     {
@@ -3951,7 +3951,7 @@
       "code": "PT-SPORTING-CP",
       "name": "Sporting CP",
       "country": "Portugal",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-706d-993e-f770619f7ed5.png",
       "default_league_id": "01a0761e-11c5-7881-a04d-9462a5f5f38b"
     },
     {
@@ -3959,7 +3959,7 @@
       "code": "PT-SPORTING-DE-BRAGA",
       "name": "Sporting de Braga",
       "country": "Portugal",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-78fa-ae52-150f3e6764e6.png",
       "default_league_id": "01a0761e-11c5-7881-a04d-9462a5f5f38b"
     },
     {
@@ -3967,7 +3967,7 @@
       "code": "US-SPORTING-KC",
       "name": "Sporting KC",
       "country": "United States",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7c0e-9bed-4ba3de82246e.png",
       "default_league_id": "01a0761e-11c5-76fa-a224-833ed977c998"
     },
     {
@@ -3975,7 +3975,7 @@
       "code": "DE-SPVGG-GREUTHER-FURTH",
       "name": "SpVgg Greuther Fürth",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7181-b766-82268451f5cc.png",
       "default_league_id": "01a0761e-11c5-7553-830c-b1db72a0e15e"
     },
     {
@@ -3983,7 +3983,7 @@
       "code": "DE-SSV-ULM-1846",
       "name": "SSV Ulm 1846",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7f10-8f63-c905e99cc8d4.png",
       "default_league_id": "01a0761e-11c5-715c-8d61-19ba765322aa"
     },
     {
@@ -3991,7 +3991,7 @@
       "code": "IE-ST-PATRICK-S-ATHLETIC",
       "name": "St Patrick's Athletic",
       "country": "Ireland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7518-bf89-a38ff64c7ff7.png",
       "default_league_id": "01a0761e-11c5-78b1-83b4-fc63bbc04675"
     },
     {
@@ -3999,7 +3999,7 @@
       "code": "US-ST-LOUIS-CITY-SC",
       "name": "St. Louis City SC",
       "country": "United States",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7418-bb14-a00f4b0bb92b.png",
       "default_league_id": "01a0761e-11c5-76fa-a224-833ed977c998"
     },
     {
@@ -4007,7 +4007,7 @@
       "code": "SCO-ST-MIRREN",
       "name": "St. Mirren",
       "country": "Scotland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7ae0-9416-6067639db6da.png",
       "default_league_id": "01a0761e-11c5-7a8c-ac4c-ba3b415b2179"
     },
     {
@@ -4015,7 +4015,7 @@
       "code": "FR-STADE-BRESTOIS-29",
       "name": "Stade Brestois 29",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-774b-99f4-f0b423f66ea2.png",
       "default_league_id": "01a0761e-11c5-74e3-982d-8a170240c634"
     },
     {
@@ -4023,7 +4023,7 @@
       "code": "FR-STADE-DE-REIMS",
       "name": "Stade de Reims",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7473-a5f5-b74e1ee25564.png",
       "default_league_id": "01a0761e-11c5-77a2-8edc-bf58cdfd4d3f"
     },
     {
@@ -4031,7 +4031,7 @@
       "code": "FR-STADE-LAVALLOIS-MFC",
       "name": "Stade Lavallois MFC",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7537-a7dd-cfe3da66daa9.png",
       "default_league_id": "01a0761e-11c5-77a2-8edc-bf58cdfd4d3f"
     },
     {
@@ -4039,7 +4039,7 @@
       "code": "FR-STADE-RENNAIS",
       "name": "Stade Rennais",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7256-89ac-9aa6d1fcb452.png",
       "default_league_id": "01a0761e-11c5-74e3-982d-8a170240c634"
     },
     {
@@ -4047,7 +4047,7 @@
       "code": "BE-STANDARD-LIEGE",
       "name": "Standard Liège",
       "country": "Belgium",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7be6-83ce-c6da57fcff23.png",
       "default_league_id": "01a0761e-11c5-7133-afbf-19c7c2e9939d"
     },
     {
@@ -4055,7 +4055,7 @@
       "code": "ENG-STEVENAGE",
       "name": "Stevenage",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-77e3-8315-f33ec49b7ea7.png",
       "default_league_id": "01a0761e-11c5-72c0-a788-1ed4fa6a2db1"
     },
     {
@@ -4063,7 +4063,7 @@
       "code": "ENG-STOCKPORT-COUNTY",
       "name": "Stockport County",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-753b-95fb-66698b3390da.png",
       "default_league_id": "01a0761e-11c5-72c0-a788-1ed4fa6a2db1"
     },
     {
@@ -4071,7 +4071,7 @@
       "code": "ENG-STOKE-CITY",
       "name": "Stoke City",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7821-bc16-92bc1d1064cf.png",
       "default_league_id": "01a0761e-11c5-76e8-a4ea-b7d77aff126a"
     },
     {
@@ -4079,7 +4079,7 @@
       "code": "NO-STRMSGODSET-TOPPFOTBALL",
       "name": "Strømsgodset Toppfotball",
       "country": "Norway",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-748c-b594-9de45eb98682.png",
       "default_league_id": "01a0761e-11c5-7dd5-9830-fc3bfed5ce4a"
     },
     {
@@ -4087,7 +4087,7 @@
       "code": "AT-STURM-GRAZ",
       "name": "Sturm Graz",
       "country": "Austria",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-729d-a816-cb12fb9c0253.png",
       "default_league_id": "01a0761e-11c5-7f96-bb60-fca2de36046e"
     },
     {
@@ -4095,7 +4095,7 @@
       "code": "ENG-SUNDERLAND",
       "name": "Sunderland",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7767-8cd0-0d61698e547c.png",
       "default_league_id": "01a0761e-11c5-73b1-83a4-75b6a304378a"
     },
     {
@@ -4103,7 +4103,7 @@
       "code": "KR-SUWON-FC",
       "name": "Suwon FC",
       "country": "South Korea",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-76b7-b7cb-e6f46cb74bf6.png",
       "default_league_id": "01a0761e-11c5-78a1-b953-76bd3abfc5e3"
     },
     {
@@ -4111,7 +4111,7 @@
       "code": "DE-SV-DARMSTADT-98",
       "name": "SV Darmstadt 98",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7fad-8515-0ba1fa46650c.png",
       "default_league_id": "01a0761e-11c5-7553-830c-b1db72a0e15e"
     },
     {
@@ -4119,7 +4119,7 @@
       "code": "DE-SV-ELVERSBERG",
       "name": "SV Elversberg",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7a51-a9d3-af22a2c5d884.png",
       "default_league_id": "01a0761e-11c5-7553-830c-b1db72a0e15e"
     },
     {
@@ -4127,7 +4127,7 @@
       "code": "AT-SV-RIED",
       "name": "SV Ried",
       "country": "Austria",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7633-a611-2c8d826374ac.png",
       "default_league_id": "01a0761e-11c5-7f96-bb60-fca2de36046e"
     },
     {
@@ -4135,7 +4135,7 @@
       "code": "DE-SV-WALDHOF-MANNHEIM",
       "name": "SV Waldhof Mannheim",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-75aa-b891-e6d3624dd4d0.png",
       "default_league_id": "01a0761e-11c5-715c-8d61-19ba765322aa"
     },
     {
@@ -4143,7 +4143,7 @@
       "code": "DE-SV-WEHEN-WIESBADEN",
       "name": "SV Wehen Wiesbaden",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7953-a8a5-99fd477f5be5.png",
       "default_league_id": "01a0761e-11c5-715c-8d61-19ba765322aa"
     },
     {
@@ -4151,7 +4151,7 @@
       "code": "ENG-SWANSEA-CITY",
       "name": "Swansea City",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7fb8-997e-de823d94d001.png",
       "default_league_id": "01a0761e-11c5-76e8-a4ea-b7d77aff126a"
     },
     {
@@ -4159,7 +4159,7 @@
       "code": "ENG-SWINDON-TOWN",
       "name": "Swindon Town",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7001-b260-1535a8d4346a.png",
       "default_league_id": "01a0761e-11c5-74d4-80e1-be8a2caff971"
     },
     {
@@ -4167,7 +4167,7 @@
       "code": "AU-SYDNEY-FC",
       "name": "Sydney FC",
       "country": "Australia",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7378-8a19-f5e5c262fd26.png",
       "default_league_id": "01a0761e-11c5-7bd4-bb44-75609bd06a29"
     },
     {
@@ -4175,7 +4175,7 @@
       "code": "DK-SNDERJYSKE-FODBOLD",
       "name": "Sønderjyske Fodbold",
       "country": "Denmark",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7571-bf5e-2f423f4b963b.png",
       "default_league_id": "01a0761e-11c5-767d-8406-3309c085bfc7"
     },
     {
@@ -4183,7 +4183,7 @@
       "code": "IT-SUDTIROL",
       "name": "Südtirol",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7f33-8f30-aabe417265a6.png",
       "default_league_id": "01a0761e-11c5-747d-a0d5-3aac62f0151a"
     },
     {
@@ -4191,7 +4191,7 @@
       "code": "AR-TALLERES-DE-CORDOBA",
       "name": "Talleres de Córdoba",
       "country": "Argentina",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7008-b7e9-5d2e4d21d539.png",
       "default_league_id": "01a0761e-11c5-7d22-bb0e-80cf2ac0bb18"
     },
     {
@@ -4199,7 +4199,7 @@
       "code": "NL-TELSTAR",
       "name": "Telstar",
       "country": "Netherlands",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-72d6-9e20-9e058fcadc64.png",
       "default_league_id": "01a0761e-11c5-7669-9cb0-543647efb0e0"
     },
     {
@@ -4207,7 +4207,7 @@
       "code": "CN-TIANJIN-JINMEN-TIGER",
       "name": "Tianjin Jinmen Tiger",
       "country": "China",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7d35-af82-0301ed74a37b.png",
       "default_league_id": "01a0761e-11c5-7f85-9f5a-677ab3b916a0"
     },
     {
@@ -4215,7 +4215,7 @@
       "code": "AR-TIGRE",
       "name": "Tigre",
       "country": "Argentina",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7030-870b-d1b7e8f54045.png",
       "default_league_id": "01a0761e-11c5-7d22-bb0e-80cf2ac0bb18"
     },
     {
@@ -4223,7 +4223,7 @@
       "code": "PT-TONDELA",
       "name": "Tondela",
       "country": "Portugal",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-78c1-93e6-2e54d7b87f49.png",
       "default_league_id": "01a0761e-11c5-7881-a04d-9462a5f5f38b"
     },
     {
@@ -4231,7 +4231,7 @@
       "code": "IT-TORINO",
       "name": "Torino",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7bb8-b4dc-98052de523b5.png",
       "default_league_id": "01a0761e-11c5-761f-8921-8d506ebfe333"
     },
     {
@@ -4239,7 +4239,7 @@
       "code": "US-TORONTO-FC",
       "name": "Toronto FC",
       "country": "United States",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7ff5-9e54-56c4697d66d4.png",
       "default_league_id": "01a0761e-11c5-76fa-a224-833ed977c998"
     },
     {
@@ -4247,7 +4247,7 @@
       "code": "ENG-TOTTENHAM-HOTSPUR",
       "name": "Tottenham Hotspur",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-70e2-bbea-671a6be22cf9.png",
       "default_league_id": "01a0761e-11c5-73b1-83a4-75b6a304378a"
     },
     {
@@ -4255,7 +4255,7 @@
       "code": "FR-TOULOUSE-FC",
       "name": "Toulouse FC",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7286-9d19-08355eea952a.png",
       "default_league_id": "01a0761e-11c5-74e3-982d-8a170240c634"
     },
     {
@@ -4263,7 +4263,7 @@
       "code": "TR-TRABZONSPOR",
       "name": "Trabzonspor",
       "country": "Turkey",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7688-81f8-860d10ff60da.png",
       "default_league_id": "01a0761e-11c5-7f1c-9dac-78c1abd3fd4e"
     },
     {
@@ -4271,7 +4271,7 @@
       "code": "ENG-TRANMERE-ROVERS",
       "name": "Tranmere Rovers",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7298-9c69-14ba4cdac679.png",
       "default_league_id": "01a0761e-11c5-74d4-80e1-be8a2caff971"
     },
     {
@@ -4279,7 +4279,7 @@
       "code": "NO-TROMS-IL",
       "name": "Tromsø IL",
       "country": "Norway",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7fa4-a3ba-75cf946744b7.png",
       "default_league_id": "01a0761e-11c5-7dd5-9830-fc3bfed5ce4a"
     },
     {
@@ -4287,7 +4287,7 @@
       "code": "DE-TSG-1899-HOFFENHEIM",
       "name": "TSG 1899 Hoffenheim",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-71d5-ba42-60d5a3a5d664.png",
       "default_league_id": "01a0761e-11c5-787c-b07b-955b78d27b98"
     },
     {
@@ -4295,7 +4295,7 @@
       "code": "DE-TSG-1899-HOFFENHEIM-II",
       "name": "TSG 1899 Hoffenheim II",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-7c01-8ea8-ebca9f9173e3.png",
       "default_league_id": "01a0761e-11c5-715c-8d61-19ba765322aa"
     },
     {
@@ -4303,7 +4303,7 @@
       "code": "DE-TSV-1860-MUNCHEN",
       "name": "TSV 1860 München",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-742c-8de2-485832fd8d84.png",
       "default_league_id": "01a0761e-11c5-715c-8d61-19ba765322aa"
     },
     {
@@ -4311,7 +4311,7 @@
       "code": "DE-TSV-HAVELSE",
       "name": "TSV Havelse",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c8-74f6-94e8-6d80628a4a13.png",
       "default_league_id": "01a0761e-11c5-715c-8d61-19ba765322aa"
     },
     {
@@ -4319,7 +4319,7 @@
       "code": "ES-UD-ALMERIA",
       "name": "UD Almería",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-7317-8d3f-30837e67fdcc.png",
       "default_league_id": "01a0761e-11c5-7738-9446-6f5f1c43a8ee"
     },
     {
@@ -4327,7 +4327,7 @@
       "code": "ES-UD-LAS-PALMAS",
       "name": "UD Las Palmas",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-7ae7-8890-6dea79cb061e.png",
       "default_league_id": "01a0761e-11c5-7738-9446-6f5f1c43a8ee"
     },
     {
@@ -4335,7 +4335,7 @@
       "code": "IT-UDINESE",
       "name": "Udinese",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-7f4c-ac38-50c54eafb7be.png",
       "default_league_id": "01a0761e-11c5-761f-8921-8d506ebfe333"
     },
     {
@@ -4343,7 +4343,7 @@
       "code": "KR-ULSAN-HD-FC",
       "name": "Ulsan HD FC",
       "country": "South Korea",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-72b9-9247-4b8dac648adf.png",
       "default_league_id": "01a0761e-11c5-78a1-b953-76bd3abfc5e3"
     },
     {
@@ -4351,7 +4351,7 @@
       "code": "BE-UNION-SAINT-GILLOISE",
       "name": "Union Saint-Gilloise",
       "country": "Belgium",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-7bf3-8487-44c3145d0b36.png",
       "default_league_id": "01a0761e-11c5-7133-afbf-19c7c2e9939d"
     },
     {
@@ -4359,7 +4359,7 @@
       "code": "RO-UNIREA-SLOBOZIA",
       "name": "Unirea Slobozia",
       "country": "Romania",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-7bec-bb87-b93775489b94.png",
       "default_league_id": "01a0761e-11c5-7d81-9770-e45cd37220f5"
     },
     {
@@ -4367,7 +4367,7 @@
       "code": "IN-UNITED-TIGERS-SC",
       "name": "United Tigers SC",
       "country": "India",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-72e5-81fe-c4092195a9a5.png",
       "default_league_id": "01a0761e-11c5-7a73-89ce-f5825e3902ca"
     },
     {
@@ -4375,7 +4375,7 @@
       "code": "RO-UNIVERSITATEA-CLUJ",
       "name": "Universitatea Cluj",
       "country": "Romania",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-72a3-950d-33696376d51b.png",
       "default_league_id": "01a0761e-11c5-7d81-9770-e45cd37220f5"
     },
     {
@@ -4383,7 +4383,7 @@
       "code": "RO-UNIVERSITATEA-CRAIOVA",
       "name": "Universitatea Craiova",
       "country": "Romania",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-765d-81de-dc0ff00316b3.png",
       "default_league_id": "01a0761e-11c5-7d81-9770-e45cd37220f5"
     },
     {
@@ -4391,7 +4391,7 @@
       "code": "AR-UNION-DE-SANTA-FE",
       "name": "Unión de Santa Fe",
       "country": "Argentina",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-70f8-b0cf-a4e5e788ffe4.png",
       "default_league_id": "01a0761e-11c5-7d22-bb0e-80cf2ac0bb18"
     },
     {
@@ -4399,7 +4399,7 @@
       "code": "FR-US-BOULOGNE",
       "name": "US Boulogne",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-754f-bf4f-15006d7f0deb.png",
       "default_league_id": "01a0761e-11c5-77a2-8edc-bf58cdfd4d3f"
     },
     {
@@ -4407,7 +4407,7 @@
       "code": "FR-USL-DUNKERQUE",
       "name": "USL Dunkerque",
       "country": "France",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-741c-98b6-96fd54dbdb77.png",
       "default_league_id": "01a0761e-11c5-77a2-8edc-bf58cdfd4d3f"
     },
     {
@@ -4415,7 +4415,7 @@
       "code": "RO-UTA-ARAD",
       "name": "UTA Arad",
       "country": "Romania",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-70a2-a421-4f50d73bcb64.png",
       "default_league_id": "01a0761e-11c5-7d81-9770-e45cd37220f5"
     },
     {
@@ -4423,7 +4423,7 @@
       "code": "ES-VALENCIA-CF",
       "name": "Valencia CF",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-7120-ba8d-f99207044cb4.png",
       "default_league_id": "01a0761e-11c5-75b0-a6f0-382f69d2aca7"
     },
     {
@@ -4431,7 +4431,7 @@
       "code": "US-VANCOUVER-WHITECAPS",
       "name": "Vancouver Whitecaps",
       "country": "United States",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-7034-81aa-fa5c22a4de36.png",
       "default_league_id": "01a0761e-11c5-76fa-a224-833ed977c998"
     },
     {
@@ -4439,7 +4439,7 @@
       "code": "DK-VEJLE-BK",
       "name": "Vejle BK",
       "country": "Denmark",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-7a5c-929c-0ec4bc622cf5.png",
       "default_league_id": "01a0761e-11c5-767d-8406-3309c085bfc7"
     },
     {
@@ -4447,7 +4447,7 @@
       "code": "IT-VENEZIA",
       "name": "Venezia",
       "country": "Italy",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-7f19-9d98-24662056abce.png",
       "default_league_id": "01a0761e-11c5-747d-a0d5-3aac62f0151a"
     },
     {
@@ -4455,7 +4455,7 @@
       "code": "DE-VFB-STUTTGART",
       "name": "VfB Stuttgart",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-75cf-ba70-3818a263369f.png",
       "default_league_id": "01a0761e-11c5-787c-b07b-955b78d27b98"
     },
     {
@@ -4463,7 +4463,7 @@
       "code": "DE-VFB-STUTTGART-II",
       "name": "VfB Stuttgart II",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-7d8b-948a-fc335c360e12.png",
       "default_league_id": "01a0761e-11c5-715c-8d61-19ba765322aa"
     },
     {
@@ -4471,7 +4471,7 @@
       "code": "DE-VFL-BOCHUM",
       "name": "VfL Bochum",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-7462-b135-c88c0366a210.png",
       "default_league_id": "01a0761e-11c5-7553-830c-b1db72a0e15e"
     },
     {
@@ -4479,7 +4479,7 @@
       "code": "DE-VFL-OSNABRUCK",
       "name": "VfL Osnabrück",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-7a5c-8c19-a2c3e1564783.png",
       "default_league_id": "01a0761e-11c5-715c-8d61-19ba765322aa"
     },
     {
@@ -4487,7 +4487,7 @@
       "code": "DE-VFL-WOLFSBURG",
       "name": "VfL Wolfsburg",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-735f-a182-6d3e6969d476.png",
       "default_league_id": "01a0761e-11c5-787c-b07b-955b78d27b98"
     },
     {
@@ -4495,7 +4495,7 @@
       "code": "DK-VIBORG-FF",
       "name": "Viborg FF",
       "country": "Denmark",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-7281-baf8-574fa3ec79e1.png",
       "default_league_id": "01a0761e-11c5-767d-8406-3309c085bfc7"
     },
     {
@@ -4503,7 +4503,7 @@
       "code": "NO-VIKING-FK",
       "name": "Viking FK",
       "country": "Norway",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-7d25-a4c5-a62c16df4fce.png",
       "default_league_id": "01a0761e-11c5-7dd5-9830-fc3bfed5ce4a"
     },
     {
@@ -4511,7 +4511,7 @@
       "code": "DE-VIKTORIA-KOLN",
       "name": "Viktoria Köln",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-74c9-b566-e2de0eff05a0.png",
       "default_league_id": "01a0761e-11c5-715c-8d61-19ba765322aa"
     },
     {
@@ -4519,7 +4519,7 @@
       "code": "ES-VILLARREAL-CF",
       "name": "Villarreal CF",
       "country": "Spain",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-7a71-9529-ef6fbd3577bd.png",
       "default_league_id": "01a0761e-11c5-75b0-a6f0-382f69d2aca7"
     },
     {
@@ -4527,7 +4527,7 @@
       "code": "PT-VITORIA-DE-GUIMARAES",
       "name": "Vitória de Guimarães",
       "country": "Portugal",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-7224-a267-5aa9de4c9750.png",
       "default_league_id": "01a0761e-11c5-7881-a04d-9462a5f5f38b"
     },
     {
@@ -4535,7 +4535,7 @@
       "code": "NO-VALERENGA-FOTBALL",
       "name": "Vålerenga Fotball",
       "country": "Norway",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-739e-97b9-024eed15761f.png",
       "default_league_id": "01a0761e-11c5-7dd5-9830-fc3bfed5ce4a"
     },
     {
@@ -4543,7 +4543,7 @@
       "code": "AR-VELEZ-SARSFIELD",
       "name": "Vélez Sarsfield",
       "country": "Argentina",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-7930-8a04-48bb41069890.png",
       "default_league_id": "01a0761e-11c5-7d22-bb0e-80cf2ac0bb18"
     },
     {
@@ -4551,7 +4551,7 @@
       "code": "ENG-WALSALL",
       "name": "Walsall",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-7de6-adf4-902401c66c0a.png",
       "default_league_id": "01a0761e-11c5-74d4-80e1-be8a2caff971"
     },
     {
@@ -4559,7 +4559,7 @@
       "code": "IE-WATERFORD",
       "name": "Waterford",
       "country": "Ireland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-7343-8e5d-dd7988995cd3.png",
       "default_league_id": "01a0761e-11c5-78b1-83b4-fc63bbc04675"
     },
     {
@@ -4567,7 +4567,7 @@
       "code": "ENG-WATFORD",
       "name": "Watford",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-7bc7-97c1-08c867f4b324.png",
       "default_league_id": "01a0761e-11c5-76e8-a4ea-b7d77aff126a"
     },
     {
@@ -4575,7 +4575,7 @@
       "code": "AU-WELLINGTON-PHOENIX",
       "name": "Wellington Phoenix",
       "country": "Australia",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-7eea-97c8-02d0957001a0.png",
       "default_league_id": "01a0761e-11c5-7bd4-bb44-75609bd06a29"
     },
     {
@@ -4583,7 +4583,7 @@
       "code": "DE-WERDER-BREMEN",
       "name": "Werder Bremen",
       "country": "Germany",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-7e40-b149-5b6976cd0522.png",
       "default_league_id": "01a0761e-11c5-787c-b07b-955b78d27b98"
     },
     {
@@ -4591,7 +4591,7 @@
       "code": "ENG-WEST-BROMWICH-ALBION",
       "name": "West Bromwich Albion",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-72d9-91e0-150ca3704d09.png",
       "default_league_id": "01a0761e-11c5-76e8-a4ea-b7d77aff126a"
     },
     {
@@ -4599,7 +4599,7 @@
       "code": "ENG-WEST-HAM-UNITED",
       "name": "West Ham United",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-710a-9ad4-e8ff773eff81.png",
       "default_league_id": "01a0761e-11c5-73b1-83a4-75b6a304378a"
     },
     {
@@ -4607,7 +4607,7 @@
       "code": "BE-WESTERLO",
       "name": "Westerlo",
       "country": "Belgium",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-79af-8346-03802a43021a.png",
       "default_league_id": "01a0761e-11c5-7133-afbf-19c7c2e9939d"
     },
     {
@@ -4615,7 +4615,7 @@
       "code": "AU-WESTERN-SYDNEY-WANDERERS",
       "name": "Western Sydney Wanderers",
       "country": "Australia",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-755c-a564-aa62d8edb247.png",
       "default_league_id": "01a0761e-11c5-7bd4-bb44-75609bd06a29"
     },
     {
@@ -4623,7 +4623,7 @@
       "code": "PL-WIDZEW-ODZ",
       "name": "Widzew Łódź",
       "country": "Poland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-7ab2-9357-8eb82e098e97.png",
       "default_league_id": "01a0761e-11c5-7412-ab7e-0f5b28a2846d"
     },
     {
@@ -4631,7 +4631,7 @@
       "code": "ENG-WIGAN-ATHLETIC",
       "name": "Wigan Athletic",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-72a2-a3e6-19f8521b4d48.png",
       "default_league_id": "01a0761e-11c5-72c0-a788-1ed4fa6a2db1"
     },
     {
@@ -4639,7 +4639,7 @@
       "code": "PL-WISA-POCK",
       "name": "Wisła Płock",
       "country": "Poland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-77ff-906a-46677c5ef339.png",
       "default_league_id": "01a0761e-11c5-7412-ab7e-0f5b28a2846d"
     },
     {
@@ -4647,7 +4647,7 @@
       "code": "AT-WOLFSBERGER-AC",
       "name": "Wolfsberger AC",
       "country": "Austria",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-7507-a710-618ece1be705.png",
       "default_league_id": "01a0761e-11c5-7f96-bb60-fca2de36046e"
     },
     {
@@ -4655,7 +4655,7 @@
       "code": "ENG-WOLVERHAMPTON-WANDERERS",
       "name": "Wolverhampton Wanderers",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-76a1-b70a-ed9d20624e3d.png",
       "default_league_id": "01a0761e-11c5-73b1-83a4-75b6a304378a"
     },
     {
@@ -4663,7 +4663,7 @@
       "code": "ENG-WREXHAM",
       "name": "Wrexham",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-796a-a3d2-8eb7a3df83fc.png",
       "default_league_id": "01a0761e-11c5-76e8-a4ea-b7d77aff126a"
     },
     {
@@ -4671,7 +4671,7 @@
       "code": "AT-WSG-TIROL",
       "name": "WSG Tirol",
       "country": "Austria",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-7ee4-a573-13d4b79ca2c1.png",
       "default_league_id": "01a0761e-11c5-7f96-bb60-fca2de36046e"
     },
     {
@@ -4679,7 +4679,7 @@
       "code": "CN-WUHAN-THREE-TOWNS",
       "name": "Wuhan Three Towns",
       "country": "China",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-74b4-9e32-7d03e1abede0.png",
       "default_league_id": "01a0761e-11c5-7f85-9f5a-677ab3b916a0"
     },
     {
@@ -4687,7 +4687,7 @@
       "code": "ENG-WYCOMBE-WANDERERS",
       "name": "Wycombe Wanderers",
       "country": "England",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-7555-956e-22d45ee0ef2c.png",
       "default_league_id": "01a0761e-11c5-72c0-a788-1ed4fa6a2db1"
     },
     {
@@ -4695,7 +4695,7 @@
       "code": "CN-YUNNAN-YUKUN",
       "name": "Yunnan Yukun",
       "country": "China",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-7096-84d4-bee45263ad82.png",
       "default_league_id": "01a0761e-11c5-7f85-9f5a-677ab3b916a0"
     },
     {
@@ -4703,7 +4703,7 @@
       "code": "PL-ZAGEBIE-LUBIN",
       "name": "Zagłębie Lubin",
       "country": "Poland",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-744e-a7c6-f9eea713efca.png",
       "default_league_id": "01a0761e-11c5-7412-ab7e-0f5b28a2846d"
     },
     {
@@ -4711,7 +4711,7 @@
       "code": "CN-ZHEJIANG-PROFESSIONAL-FC",
       "name": "Zhejiang Professional FC",
       "country": "China",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-782a-8b80-e2da9513fe3d.png",
       "default_league_id": "01a0761e-11c5-7f85-9f5a-677ab3b916a0"
     },
     {
@@ -4719,7 +4719,7 @@
       "code": "BE-ZULTE-WAREGEM",
       "name": "Zulte Waregem",
       "country": "Belgium",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-79c0-9bb7-f209acc85f46.png",
       "default_league_id": "01a0761e-11c5-7133-afbf-19c7c2e9939d"
     },
     {
@@ -4727,7 +4727,7 @@
       "code": "TR-CAYKUR-RIZESPOR",
       "name": "Çaykur Rizespor",
       "country": "Turkey",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-75f7-92a6-01b73c3bed1e.png",
       "default_league_id": "01a0761e-11c5-7f1c-9dac-78c1abd3fd4e"
     },
     {
@@ -4735,7 +4735,7 @@
       "code": "SE-OSTERS-IF",
       "name": "Östers IF",
       "country": "Sweden",
-      "logo_url": null,
+      "logo_url": "/media/catalog/fc26/clubs/01a0761e-11c9-7e08-873d-5ee509f14bb7.png",
       "default_league_id": "01a0761e-11c5-73d0-9304-9999f43d3e0f"
     }
   ]
