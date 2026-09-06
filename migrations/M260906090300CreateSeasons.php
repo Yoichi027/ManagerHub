@@ -45,9 +45,9 @@ final class M260906090300CreateSeasons implements RevertibleMigrationInterface, 
                         END
                     ) STORED
             SQL);
-        $b->createIndex('ix_seasons_career_finalized', 'seasons', ['career_id', 'finalized_at']);
-        $b->createIndex('ux_seasons_career_label', 'seasons', ['career_id', 'label'], 'UNIQUE');
-        $b->createIndex('ux_seasons_one_active_per_career', 'seasons', ['active_career_id'], 'UNIQUE');
+        $b->createIndex('seasons', 'ix_seasons_career_finalized', ['career_id', 'finalized_at']);
+        $b->createIndex('seasons', 'ux_seasons_career_label', ['career_id', 'label'], 'UNIQUE');
+        $b->createIndex('seasons', 'ux_seasons_one_active_per_career', ['active_career_id'], 'UNIQUE');
         $b->addForeignKey('seasons', 'fk_seasons_career', 'career_id', 'careers', 'id', ReferentialAction::RESTRICT);
         $b->addForeignKey('seasons', 'fk_seasons_managed_club', 'managed_club_id', 'clubs', 'id', ReferentialAction::SET_NULL);
         $b->addForeignKey('seasons', 'fk_seasons_league', 'league_id', 'leagues', 'id', ReferentialAction::SET_NULL);

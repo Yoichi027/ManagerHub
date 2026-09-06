@@ -33,7 +33,7 @@ final class M260906090100CreateClubs implements RevertibleMigrationInterface, Tr
             'is_deleted' => $column::boolean()->notNull(),
             'deleted_at' => $column::datetime(6)->null(),
         ]);
-        $b->createIndex('ux_clubs_name_country', 'clubs', ['name', 'country'], 'UNIQUE');
+        $b->createIndex('clubs', 'ux_clubs_name_country', ['name', 'country'], 'UNIQUE');
         $b->addForeignKey(
             'clubs',
             'fk_clubs_default_league',

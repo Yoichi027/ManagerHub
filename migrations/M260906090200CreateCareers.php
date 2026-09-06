@@ -29,7 +29,7 @@ final class M260906090200CreateCareers implements RevertibleMigrationInterface, 
             'is_deleted' => $column::boolean()->notNull(),
             'deleted_at' => $column::datetime(6)->null(),
         ]);
-        $b->createIndex('ix_careers_user_id', 'careers', 'user_id');
+        $b->createIndex('careers', 'ix_careers_user_id', 'user_id');
         $b->addForeignKey('careers', 'fk_careers_user', 'user_id', 'users', 'id', ReferentialAction::RESTRICT);
     }
 
