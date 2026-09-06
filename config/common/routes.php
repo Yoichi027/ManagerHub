@@ -45,6 +45,9 @@ return [
             Route::post('/careers/{id}/delete')
                 ->action(Web\Career\DeleteCareerAction::class)
                 ->name('career.delete'),
+            Route::get('/careers/{id}')
+                ->action(Web\Career\Dashboard\Action::class)
+                ->name('career.dashboard'),
             Route::get('/account')
                 ->action(Web\Identity\Account\AccountAction::class)
                 ->name('account'),
