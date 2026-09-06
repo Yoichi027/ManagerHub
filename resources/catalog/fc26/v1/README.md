@@ -10,7 +10,7 @@ They are not edited through the application or directly in a database.
 - A `code` uses uppercase ASCII letters, digits, and hyphens only. It is permanent once released.
 - `country` is the English display name used by the application.
 - `logo_url` may be `null`; when supplied it must be an absolute HTTPS URL no longer than 255 characters.
-- A club's `default_league_code` is optional and must match a code in `leagues.json`.
+- A club's `default_league_id` is optional and must match a league UUID in `leagues.json`.
 - Do not duplicate a club merely because it may play in a different league in a future save. The default league is only a creation-form suggestion.
 - Never change or remove an item after this catalog revision has been released. Create a new catalog revision and data migration instead.
 
@@ -20,7 +20,9 @@ They are not edited through the application or directly in a database.
 
 ## Club fields
 
-`default_league_code` is the club's initial league suggestion. It does not create a permanent club-to-league relationship and it does not constrain the league selected by a user for a season.
+`default_league_id` is the club's initial league suggestion. It maps directly to the
+`clubs.default_league_id` foreign key and does not constrain the league selected by
+a user for a season.
 
 ## Workflow
 
@@ -29,4 +31,14 @@ They are not edited through the application or directly in a database.
 3. Review the resulting diff.
 4. Commit the catalog together with its dedicated data migration.
 
-The two existing entries are format examples, not an intended complete catalog.
+The initial catalog was generated from the local FC26 `Squads*` metadata draft in
+`../drafts/fc26-squads-metadata.json`. It contains 33 playable men's domestic
+leagues and 592 clubs assigned to those leagues. The draft intentionally retains
+the raw source rows, but it is not application catalog data.
+
+International, continental, generic, free-agent, created-player, youth, Rest of
+World, and women's competitions are deliberately excluded from this revision,
+along with their clubs. They are not selectable Career Mode leagues in Manager Hub.
+Every league currently uses the provisional 1 July to 30 June calendar and every
+`logo_url` is `null`; review those fields before the initial data migration is
+created.

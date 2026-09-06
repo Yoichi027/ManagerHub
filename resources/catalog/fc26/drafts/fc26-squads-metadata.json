@@ -1,0 +1,4819 @@
+{
+  "schema_version": 1,
+  "game_edition": "FC26",
+  "source": {
+    "kind": "EA SPORTS FC 26 Squads file",
+    "file_sha256": "5cd44c1d093589f7ef5a5dd5519d9f2da7cc5044497063fd4cf6ac1c7467e8fd",
+    "generated_at": "2026-09-06T09:18:24.883938Z"
+  },
+  "leagues": [
+    {
+      "source_id": 1,
+      "name": "Denmark Superliga (1)",
+      "country_source_id": 13,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 4,
+      "name": "Belgium Pro League (1)",
+      "country_source_id": 7,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 10,
+      "name": "Holland Eredivisie (1)",
+      "country_source_id": 34,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 13,
+      "name": "England Premier League (1)",
+      "country_source_id": 14,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 14,
+      "name": "England Championship (2)",
+      "country_source_id": 14,
+      "level": 2,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 16,
+      "name": "France Ligue 1 (1)",
+      "country_source_id": 18,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 17,
+      "name": "France Ligue 2 (2)",
+      "country_source_id": 18,
+      "level": 2,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 19,
+      "name": "Germany 1. Bundesliga (1)",
+      "country_source_id": 21,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 20,
+      "name": "Germany 2. Bundesliga (2)",
+      "country_source_id": 21,
+      "level": 2,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 31,
+      "name": "Italy Serie A (1)",
+      "country_source_id": 27,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 32,
+      "name": "Italy Serie B (2)",
+      "country_source_id": 27,
+      "level": 2,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 39,
+      "name": "USA Major League Soccer (1)",
+      "country_source_id": 95,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 41,
+      "name": "Norway Eliteserien (1)",
+      "country_source_id": 36,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 50,
+      "name": "Scotland Premiership (1)",
+      "country_source_id": 42,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 53,
+      "name": "Spain Primera División (1)",
+      "country_source_id": 45,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 54,
+      "name": "Spain Segunda División (2)",
+      "country_source_id": 45,
+      "level": 2,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 56,
+      "name": "Sweden Allsvenskan (1)",
+      "country_source_id": 46,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 60,
+      "name": "England League One (3)",
+      "country_source_id": 14,
+      "level": 3,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 61,
+      "name": "England League Two (4)",
+      "country_source_id": 14,
+      "level": 4,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 65,
+      "name": "Rep. Ireland Premier Division (1)",
+      "country_source_id": 25,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 66,
+      "name": "Poland Ekstraklasa (1)",
+      "country_source_id": 37,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 68,
+      "name": "Turkey Süper Lig (1)",
+      "country_source_id": 48,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 76,
+      "name": "Rest of World",
+      "country_source_id": 211,
+      "level": 4,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 78,
+      "name": "International",
+      "country_source_id": 75,
+      "level": 5,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 80,
+      "name": "Austria Bundesliga (1)",
+      "country_source_id": 4,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 83,
+      "name": "Korea K League 1 (1)",
+      "country_source_id": 167,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 111,
+      "name": "OTP Generics",
+      "country_source_id": 0,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 189,
+      "name": "Switzerland Super League (1)",
+      "country_source_id": 47,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 308,
+      "name": "Portugal Primeira Liga (1)",
+      "country_source_id": 38,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 330,
+      "name": "Romania Liga I (1)",
+      "country_source_id": 39,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 350,
+      "name": "Saudi Pro League (1)",
+      "country_source_id": 183,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 351,
+      "name": "Australia A-League (1)",
+      "country_source_id": 195,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 353,
+      "name": "Argentina Primera División (1)",
+      "country_source_id": 52,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 382,
+      "name": "Free Agents League",
+      "country_source_id": 210,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 383,
+      "name": "Create Player League",
+      "country_source_id": 209,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 384,
+      "name": "Creation Zone League",
+      "country_source_id": 216,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 1003,
+      "name": "CONMEBOL Libertadores",
+      "country_source_id": 225,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 1014,
+      "name": "CONMEBOL Sudamericana",
+      "country_source_id": 225,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 2000,
+      "name": "FIFA Career Saved Teams",
+      "country_source_id": 0,
+      "level": 6,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 2012,
+      "name": "China Super League (1)",
+      "country_source_id": 155,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 2028,
+      "name": "Youth Squad League",
+      "country_source_id": 0,
+      "level": 7,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 2076,
+      "name": "Germany 3. Liga (3)",
+      "country_source_id": 21,
+      "level": 3,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 2092,
+      "name": "FIFA Twist",
+      "country_source_id": 0,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 2136,
+      "name": "International Women",
+      "country_source_id": 222,
+      "level": 5,
+      "is_womens_competition": true
+    },
+    {
+      "source_id": 2149,
+      "name": "Indian Super League (1)",
+      "country_source_id": 159,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 2215,
+      "name": "Germany Frauen-Bundesliga (1)",
+      "country_source_id": 21,
+      "level": 1,
+      "is_womens_competition": true
+    },
+    {
+      "source_id": 2216,
+      "name": "England WSL (1)",
+      "country_source_id": 14,
+      "level": 1,
+      "is_womens_competition": true
+    },
+    {
+      "source_id": 2218,
+      "name": "France 1 Women's League (1)",
+      "country_source_id": 18,
+      "level": 1,
+      "is_womens_competition": true
+    },
+    {
+      "source_id": 2221,
+      "name": "USA NWSL (1)",
+      "country_source_id": 95,
+      "level": 1,
+      "is_womens_competition": true
+    },
+    {
+      "source_id": 2222,
+      "name": "Spain Liga F Femenina (1)",
+      "country_source_id": 45,
+      "level": 1,
+      "is_womens_competition": true
+    },
+    {
+      "source_id": 2226,
+      "name": "Rest of World Women",
+      "country_source_id": 211,
+      "level": 1,
+      "is_womens_competition": true
+    },
+    {
+      "source_id": 2240,
+      "name": "5v5 League",
+      "country_source_id": 211,
+      "level": 1,
+      "is_womens_competition": false
+    },
+    {
+      "source_id": 2255,
+      "name": "Rest of World Custom",
+      "country_source_id": 211,
+      "level": 1,
+      "is_womens_competition": false
+    }
+  ],
+  "clubs": [
+    {
+      "source_id": 111235,
+      "name": "1. FC Heidenheim",
+      "default_league_source_id": 19,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 29,
+      "name": "1. FC Kaiserslautern",
+      "default_league_source_id": 20,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 31,
+      "name": "1. FC Köln",
+      "default_league_source_id": 19,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 116003,
+      "name": "1. FC Köln",
+      "default_league_source_id": 2215,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 110588,
+      "name": "1. FC Magdeburg",
+      "default_league_source_id": 20,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 171,
+      "name": "1. FC Nürnberg",
+      "default_league_source_id": 20,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 131386,
+      "name": "1. FC Nürnberg",
+      "default_league_source_id": 2215,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 523,
+      "name": "1. FC Saarbrücken",
+      "default_league_source_id": 2076,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 583,
+      "name": "1. FC Schweinfurt 05",
+      "default_league_source_id": 2076,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 1831,
+      "name": "1. FC Union Berlin",
+      "default_league_source_id": 19,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 132589,
+      "name": "1. FC Union Berlin",
+      "default_league_source_id": 2215,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 169,
+      "name": "1. FSV Mainz 05",
+      "default_league_source_id": 19,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 77,
+      "name": "Aberdeen",
+      "default_league_source_id": 50,
+      "country_source_id": 42
+    },
+    {
+      "source_id": 114611,
+      "name": "Academia Puerto Cabello",
+      "default_league_source_id": 1014,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 110313,
+      "name": "Accrington Stanley",
+      "default_league_source_id": 61,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 1894,
+      "name": "AD Ceuta",
+      "default_league_source_id": 54,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 111393,
+      "name": "Adelaide United",
+      "default_league_source_id": 351,
+      "country_source_id": 195
+    },
+    {
+      "source_id": 278,
+      "name": "AEK",
+      "default_league_source_id": 76,
+      "country_source_id": 211
+    },
+    {
+      "source_id": 1943,
+      "name": "AFC Bournemouth",
+      "default_league_source_id": 13,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 112259,
+      "name": "AFC Wimbledon",
+      "default_league_source_id": 60,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 271,
+      "name": "AGF",
+      "default_league_source_id": 1,
+      "country_source_id": 13
+    },
+    {
+      "source_id": 433,
+      "name": "AIK",
+      "default_league_source_id": 56,
+      "country_source_id": 46
+    },
+    {
+      "source_id": 57,
+      "name": "AJ Auxerre",
+      "default_league_source_id": 16,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 245,
+      "name": "Ajax",
+      "default_league_source_id": 10,
+      "country_source_id": 34
+    },
+    {
+      "source_id": 131359,
+      "name": "Ajax",
+      "default_league_source_id": 2226,
+      "country_source_id": 211
+    },
+    {
+      "source_id": 112387,
+      "name": "Al Ahli",
+      "default_league_source_id": 350,
+      "country_source_id": 183
+    },
+    {
+      "source_id": 111701,
+      "name": "Al Ain FC (UAE)",
+      "default_league_source_id": 76,
+      "country_source_id": 211
+    },
+    {
+      "source_id": 112096,
+      "name": "Al Ettifaq",
+      "default_league_source_id": 350,
+      "country_source_id": 183
+    },
+    {
+      "source_id": 112390,
+      "name": "Al Fateh",
+      "default_league_source_id": 350,
+      "country_source_id": 183
+    },
+    {
+      "source_id": 113057,
+      "name": "Al Fayha",
+      "default_league_source_id": 350,
+      "country_source_id": 183
+    },
+    {
+      "source_id": 113222,
+      "name": "Al Hazem",
+      "default_league_source_id": 350,
+      "country_source_id": 183
+    },
+    {
+      "source_id": 605,
+      "name": "Al Hilal",
+      "default_league_source_id": 350,
+      "country_source_id": 183
+    },
+    {
+      "source_id": 607,
+      "name": "Al Ittihad",
+      "default_league_source_id": 350,
+      "country_source_id": 183
+    },
+    {
+      "source_id": 112883,
+      "name": "Al Khaleej",
+      "default_league_source_id": 350,
+      "country_source_id": 183
+    },
+    {
+      "source_id": 131735,
+      "name": "Al Kholood",
+      "default_league_source_id": 350,
+      "country_source_id": 183
+    },
+    {
+      "source_id": 115892,
+      "name": "Al Najmah",
+      "default_league_source_id": 350,
+      "country_source_id": 183
+    },
+    {
+      "source_id": 112139,
+      "name": "Al Nassr",
+      "default_league_source_id": 350,
+      "country_source_id": 183
+    },
+    {
+      "source_id": 113060,
+      "name": "Al Okhdood",
+      "default_league_source_id": 350,
+      "country_source_id": 183
+    },
+    {
+      "source_id": 112391,
+      "name": "Al Qadsiah",
+      "default_league_source_id": 350,
+      "country_source_id": 183
+    },
+    {
+      "source_id": 113037,
+      "name": "Al Riyadh",
+      "default_league_source_id": 350,
+      "country_source_id": 183
+    },
+    {
+      "source_id": 111674,
+      "name": "Al Shabab",
+      "default_league_source_id": 350,
+      "country_source_id": 183
+    },
+    {
+      "source_id": 112393,
+      "name": "Al Taawoun",
+      "default_league_source_id": 350,
+      "country_source_id": 183
+    },
+    {
+      "source_id": 1854,
+      "name": "Albacete Balompié",
+      "default_league_source_id": 54,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 111707,
+      "name": "Aldosivi",
+      "default_league_source_id": 353,
+      "country_source_id": 52
+    },
+    {
+      "source_id": 1826,
+      "name": "Alemannia Aachen",
+      "default_league_source_id": 2076,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 131123,
+      "name": "Alhama FC",
+      "default_league_source_id": 2222,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 111012,
+      "name": "Alianza Atlético de Sullana",
+      "default_league_source_id": 1014,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 15009,
+      "name": "Altach",
+      "default_league_source_id": 80,
+      "country_source_id": 4
+    },
+    {
+      "source_id": 717,
+      "name": "Alverca",
+      "default_league_source_id": 308,
+      "country_source_id": 38
+    },
+    {
+      "source_id": 114577,
+      "name": "Always Ready",
+      "default_league_source_id": 1003,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 1816,
+      "name": "Amiens SC",
+      "default_league_source_id": 17,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 101099,
+      "name": "América de Cali",
+      "default_league_source_id": 1014,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 229,
+      "name": "Anderlecht",
+      "default_league_source_id": 4,
+      "country_source_id": 7
+    },
+    {
+      "source_id": 116311,
+      "name": "Angel City FC",
+      "default_league_source_id": 2221,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 1530,
+      "name": "Angers SCO",
+      "default_league_source_id": 16,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 741,
+      "name": "Antalyaspor",
+      "default_league_source_id": 68,
+      "country_source_id": 48
+    },
+    {
+      "source_id": 230,
+      "name": "Antwerp",
+      "default_league_source_id": 4,
+      "country_source_id": 7
+    },
+    {
+      "source_id": 100135,
+      "name": "APOEL Nicosia FC",
+      "default_league_source_id": 76,
+      "country_source_id": 211
+    },
+    {
+      "source_id": 111019,
+      "name": "Argentinos Juniors",
+      "default_league_source_id": 353,
+      "country_source_id": 52
+    },
+    {
+      "source_id": 111082,
+      "name": "Arka Gdynia",
+      "default_league_source_id": 66,
+      "country_source_id": 37
+    },
+    {
+      "source_id": 159,
+      "name": "Arminia Bielefeld",
+      "default_league_source_id": 20,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 112513,
+      "name": "Arouca",
+      "default_league_source_id": 308,
+      "country_source_id": 38
+    },
+    {
+      "source_id": 1,
+      "name": "Arsenal",
+      "default_league_source_id": 13,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 116009,
+      "name": "Arsenal",
+      "default_league_source_id": 2216,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 69,
+      "name": "AS Monaco",
+      "default_league_source_id": 16,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 1823,
+      "name": "AS Nancy",
+      "default_league_source_id": 17,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 1819,
+      "name": "AS Saint-Étienne",
+      "default_league_source_id": 17,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 116044,
+      "name": "AS Saint-Étienne",
+      "default_league_source_id": 2218,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 2,
+      "name": "Aston Villa",
+      "default_league_source_id": 13,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 116015,
+      "name": "Aston Villa",
+      "default_league_source_id": 2216,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 448,
+      "name": "Athletic Club de Bilbao",
+      "default_league_source_id": 53,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 116328,
+      "name": "Athletic Club de Bilbao",
+      "default_league_source_id": 2222,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 112885,
+      "name": "Atlanta United FC",
+      "default_league_source_id": 39,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 240,
+      "name": "Atlético de Madrid",
+      "default_league_source_id": 53,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 116327,
+      "name": "Atlético de Madrid",
+      "default_league_source_id": 2222,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 1035,
+      "name": "Atlético Mineiro",
+      "default_league_source_id": 1014,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 101100,
+      "name": "Atlético Nacional",
+      "default_league_source_id": 76,
+      "country_source_id": 211
+    },
+    {
+      "source_id": 111708,
+      "name": "Atlético Tucumán",
+      "default_league_source_id": 353,
+      "country_source_id": 52
+    },
+    {
+      "source_id": 131739,
+      "name": "Auckland FC",
+      "default_league_source_id": 351,
+      "country_source_id": 195
+    },
+    {
+      "source_id": 101097,
+      "name": "Audax Italiano",
+      "default_league_source_id": 1014,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 114161,
+      "name": "Austin FC",
+      "default_league_source_id": 39,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 256,
+      "name": "Austria Wien",
+      "default_league_source_id": 80,
+      "country_source_id": 4
+    },
+    {
+      "source_id": 2038,
+      "name": "Avellino",
+      "default_league_source_id": 32,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 131463,
+      "name": "AVS Futebol SAD",
+      "default_league_source_id": 308,
+      "country_source_id": 38
+    },
+    {
+      "source_id": 1906,
+      "name": "AZ",
+      "default_league_source_id": 10,
+      "country_source_id": 34
+    },
+    {
+      "source_id": 1598,
+      "name": "Bahia",
+      "default_league_source_id": 76,
+      "country_source_id": 211
+    },
+    {
+      "source_id": 110404,
+      "name": "Banfield",
+      "default_league_source_id": 353,
+      "country_source_id": 52
+    },
+    {
+      "source_id": 110981,
+      "name": "Barcelona SC Guayaquil",
+      "default_league_source_id": 1003,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 1848,
+      "name": "Bari",
+      "default_league_source_id": 32,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 135,
+      "name": "Barnet",
+      "default_league_source_id": 61,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 1932,
+      "name": "Barnsley",
+      "default_league_source_id": 60,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 113044,
+      "name": "Barracas Central",
+      "default_league_source_id": 353,
+      "country_source_id": 52
+    },
+    {
+      "source_id": 381,
+      "name": "Barrow",
+      "default_league_source_id": 61,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 131477,
+      "name": "Bay FC",
+      "default_league_source_id": 2221,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 32,
+      "name": "Bayer 04 Leverkusen",
+      "default_league_source_id": 19,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 115996,
+      "name": "Bayer 04 Leverkusen",
+      "default_league_source_id": 2215,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 21,
+      "name": "Bayern München",
+      "default_league_source_id": 19,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 115995,
+      "name": "Bayern München",
+      "default_league_source_id": 2215,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 111768,
+      "name": "Beijing Guoan",
+      "default_league_source_id": 2012,
+      "country_source_id": 155
+    },
+    {
+      "source_id": 111022,
+      "name": "Belgrano de Córdoba",
+      "default_league_source_id": 353,
+      "country_source_id": 52
+    },
+    {
+      "source_id": 234,
+      "name": "Benfica",
+      "default_league_source_id": 308,
+      "country_source_id": 38
+    },
+    {
+      "source_id": 131358,
+      "name": "Benfica",
+      "default_league_source_id": 2226,
+      "country_source_id": 211
+    },
+    {
+      "source_id": 113302,
+      "name": "Bengaluru FC",
+      "default_league_source_id": 2149,
+      "country_source_id": 159
+    },
+    {
+      "source_id": 115845,
+      "name": "Bergamo Calcio",
+      "default_league_source_id": 31,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 327,
+      "name": "Beşiktaş",
+      "default_league_source_id": 68,
+      "country_source_id": 48
+    },
+    {
+      "source_id": 88,
+      "name": "Birmingham City",
+      "default_league_source_id": 14,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 711,
+      "name": "BK Häcken",
+      "default_league_source_id": 56,
+      "country_source_id": 46
+    },
+    {
+      "source_id": 3,
+      "name": "Blackburn Rovers",
+      "default_league_source_id": 14,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 1926,
+      "name": "Blackpool",
+      "default_league_source_id": 60,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 110720,
+      "name": "Blau-Weiß Linz",
+      "default_league_source_id": 80,
+      "country_source_id": 4
+    },
+    {
+      "source_id": 110967,
+      "name": "Blooming",
+      "default_league_source_id": 1014,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 1877,
+      "name": "Boca Juniors",
+      "default_league_source_id": 353,
+      "country_source_id": 52
+    },
+    {
+      "source_id": 305,
+      "name": "Bohemians",
+      "default_league_source_id": 65,
+      "country_source_id": 25
+    },
+    {
+      "source_id": 189,
+      "name": "Bologna",
+      "default_league_source_id": 31,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 4,
+      "name": "Bolton Wanderers",
+      "default_league_source_id": 60,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 110968,
+      "name": "Bolívar",
+      "default_league_source_id": 1003,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 22,
+      "name": "Borussia Dortmund",
+      "default_league_source_id": 19,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 23,
+      "name": "Borussia M'gladbach",
+      "default_league_source_id": 19,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 112868,
+      "name": "Boston River",
+      "default_league_source_id": 1014,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 517,
+      "name": "Botafogo",
+      "default_league_source_id": 1014,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 1804,
+      "name": "Bradford City",
+      "default_league_source_id": 60,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 1925,
+      "name": "Brentford",
+      "default_league_source_id": 13,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 1808,
+      "name": "Brighton & Hove Albion",
+      "default_league_source_id": 13,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 116013,
+      "name": "Brighton & Hove Albion",
+      "default_league_source_id": 2216,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 111395,
+      "name": "Brisbane Roar",
+      "default_league_source_id": 351,
+      "country_source_id": 195
+    },
+    {
+      "source_id": 1919,
+      "name": "Bristol City",
+      "default_league_source_id": 14,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 1962,
+      "name": "Bristol Rovers",
+      "default_league_source_id": 61,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 112764,
+      "name": "Bromley",
+      "default_league_source_id": 61,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 112510,
+      "name": "Bruk-Bet Termalica Nieciecza",
+      "default_league_source_id": 66,
+      "country_source_id": 37
+    },
+    {
+      "source_id": 1523,
+      "name": "Bryne FK",
+      "default_league_source_id": 41,
+      "country_source_id": 36
+    },
+    {
+      "source_id": 269,
+      "name": "Brøndby IF",
+      "default_league_source_id": 1,
+      "country_source_id": 13
+    },
+    {
+      "source_id": 900,
+      "name": "BSC Young Boys",
+      "default_league_source_id": 189,
+      "country_source_id": 47
+    },
+    {
+      "source_id": 10846,
+      "name": "Burgos CF",
+      "default_league_source_id": 54,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 112638,
+      "name": "Buriram United",
+      "default_league_source_id": 76,
+      "country_source_id": 211
+    },
+    {
+      "source_id": 1796,
+      "name": "Burnley",
+      "default_league_source_id": 13,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 15015,
+      "name": "Burton Albion",
+      "default_league_source_id": 60,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 479,
+      "name": "CA Osasuna",
+      "default_league_source_id": 53,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 1842,
+      "name": "Cagliari",
+      "default_league_source_id": 31,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 1944,
+      "name": "Cambridge United",
+      "default_league_source_id": 61,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 110991,
+      "name": "Carabobo FC",
+      "default_league_source_id": 1014,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 110989,
+      "name": "Caracas FC",
+      "default_league_source_id": 1014,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 1961,
+      "name": "Cardiff City",
+      "default_league_source_id": 60,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 112493,
+      "name": "Carrarese",
+      "default_league_source_id": 32,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 114510,
+      "name": "Casa Pia",
+      "default_league_source_id": 308,
+      "country_source_id": 38
+    },
+    {
+      "source_id": 110908,
+      "name": "Catanzaro",
+      "default_league_source_id": 32,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 100852,
+      "name": "CD Castellón",
+      "default_league_source_id": 54,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 100888,
+      "name": "CD Leganés",
+      "default_league_source_id": 54,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 110069,
+      "name": "CD Mirandés",
+      "default_league_source_id": 54,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 78,
+      "name": "Celtic",
+      "default_league_source_id": 50,
+      "country_source_id": 42
+    },
+    {
+      "source_id": 111396,
+      "name": "Central Coast Mariners",
+      "default_league_source_id": 351,
+      "country_source_id": 195
+    },
+    {
+      "source_id": 112965,
+      "name": "Central Córdoba",
+      "default_league_source_id": 353,
+      "country_source_id": 52
+    },
+    {
+      "source_id": 1750,
+      "name": "Cercle Brugge",
+      "default_league_source_id": 4,
+      "country_source_id": 7
+    },
+    {
+      "source_id": 112716,
+      "name": "Cerro Porteño",
+      "default_league_source_id": 1003,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 110915,
+      "name": "Cesena",
+      "default_league_source_id": 32,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 111139,
+      "name": "CF Montréal",
+      "default_league_source_id": 39,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 114385,
+      "name": "CFR Cluj",
+      "default_league_source_id": 330,
+      "country_source_id": 39
+    },
+    {
+      "source_id": 111769,
+      "name": "Changchun Yatai",
+      "default_league_source_id": 2012,
+      "country_source_id": 155
+    },
+    {
+      "source_id": 670,
+      "name": "Charleroi",
+      "default_league_source_id": 4,
+      "country_source_id": 7
+    },
+    {
+      "source_id": 114640,
+      "name": "Charlotte FC",
+      "default_league_source_id": 39,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 89,
+      "name": "Charlton Athletic",
+      "default_league_source_id": 14,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 5,
+      "name": "Chelsea",
+      "default_league_source_id": 13,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 116010,
+      "name": "Chelsea",
+      "default_league_source_id": 2216,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 1936,
+      "name": "Cheltenham Town",
+      "default_league_source_id": 61,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 116360,
+      "name": "Chengdu Rongcheng F.C.",
+      "default_league_source_id": 2012,
+      "country_source_id": 155
+    },
+    {
+      "source_id": 113297,
+      "name": "Chennaiyin FC",
+      "default_league_source_id": 2149,
+      "country_source_id": 159
+    },
+    {
+      "source_id": 1924,
+      "name": "Chesterfield",
+      "default_league_source_id": 61,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 693,
+      "name": "Chicago Fire FC",
+      "default_league_source_id": 39,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 116305,
+      "name": "Chicago Stars FC",
+      "default_league_source_id": 2221,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 111011,
+      "name": "Cienciano",
+      "default_league_source_id": 1014,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 1815,
+      "name": "Clermont Foot",
+      "default_league_source_id": 17,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 231,
+      "name": "Club Brugge",
+      "default_league_source_id": 4,
+      "country_source_id": 7
+    },
+    {
+      "source_id": 1935,
+      "name": "Colchester United",
+      "default_league_source_id": 61,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 694,
+      "name": "Colorado Rapids",
+      "default_league_source_id": 39,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 687,
+      "name": "Columbus Crew",
+      "default_league_source_id": 39,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 1745,
+      "name": "Como",
+      "default_league_source_id": 31,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 112705,
+      "name": "Coquimbo Unido",
+      "default_league_source_id": 1003,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 113142,
+      "name": "Corendon Alanyaspor",
+      "default_league_source_id": 68,
+      "country_source_id": 48
+    },
+    {
+      "source_id": 1041,
+      "name": "Corinthians",
+      "default_league_source_id": 1003,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 422,
+      "name": "Cork City",
+      "default_league_source_id": 65,
+      "country_source_id": 25
+    },
+    {
+      "source_id": 116332,
+      "name": "Costa Adeje Tenerife",
+      "default_league_source_id": 2222,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 1800,
+      "name": "Coventry City",
+      "default_league_source_id": 14,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 110747,
+      "name": "Cracovia",
+      "default_league_source_id": 66,
+      "country_source_id": 37
+    },
+    {
+      "source_id": 110890,
+      "name": "Crawley Town",
+      "default_league_source_id": 61,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 111434,
+      "name": "Cremonese",
+      "default_league_source_id": 31,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 121,
+      "name": "Crewe Alexandra",
+      "default_league_source_id": 61,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 568,
+      "name": "Cruzeiro",
+      "default_league_source_id": 1003,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 1799,
+      "name": "Crystal Palace",
+      "default_league_source_id": 13,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 15012,
+      "name": "Cultural Leonesa",
+      "default_league_source_id": 54,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 112659,
+      "name": "Cusco FC",
+      "default_league_source_id": 1003,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 1968,
+      "name": "Cádiz CF",
+      "default_league_source_id": 54,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 1867,
+      "name": "Córdoba CF",
+      "default_league_source_id": 54,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 688,
+      "name": "D.C. United",
+      "default_league_source_id": 39,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 2056,
+      "name": "Daegu FC",
+      "default_league_source_id": 83,
+      "country_source_id": 167
+    },
+    {
+      "source_id": 980,
+      "name": "Daejeon Hana Citizen",
+      "default_league_source_id": 83,
+      "country_source_id": 167
+    },
+    {
+      "source_id": 132305,
+      "name": "Dalian Yingbo FC",
+      "default_league_source_id": 2012,
+      "country_source_id": 155
+    },
+    {
+      "source_id": 113217,
+      "name": "Damac FC",
+      "default_league_source_id": 350,
+      "country_source_id": 183
+    },
+    {
+      "source_id": 111710,
+      "name": "Defensa y Justicia",
+      "default_league_source_id": 353,
+      "country_source_id": 52
+    },
+    {
+      "source_id": 113892,
+      "name": "Degerfors IF",
+      "default_league_source_id": 56,
+      "country_source_id": 46
+    },
+    {
+      "source_id": 537,
+      "name": "Dender",
+      "default_league_source_id": 4,
+      "country_source_id": 7
+    },
+    {
+      "source_id": 111722,
+      "name": "Deportes Tolima",
+      "default_league_source_id": 1003,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 463,
+      "name": "Deportivo Alavés",
+      "default_league_source_id": 53,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 110982,
+      "name": "Deportivo Cuenca",
+      "default_league_source_id": 1014,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 112853,
+      "name": "Deportivo La Guaira",
+      "default_league_source_id": 1003,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 115472,
+      "name": "Deportivo Riestra",
+      "default_league_source_id": 353,
+      "country_source_id": 52
+    },
+    {
+      "source_id": 91,
+      "name": "Derby County",
+      "default_league_source_id": 14,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 445,
+      "name": "Derry City",
+      "default_league_source_id": 65,
+      "country_source_id": 25
+    },
+    {
+      "source_id": 116039,
+      "name": "Dijon FCO",
+      "default_league_source_id": 2218,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 100757,
+      "name": "Dinamo București",
+      "default_league_source_id": 330,
+      "country_source_id": 39
+    },
+    {
+      "source_id": 211,
+      "name": "Dinamo Zagreb",
+      "default_league_source_id": 76,
+      "country_source_id": 211
+    },
+    {
+      "source_id": 710,
+      "name": "Djurgårdens IF",
+      "default_league_source_id": 56,
+      "country_source_id": 46
+    },
+    {
+      "source_id": 142,
+      "name": "Doncaster Rovers",
+      "default_league_source_id": 60,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 1572,
+      "name": "Drogheda United",
+      "default_league_source_id": 65,
+      "country_source_id": 25
+    },
+    {
+      "source_id": 180,
+      "name": "Dundee FC",
+      "default_league_source_id": 50,
+      "country_source_id": 42
+    },
+    {
+      "source_id": 181,
+      "name": "Dundee United",
+      "default_league_source_id": 50,
+      "country_source_id": 42
+    },
+    {
+      "source_id": 132629,
+      "name": "DUX Logroño",
+      "default_league_source_id": 2222,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 503,
+      "name": "Dynamo Dresden",
+      "default_league_source_id": 20,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 101047,
+      "name": "Dynamo Kyiv",
+      "default_league_source_id": 76,
+      "country_source_id": 211
+    },
+    {
+      "source_id": 111629,
+      "name": "East Bengal FC",
+      "default_league_source_id": 2149,
+      "country_source_id": 159
+    },
+    {
+      "source_id": 110500,
+      "name": "Eintracht Braunschweig",
+      "default_league_source_id": 20,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 1824,
+      "name": "Eintracht Frankfurt",
+      "default_league_source_id": 19,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 115997,
+      "name": "Eintracht Frankfurt",
+      "default_league_source_id": 2215,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 468,
+      "name": "Elche CF",
+      "default_league_source_id": 53,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 1746,
+      "name": "Empoli",
+      "default_league_source_id": 32,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 62,
+      "name": "En Avant Guingamp",
+      "default_league_source_id": 17,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 162,
+      "name": "Energie Cottbus",
+      "default_league_source_id": 2076,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 113147,
+      "name": "Entella",
+      "default_league_source_id": 32,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 506,
+      "name": "Erzgebirge Aue",
+      "default_league_source_id": 2076,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 294,
+      "name": "ESTAC Troyes",
+      "default_league_source_id": 17,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 10020,
+      "name": "Estoril",
+      "default_league_source_id": 308,
+      "country_source_id": 38
+    },
+    {
+      "source_id": 718,
+      "name": "Estrela da Amadora",
+      "default_league_source_id": 308,
+      "country_source_id": 38
+    },
+    {
+      "source_id": 101083,
+      "name": "Estudiantes de La Plata",
+      "default_league_source_id": 353,
+      "country_source_id": 52
+    },
+    {
+      "source_id": 7,
+      "name": "Everton",
+      "default_league_source_id": 13,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 116016,
+      "name": "Everton",
+      "default_league_source_id": 2216,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 1971,
+      "name": "Excelsior",
+      "default_league_source_id": 10,
+      "country_source_id": 34
+    },
+    {
+      "source_id": 143,
+      "name": "Exeter City",
+      "default_league_source_id": 60,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 131174,
+      "name": "Eyüpspor",
+      "default_league_source_id": 68,
+      "country_source_id": 48
+    },
+    {
+      "source_id": 79,
+      "name": "Falkirk",
+      "default_league_source_id": 50,
+      "country_source_id": 42
+    },
+    {
+      "source_id": 112809,
+      "name": "Famalicão",
+      "default_league_source_id": 308,
+      "country_source_id": 38
+    },
+    {
+      "source_id": 110075,
+      "name": "Farul Constanța",
+      "default_league_source_id": 330,
+      "country_source_id": 39
+    },
+    {
+      "source_id": 111117,
+      "name": "Fatih Karagümrük S.K.",
+      "default_league_source_id": 68,
+      "country_source_id": 48
+    },
+    {
+      "source_id": 114554,
+      "name": "FC Andorra",
+      "default_league_source_id": 54,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 131447,
+      "name": "FC Annecy",
+      "default_league_source_id": 17,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 112555,
+      "name": "FC Anyang",
+      "default_league_source_id": 83,
+      "country_source_id": 167
+    },
+    {
+      "source_id": 100759,
+      "name": "FC Argeș",
+      "default_league_source_id": 330,
+      "country_source_id": 39
+    },
+    {
+      "source_id": 100409,
+      "name": "FC Augsburg",
+      "default_league_source_id": 19,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 131125,
+      "name": "FC Badalona Women",
+      "default_league_source_id": 2222,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 241,
+      "name": "FC Barcelona",
+      "default_league_source_id": 53,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 116325,
+      "name": "FC Barcelona",
+      "default_league_source_id": 2222,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 896,
+      "name": "FC Basel",
+      "default_league_source_id": 189,
+      "country_source_id": 47
+    },
+    {
+      "source_id": 110752,
+      "name": "FC Botoșani",
+      "default_league_source_id": 330,
+      "country_source_id": 39
+    },
+    {
+      "source_id": 116005,
+      "name": "FC Carl Zeiss Jena",
+      "default_league_source_id": 2215,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 113149,
+      "name": "FC Cincinnati",
+      "default_league_source_id": 39,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 695,
+      "name": "FC Dallas",
+      "default_league_source_id": 39,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 116036,
+      "name": "FC Fleury 91",
+      "default_league_source_id": 2218,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 15006,
+      "name": "FC Fredericia",
+      "default_league_source_id": 1,
+      "country_source_id": 13
+    },
+    {
+      "source_id": 113298,
+      "name": "FC Goa",
+      "default_league_source_id": 2149,
+      "country_source_id": 159
+    },
+    {
+      "source_id": 1915,
+      "name": "FC Groningen",
+      "default_league_source_id": 10,
+      "country_source_id": 34
+    },
+    {
+      "source_id": 114147,
+      "name": "FC Hermannstadt",
+      "default_league_source_id": 330,
+      "country_source_id": 39
+    },
+    {
+      "source_id": 111239,
+      "name": "FC Ingolstadt 04",
+      "default_league_source_id": 2076,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 819,
+      "name": "FC København",
+      "default_league_source_id": 1,
+      "country_source_id": 13
+    },
+    {
+      "source_id": 1862,
+      "name": "FC Lausanne-Sport",
+      "default_league_source_id": 189,
+      "country_source_id": 47
+    },
+    {
+      "source_id": 217,
+      "name": "FC Lorient",
+      "default_league_source_id": 16,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 10032,
+      "name": "FC Lugano",
+      "default_league_source_id": 189,
+      "country_source_id": 47
+    },
+    {
+      "source_id": 897,
+      "name": "FC Luzern",
+      "default_league_source_id": 189,
+      "country_source_id": 47
+    },
+    {
+      "source_id": 68,
+      "name": "FC Metz",
+      "default_league_source_id": 16,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 1516,
+      "name": "FC Midtjylland",
+      "default_league_source_id": 1,
+      "country_source_id": 13
+    },
+    {
+      "source_id": 71,
+      "name": "FC Nantes",
+      "default_league_source_id": 16,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 116417,
+      "name": "FC Nantes",
+      "default_league_source_id": 2218,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 1788,
+      "name": "FC Nordsjælland",
+      "default_league_source_id": 1,
+      "country_source_id": 13
+    },
+    {
+      "source_id": 236,
+      "name": "FC Porto",
+      "default_league_source_id": 308,
+      "country_source_id": 38
+    },
+    {
+      "source_id": 310,
+      "name": "FC Rapid",
+      "default_league_source_id": 330,
+      "country_source_id": 39
+    },
+    {
+      "source_id": 131362,
+      "name": "FC Rosengård",
+      "default_league_source_id": 2226,
+      "country_source_id": 211
+    },
+    {
+      "source_id": 34,
+      "name": "FC Schalke 04",
+      "default_league_source_id": 20,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 982,
+      "name": "FC Seoul",
+      "default_league_source_id": 83,
+      "country_source_id": 167
+    },
+    {
+      "source_id": 110770,
+      "name": "FC Sion",
+      "default_league_source_id": 189,
+      "country_source_id": 47
+    },
+    {
+      "source_id": 898,
+      "name": "FC St. Gallen",
+      "default_league_source_id": 189,
+      "country_source_id": 47
+    },
+    {
+      "source_id": 110329,
+      "name": "FC St. Pauli",
+      "default_league_source_id": 19,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 1715,
+      "name": "FC Thun",
+      "default_league_source_id": 189,
+      "country_source_id": 47
+    },
+    {
+      "source_id": 1908,
+      "name": "FC Twente",
+      "default_league_source_id": 10,
+      "country_source_id": 34
+    },
+    {
+      "source_id": 1903,
+      "name": "FC Utrecht",
+      "default_league_source_id": 10,
+      "country_source_id": 34
+    },
+    {
+      "source_id": 645,
+      "name": "FC Volendam",
+      "default_league_source_id": 10,
+      "country_source_id": 34
+    },
+    {
+      "source_id": 1713,
+      "name": "FC Winterthur",
+      "default_league_source_id": 189,
+      "country_source_id": 47
+    },
+    {
+      "source_id": 894,
+      "name": "FC Zürich",
+      "default_league_source_id": 189,
+      "country_source_id": 47
+    },
+    {
+      "source_id": 131361,
+      "name": "FC Zürich",
+      "default_league_source_id": 2226,
+      "country_source_id": 211
+    },
+    {
+      "source_id": 100761,
+      "name": "FCSB",
+      "default_league_source_id": 330,
+      "country_source_id": 39
+    },
+    {
+      "source_id": 326,
+      "name": "Fenerbahçe",
+      "default_league_source_id": 68,
+      "country_source_id": 48
+    },
+    {
+      "source_id": 1874,
+      "name": "Ferencvárosi TC",
+      "default_league_source_id": 76,
+      "country_source_id": 211
+    },
+    {
+      "source_id": 246,
+      "name": "Feyenoord",
+      "default_league_source_id": 10,
+      "country_source_id": 34
+    },
+    {
+      "source_id": 110374,
+      "name": "Fiorentina",
+      "default_league_source_id": 31,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 918,
+      "name": "FK Bodø/Glimt",
+      "default_league_source_id": 41,
+      "country_source_id": 36
+    },
+    {
+      "source_id": 114546,
+      "name": "FK Csíkszereda Miercurea Ciuc",
+      "default_league_source_id": 330,
+      "country_source_id": 39
+    },
+    {
+      "source_id": 1463,
+      "name": "FK Haugesund",
+      "default_league_source_id": 41,
+      "country_source_id": 36
+    },
+    {
+      "source_id": 1043,
+      "name": "Flamengo",
+      "default_league_source_id": 1003,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 112260,
+      "name": "Fleetwood Town",
+      "default_league_source_id": 61,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 567,
+      "name": "Fluminense",
+      "default_league_source_id": 1003,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 110636,
+      "name": "Fortuna Düsseldorf",
+      "default_league_source_id": 20,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 634,
+      "name": "Fortuna Sittard",
+      "default_league_source_id": 10,
+      "country_source_id": 34
+    },
+    {
+      "source_id": 2041,
+      "name": "Fredrikstad FK",
+      "default_league_source_id": 41,
+      "country_source_id": 36
+    },
+    {
+      "source_id": 111657,
+      "name": "Frosinone",
+      "default_league_source_id": 32,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 144,
+      "name": "Fulham",
+      "default_league_source_id": 13,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 111594,
+      "name": "GAIS",
+      "default_league_source_id": 56,
+      "country_source_id": 46
+    },
+    {
+      "source_id": 325,
+      "name": "Galatasaray",
+      "default_league_source_id": 68,
+      "country_source_id": 48
+    },
+    {
+      "source_id": 1571,
+      "name": "Galway United",
+      "default_league_source_id": 65,
+      "country_source_id": 25
+    },
+    {
+      "source_id": 112115,
+      "name": "Gangwon FC",
+      "default_league_source_id": 83,
+      "country_source_id": 167
+    },
+    {
+      "source_id": 110776,
+      "name": "Gaziantep FK",
+      "default_league_source_id": 68,
+      "country_source_id": 48
+    },
+    {
+      "source_id": 673,
+      "name": "Genk",
+      "default_league_source_id": 4,
+      "country_source_id": 7
+    },
+    {
+      "source_id": 110556,
+      "name": "Genoa",
+      "default_league_source_id": 31,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 674,
+      "name": "Gent",
+      "default_league_source_id": 4,
+      "country_source_id": 7
+    },
+    {
+      "source_id": 101025,
+      "name": "Gençlerbirliği",
+      "default_league_source_id": 68,
+      "country_source_id": 48
+    },
+    {
+      "source_id": 1860,
+      "name": "Getafe CF",
+      "default_league_source_id": 53,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 1888,
+      "name": "Gil Vicente FC",
+      "default_league_source_id": 308,
+      "country_source_id": 38
+    },
+    {
+      "source_id": 1802,
+      "name": "Gillingham",
+      "default_league_source_id": 61,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 2055,
+      "name": "Gimcheon Sangmu",
+      "default_league_source_id": 83,
+      "country_source_id": 167
+    },
+    {
+      "source_id": 101084,
+      "name": "Gimnasia y Esgrima La Plata",
+      "default_league_source_id": 353,
+      "country_source_id": 52
+    },
+    {
+      "source_id": 110062,
+      "name": "Girona FC",
+      "default_league_source_id": 53,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 110206,
+      "name": "GKS Katowice",
+      "default_league_source_id": 66,
+      "country_source_id": 37
+    },
+    {
+      "source_id": 131363,
+      "name": "Glasgow City",
+      "default_league_source_id": 2226,
+      "country_source_id": 211
+    },
+    {
+      "source_id": 100632,
+      "name": "Go Ahead Eagles",
+      "default_league_source_id": 10,
+      "country_source_id": 34
+    },
+    {
+      "source_id": 111706,
+      "name": "Godoy Cruz",
+      "default_league_source_id": 353,
+      "country_source_id": 52
+    },
+    {
+      "source_id": 116310,
+      "name": "Gotham FC",
+      "default_league_source_id": 2221,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 110832,
+      "name": "Granada CF",
+      "default_league_source_id": 54,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 131391,
+      "name": "Granada CF",
+      "default_league_source_id": 2222,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 322,
+      "name": "Grasshopper Club Zürich",
+      "default_league_source_id": 189,
+      "country_source_id": 47
+    },
+    {
+      "source_id": 113616,
+      "name": "Grazer AK",
+      "default_league_source_id": 80,
+      "country_source_id": 4
+    },
+    {
+      "source_id": 1805,
+      "name": "Grenoble Foot 38",
+      "default_league_source_id": 17,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 92,
+      "name": "Grimsby Town",
+      "default_league_source_id": 61,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 1629,
+      "name": "Grêmio",
+      "default_league_source_id": 1014,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 112258,
+      "name": "Gwangju FC",
+      "default_league_source_id": 83,
+      "country_source_id": 167
+    },
+    {
+      "source_id": 420,
+      "name": "Górnik Zabrze",
+      "default_league_source_id": 66,
+      "country_source_id": 37
+    },
+    {
+      "source_id": 101026,
+      "name": "Göztepe",
+      "default_league_source_id": 68,
+      "country_source_id": 48
+    },
+    {
+      "source_id": 263,
+      "name": "Hajduk Split",
+      "default_league_source_id": 76,
+      "country_source_id": 211
+    },
+    {
+      "source_id": 321,
+      "name": "Halmstads BK",
+      "default_league_source_id": 56,
+      "country_source_id": 46
+    },
+    {
+      "source_id": 28,
+      "name": "Hamburger SV",
+      "default_league_source_id": 19,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 132533,
+      "name": "Hamburger SV",
+      "default_league_source_id": 2215,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 1756,
+      "name": "HamKam Fotball",
+      "default_league_source_id": 41,
+      "country_source_id": 36
+    },
+    {
+      "source_id": 708,
+      "name": "Hammarby IF",
+      "default_league_source_id": 56,
+      "country_source_id": 46
+    },
+    {
+      "source_id": 485,
+      "name": "Hannover 96",
+      "default_league_source_id": 20,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 27,
+      "name": "Hansa Rostock",
+      "default_league_source_id": 2076,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 112222,
+      "name": "Harrogate Town",
+      "default_league_source_id": 61,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 2017,
+      "name": "Hartberg",
+      "default_league_source_id": 80,
+      "country_source_id": 4
+    },
+    {
+      "source_id": 80,
+      "name": "Heart of Midlothian",
+      "default_league_source_id": 50,
+      "country_source_id": 42
+    },
+    {
+      "source_id": 206,
+      "name": "Hellas Verona",
+      "default_league_source_id": 31,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 111779,
+      "name": "Henan FC",
+      "default_league_source_id": 2012,
+      "country_source_id": 155
+    },
+    {
+      "source_id": 100634,
+      "name": "Heracles Almelo",
+      "default_league_source_id": 10,
+      "country_source_id": 34
+    },
+    {
+      "source_id": 166,
+      "name": "Hertha BSC",
+      "default_league_source_id": 20,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 81,
+      "name": "Hibernian",
+      "default_league_source_id": 50,
+      "country_source_id": 42
+    },
+    {
+      "source_id": 100325,
+      "name": "HJK Helsinki",
+      "default_league_source_id": 76,
+      "country_source_id": 211
+    },
+    {
+      "source_id": 576,
+      "name": "Holstein Kiel",
+      "default_league_source_id": 20,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 116306,
+      "name": "Houston Dash",
+      "default_league_source_id": 2221,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 698,
+      "name": "Houston Dynamo",
+      "default_league_source_id": 39,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 1939,
+      "name": "Huddersfield Town",
+      "default_league_source_id": 60,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 1952,
+      "name": "Hull City",
+      "default_league_source_id": 14,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 111711,
+      "name": "Huracán",
+      "default_league_source_id": 353,
+      "country_source_id": 52
+    },
+    {
+      "source_id": 111705,
+      "name": "IF Brommapojkarna",
+      "default_league_source_id": 56,
+      "country_source_id": 46
+    },
+    {
+      "source_id": 700,
+      "name": "IF Elfsborg",
+      "default_league_source_id": 56,
+      "country_source_id": 46
+    },
+    {
+      "source_id": 319,
+      "name": "IFK Göteborg",
+      "default_league_source_id": 56,
+      "country_source_id": 46
+    },
+    {
+      "source_id": 702,
+      "name": "IFK Norrköping",
+      "default_league_source_id": 56,
+      "country_source_id": 46
+    },
+    {
+      "source_id": 112126,
+      "name": "IFK Värnamo",
+      "default_league_source_id": 56,
+      "country_source_id": 46
+    },
+    {
+      "source_id": 113458,
+      "name": "IK Sirius",
+      "default_league_source_id": 56,
+      "country_source_id": 46
+    },
+    {
+      "source_id": 110093,
+      "name": "Independiente",
+      "default_league_source_id": 353,
+      "country_source_id": 52
+    },
+    {
+      "source_id": 112908,
+      "name": "Independiente del Valle",
+      "default_league_source_id": 1003,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 101103,
+      "name": "Independiente Medellín",
+      "default_league_source_id": 1003,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 115517,
+      "name": "Independiente Petrolero",
+      "default_league_source_id": 1014,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 111020,
+      "name": "Independiente Rivadavia",
+      "default_league_source_id": 353,
+      "country_source_id": 52
+    },
+    {
+      "source_id": 101104,
+      "name": "Independiente Santa Fe",
+      "default_league_source_id": 1003,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 110953,
+      "name": "Instituto de Córdoba",
+      "default_league_source_id": 353,
+      "country_source_id": 52
+    },
+    {
+      "source_id": 112893,
+      "name": "Inter Miami",
+      "default_league_source_id": 39,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 94,
+      "name": "Ipswich Town",
+      "default_league_source_id": 14,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 101014,
+      "name": "İstanbul Başakşehir FK",
+      "default_league_source_id": 68,
+      "country_source_id": 48
+    },
+    {
+      "source_id": 110745,
+      "name": "Jagiellonia Białystok",
+      "default_league_source_id": 66,
+      "country_source_id": 37
+    },
+    {
+      "source_id": 543,
+      "name": "Jahn Regensburg",
+      "default_league_source_id": 2076,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 114168,
+      "name": "Jamshedpur FC",
+      "default_league_source_id": 2149,
+      "country_source_id": 159
+    },
+    {
+      "source_id": 1478,
+      "name": "Jeju SK FC",
+      "default_league_source_id": 83,
+      "country_source_id": 167
+    },
+    {
+      "source_id": 1477,
+      "name": "Jeonbuk Hyundai Motors",
+      "default_league_source_id": 83,
+      "country_source_id": 167
+    },
+    {
+      "source_id": 101101,
+      "name": "Junior de Barranquilla",
+      "default_league_source_id": 1003,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 112124,
+      "name": "Juve Stabia",
+      "default_league_source_id": 32,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 112112,
+      "name": "Juventud de Las Piedras",
+      "default_league_source_id": 1014,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 45,
+      "name": "Juventus",
+      "default_league_source_id": 31,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 116280,
+      "name": "Juventus",
+      "default_league_source_id": 2226,
+      "country_source_id": 211
+    },
+    {
+      "source_id": 116309,
+      "name": "Kansas City Current",
+      "default_league_source_id": 2221,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 1832,
+      "name": "Karlsruher SC",
+      "default_league_source_id": 20,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 111339,
+      "name": "Kasımpaşa",
+      "default_league_source_id": 68,
+      "country_source_id": 48
+    },
+    {
+      "source_id": 101020,
+      "name": "Kayserispor",
+      "default_league_source_id": 68,
+      "country_source_id": 48
+    },
+    {
+      "source_id": 113299,
+      "name": "Kerala Blasters FC",
+      "default_league_source_id": 2149,
+      "country_source_id": 159
+    },
+    {
+      "source_id": 131491,
+      "name": "KFUM-Kameratene Oslo",
+      "default_league_source_id": 41,
+      "country_source_id": 36
+    },
+    {
+      "source_id": 82,
+      "name": "Kilmarnock",
+      "default_league_source_id": 50,
+      "country_source_id": 42
+    },
+    {
+      "source_id": 101032,
+      "name": "Kocaelispor",
+      "default_league_source_id": 68,
+      "country_source_id": 48
+    },
+    {
+      "source_id": 101033,
+      "name": "Konyaspor",
+      "default_league_source_id": 68,
+      "country_source_id": 48
+    },
+    {
+      "source_id": 111083,
+      "name": "Korona Kielce",
+      "default_league_source_id": 66,
+      "country_source_id": 37
+    },
+    {
+      "source_id": 113459,
+      "name": "Kristiansund BK",
+      "default_league_source_id": 41,
+      "country_source_id": 36
+    },
+    {
+      "source_id": 110724,
+      "name": "KV Mechelen",
+      "default_league_source_id": 4,
+      "country_source_id": 7
+    },
+    {
+      "source_id": 110395,
+      "name": "Lanús",
+      "default_league_source_id": 353,
+      "country_source_id": 52
+    },
+    {
+      "source_id": 252,
+      "name": "LASK",
+      "default_league_source_id": 80,
+      "country_source_id": 4
+    },
+    {
+      "source_id": 115841,
+      "name": "Latium",
+      "default_league_source_id": 31,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 110986,
+      "name": "LDU Quito",
+      "default_league_source_id": 1003,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 1738,
+      "name": "Le Havre AC",
+      "default_league_source_id": 16,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 116416,
+      "name": "Le Havre AC",
+      "default_league_source_id": 2218,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 1739,
+      "name": "Le Mans FC",
+      "default_league_source_id": 17,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 347,
+      "name": "Lecce",
+      "default_league_source_id": 31,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 873,
+      "name": "Lech Poznań",
+      "default_league_source_id": 66,
+      "country_source_id": 37
+    },
+    {
+      "source_id": 111091,
+      "name": "Lechia Gdańsk",
+      "default_league_source_id": 66,
+      "country_source_id": 37
+    },
+    {
+      "source_id": 8,
+      "name": "Leeds United",
+      "default_league_source_id": 13,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 1871,
+      "name": "Legia Warszawa",
+      "default_league_source_id": 66,
+      "country_source_id": 37
+    },
+    {
+      "source_id": 95,
+      "name": "Leicester City",
+      "default_league_source_id": 14,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 116020,
+      "name": "Leicester City",
+      "default_league_source_id": 2216,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 1853,
+      "name": "Levante UD",
+      "default_league_source_id": 53,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 116333,
+      "name": "Levante UD",
+      "default_league_source_id": 2222,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 1958,
+      "name": "Leyton Orient",
+      "default_league_source_id": 60,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 111008,
+      "name": "Libertad",
+      "default_league_source_id": 1003,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 149,
+      "name": "Lincoln City",
+      "default_league_source_id": 60,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 9,
+      "name": "Liverpool",
+      "default_league_source_id": 13,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 116343,
+      "name": "Liverpool",
+      "default_league_source_id": 2216,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 621,
+      "name": "Livingston",
+      "default_league_source_id": 50,
+      "country_source_id": 42
+    },
+    {
+      "source_id": 131682,
+      "name": "Lombardia FC",
+      "default_league_source_id": 31,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 132176,
+      "name": "London City Lionesses",
+      "default_league_source_id": 2216,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 112996,
+      "name": "Los Angeles FC",
+      "default_league_source_id": 39,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 697,
+      "name": "Los Angeles Galaxy",
+      "default_league_source_id": 39,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 65,
+      "name": "LOSC Lille",
+      "default_league_source_id": 16,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 1923,
+      "name": "Luton Town",
+      "default_league_source_id": 60,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 114604,
+      "name": "Macarthur FC",
+      "default_league_source_id": 351,
+      "country_source_id": 195
+    },
+    {
+      "source_id": 114578,
+      "name": "Macará",
+      "default_league_source_id": 1014,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 116334,
+      "name": "Madrid CFF",
+      "default_league_source_id": 2222,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 320,
+      "name": "Malmö FF",
+      "default_league_source_id": 56,
+      "country_source_id": 46
+    },
+    {
+      "source_id": 10,
+      "name": "Manchester City",
+      "default_league_source_id": 13,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 116017,
+      "name": "Manchester City",
+      "default_league_source_id": 2216,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 11,
+      "name": "Manchester United",
+      "default_league_source_id": 13,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 116012,
+      "name": "Manchester United",
+      "default_league_source_id": 2216,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 1940,
+      "name": "Mansfield Town",
+      "default_league_source_id": 60,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 111433,
+      "name": "Mantova",
+      "default_league_source_id": 32,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 114628,
+      "name": "Meizhou Hakka",
+      "default_league_source_id": 2012,
+      "country_source_id": 155
+    },
+    {
+      "source_id": 112224,
+      "name": "Melbourne City",
+      "default_league_source_id": 351,
+      "country_source_id": 195
+    },
+    {
+      "source_id": 111397,
+      "name": "Melbourne Victory",
+      "default_league_source_id": 351,
+      "country_source_id": 195
+    },
+    {
+      "source_id": 114545,
+      "name": "Metaloglobus București",
+      "default_league_source_id": 330,
+      "country_source_id": 39
+    },
+    {
+      "source_id": 12,
+      "name": "Middlesbrough",
+      "default_league_source_id": 14,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 131681,
+      "name": "Milano FC",
+      "default_league_source_id": 31,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 101105,
+      "name": "Millonarios",
+      "default_league_source_id": 1014,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 97,
+      "name": "Millwall",
+      "default_league_source_id": 14,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 1798,
+      "name": "Milton Keynes Dons",
+      "default_league_source_id": 61,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 111138,
+      "name": "Minnesota United FC",
+      "default_league_source_id": 39,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 111975,
+      "name": "Mirassol",
+      "default_league_source_id": 1003,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 112072,
+      "name": "Mjällby AIF",
+      "default_league_source_id": 56,
+      "country_source_id": 46
+    },
+    {
+      "source_id": 1744,
+      "name": "Modena",
+      "default_league_source_id": 32,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 111633,
+      "name": "Mohammedan SC",
+      "default_league_source_id": 2149,
+      "country_source_id": 159
+    },
+    {
+      "source_id": 113146,
+      "name": "Mohun Bagan Super Giant",
+      "default_league_source_id": 2149,
+      "country_source_id": 159
+    },
+    {
+      "source_id": 417,
+      "name": "Molde FK",
+      "default_league_source_id": 41,
+      "country_source_id": 36
+    },
+    {
+      "source_id": 113143,
+      "name": "Montevideo City Torque",
+      "default_league_source_id": 1014,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 70,
+      "name": "Montpellier HSC",
+      "default_league_source_id": 17,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 116037,
+      "name": "Montpellier HSC",
+      "default_league_source_id": 2218,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 111811,
+      "name": "Monza",
+      "default_league_source_id": 32,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 1900,
+      "name": "Moreirense",
+      "default_league_source_id": 308,
+      "country_source_id": 38
+    },
+    {
+      "source_id": 83,
+      "name": "Motherwell",
+      "default_league_source_id": 50,
+      "country_source_id": 42
+    },
+    {
+      "source_id": 111097,
+      "name": "Motor Lublin",
+      "default_league_source_id": 66,
+      "country_source_id": 37
+    },
+    {
+      "source_id": 1825,
+      "name": "MSV Duisburg",
+      "default_league_source_id": 2076,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 113300,
+      "name": "Mumbai City FC",
+      "default_league_source_id": 2149,
+      "country_source_id": 159
+    },
+    {
+      "source_id": 573,
+      "name": "Málaga CF",
+      "default_league_source_id": 54,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 1910,
+      "name": "N.E.C. Nijmegen",
+      "default_league_source_id": 10,
+      "country_source_id": 34
+    },
+    {
+      "source_id": 1904,
+      "name": "NAC Breda",
+      "default_league_source_id": 10,
+      "country_source_id": 34
+    },
+    {
+      "source_id": 111325,
+      "name": "Nacional",
+      "default_league_source_id": 1003,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 1891,
+      "name": "Nacional da Madeira",
+      "default_league_source_id": 308,
+      "country_source_id": 38
+    },
+    {
+      "source_id": 48,
+      "name": "Napoli",
+      "default_league_source_id": 31,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 114162,
+      "name": "Nashville SC",
+      "default_league_source_id": 39,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 131798,
+      "name": "NEOM SC",
+      "default_league_source_id": 350,
+      "country_source_id": 183
+    },
+    {
+      "source_id": 691,
+      "name": "New England Revolution",
+      "default_league_source_id": 39,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 112828,
+      "name": "New York City FC",
+      "default_league_source_id": 39,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 111398,
+      "name": "Newcastle Jets",
+      "default_league_source_id": 351,
+      "country_source_id": 195
+    },
+    {
+      "source_id": 13,
+      "name": "Newcastle United",
+      "default_league_source_id": 13,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 110396,
+      "name": "Newell's Old Boys",
+      "default_league_source_id": 353,
+      "country_source_id": 52
+    },
+    {
+      "source_id": 112254,
+      "name": "Newport County",
+      "default_league_source_id": 61,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 116303,
+      "name": "North Carolina Courage",
+      "default_league_source_id": 2221,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 1930,
+      "name": "Northampton Town",
+      "default_league_source_id": 60,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 113040,
+      "name": "NorthEast United",
+      "default_league_source_id": 2149,
+      "country_source_id": 159
+    },
+    {
+      "source_id": 1792,
+      "name": "Norwich City",
+      "default_league_source_id": 14,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 14,
+      "name": "Nottingham Forest",
+      "default_league_source_id": 13,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 1937,
+      "name": "Notts County",
+      "default_league_source_id": 61,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 112116,
+      "name": "O'Higgins",
+      "default_league_source_id": 1014,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 272,
+      "name": "Odense Boldklub",
+      "default_league_source_id": 1,
+      "country_source_id": 13
+    },
+    {
+      "source_id": 113257,
+      "name": "Odisha FC",
+      "default_league_source_id": 2149,
+      "country_source_id": 159
+    },
+    {
+      "source_id": 72,
+      "name": "OGC Nice",
+      "default_league_source_id": 16,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 100087,
+      "name": "OH Leuven",
+      "default_league_source_id": 4,
+      "country_source_id": 7
+    },
+    {
+      "source_id": 116033,
+      "name": "OL Lyonnes",
+      "default_league_source_id": 2218,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 1920,
+      "name": "Oldham Athletic",
+      "default_league_source_id": 61,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 101108,
+      "name": "Olimpia Asunción",
+      "default_league_source_id": 1014,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 280,
+      "name": "Olympiacos",
+      "default_league_source_id": 76,
+      "country_source_id": 211
+    },
+    {
+      "source_id": 219,
+      "name": "Olympique de Marseille",
+      "default_league_source_id": 16,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 132370,
+      "name": "Olympique de Marseille",
+      "default_league_source_id": 2218,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 66,
+      "name": "Olympique Lyonnais",
+      "default_league_source_id": 16,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 112606,
+      "name": "Orlando City SC",
+      "default_league_source_id": 39,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 116307,
+      "name": "Orlando Pride",
+      "default_league_source_id": 2221,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 1951,
+      "name": "Oxford United",
+      "default_league_source_id": 14,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 110912,
+      "name": "Padova",
+      "default_league_source_id": 32,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 1843,
+      "name": "Palermo",
+      "default_league_source_id": 32,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 111328,
+      "name": "Palestino",
+      "default_league_source_id": 1014,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 383,
+      "name": "Palmeiras",
+      "default_league_source_id": 1003,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 1884,
+      "name": "Panathinaikos",
+      "default_league_source_id": 76,
+      "country_source_id": 211
+    },
+    {
+      "source_id": 393,
+      "name": "PAOK",
+      "default_league_source_id": 76,
+      "country_source_id": 211
+    },
+    {
+      "source_id": 111817,
+      "name": "Paris FC",
+      "default_league_source_id": 16,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 116035,
+      "name": "Paris FC",
+      "default_league_source_id": 2218,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 73,
+      "name": "Paris Saint-Germain",
+      "default_league_source_id": 16,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 116034,
+      "name": "Paris Saint-Germain",
+      "default_league_source_id": 2218,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 50,
+      "name": "Parma",
+      "default_league_source_id": 31,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 110321,
+      "name": "Pau FC",
+      "default_league_source_id": 17,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 1914,
+      "name": "PEC Zwolle",
+      "default_league_source_id": 10,
+      "country_source_id": 34
+    },
+    {
+      "source_id": 111399,
+      "name": "Perth Glory",
+      "default_league_source_id": 351,
+      "country_source_id": 195
+    },
+    {
+      "source_id": 200,
+      "name": "Pescara",
+      "default_league_source_id": 32,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 1938,
+      "name": "Peterborough United",
+      "default_league_source_id": 60,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 110078,
+      "name": "Petrolul Ploiești",
+      "default_league_source_id": 330,
+      "country_source_id": 39
+    },
+    {
+      "source_id": 101110,
+      "name": "Peñarol",
+      "default_league_source_id": 1003,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 112134,
+      "name": "Philadelphia Union",
+      "default_league_source_id": 39,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 111086,
+      "name": "Piast Gliwice",
+      "default_league_source_id": 66,
+      "country_source_id": 37
+    },
+    {
+      "source_id": 110738,
+      "name": "Pisa",
+      "default_league_source_id": 31,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 112689,
+      "name": "Platense",
+      "default_league_source_id": 353,
+      "country_source_id": 52
+    },
+    {
+      "source_id": 1929,
+      "name": "Plymouth Argyle",
+      "default_league_source_id": 60,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 110746,
+      "name": "Pogoń Szczecin",
+      "default_league_source_id": 66,
+      "country_source_id": 37
+    },
+    {
+      "source_id": 1474,
+      "name": "Pohang Steelers",
+      "default_league_source_id": 83,
+      "country_source_id": 167
+    },
+    {
+      "source_id": 1928,
+      "name": "Port Vale",
+      "default_league_source_id": 60,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 116302,
+      "name": "Portland Thorns FC",
+      "default_league_source_id": 2221,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 111140,
+      "name": "Portland Timbers",
+      "default_league_source_id": 39,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 1790,
+      "name": "Portsmouth",
+      "default_league_source_id": 14,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 1801,
+      "name": "Preston North End",
+      "default_league_source_id": 14,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 531,
+      "name": "Preußen Münster",
+      "default_league_source_id": 20,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 247,
+      "name": "PSV",
+      "default_league_source_id": 10,
+      "country_source_id": 34
+    },
+    {
+      "source_id": 115202,
+      "name": "Punjab FC",
+      "default_league_source_id": 2149,
+      "country_source_id": 159
+    },
+    {
+      "source_id": 113888,
+      "name": "Qarabağ FK",
+      "default_league_source_id": 76,
+      "country_source_id": 211
+    },
+    {
+      "source_id": 131173,
+      "name": "Qingdao Hainiu FC",
+      "default_league_source_id": 2012,
+      "country_source_id": 155
+    },
+    {
+      "source_id": 131488,
+      "name": "Qingdao West Coast FC",
+      "default_league_source_id": 2012,
+      "country_source_id": 155
+    },
+    {
+      "source_id": 15,
+      "name": "Queens Park Rangers",
+      "default_league_source_id": 14,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 132231,
+      "name": "RAAL La Louvière",
+      "default_league_source_id": 4,
+      "country_source_id": 7
+    },
+    {
+      "source_id": 101085,
+      "name": "Racing Club de Avellaneda",
+      "default_league_source_id": 353,
+      "country_source_id": 52
+    },
+    {
+      "source_id": 456,
+      "name": "Racing de Santander",
+      "default_league_source_id": 54,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 116308,
+      "name": "Racing Louisville FC",
+      "default_league_source_id": 2221,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 111088,
+      "name": "Radomiak Radom",
+      "default_league_source_id": 66,
+      "country_source_id": 37
+    },
+    {
+      "source_id": 114326,
+      "name": "Raków Częstochowa",
+      "default_league_source_id": 66,
+      "country_source_id": 37
+    },
+    {
+      "source_id": 1786,
+      "name": "Randers FC",
+      "default_league_source_id": 1,
+      "country_source_id": 13
+    },
+    {
+      "source_id": 86,
+      "name": "Rangers",
+      "default_league_source_id": 50,
+      "country_source_id": 42
+    },
+    {
+      "source_id": 480,
+      "name": "Rayo Vallecano",
+      "default_league_source_id": 53,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 112472,
+      "name": "RB Bragantino",
+      "default_league_source_id": 1014,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 112172,
+      "name": "RB Leipzig",
+      "default_league_source_id": 19,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 116021,
+      "name": "RB Leipzig",
+      "default_league_source_id": 2215,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 191,
+      "name": "RB Salzburg",
+      "default_league_source_id": 80,
+      "country_source_id": 4
+    },
+    {
+      "source_id": 450,
+      "name": "RC Celta de Vigo",
+      "default_league_source_id": 53,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 242,
+      "name": "RC Deportivo",
+      "default_league_source_id": 54,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 131720,
+      "name": "RC Deportivo",
+      "default_league_source_id": 2222,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 64,
+      "name": "RC Lens",
+      "default_league_source_id": 16,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 132588,
+      "name": "RC Lens",
+      "default_league_source_id": 2218,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 76,
+      "name": "RC Strasbourg",
+      "default_league_source_id": 16,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 131724,
+      "name": "RC Strasbourg",
+      "default_league_source_id": 2218,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 452,
+      "name": "RCD Espanyol",
+      "default_league_source_id": 53,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 131733,
+      "name": "RCD Espanyol",
+      "default_league_source_id": 2222,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 453,
+      "name": "RCD Mallorca",
+      "default_league_source_id": 53,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 1793,
+      "name": "Reading",
+      "default_league_source_id": 60,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 449,
+      "name": "Real Betis Balompié",
+      "default_league_source_id": 53,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 243,
+      "name": "Real Madrid",
+      "default_league_source_id": 53,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 116326,
+      "name": "Real Madrid",
+      "default_league_source_id": 2222,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 110827,
+      "name": "Real Oviedo",
+      "default_league_source_id": 53,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 111065,
+      "name": "Real Salt Lake",
+      "default_league_source_id": 39,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 457,
+      "name": "Real Sociedad",
+      "default_league_source_id": 53,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 116336,
+      "name": "Real Sociedad",
+      "default_league_source_id": 2222,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 110711,
+      "name": "Real Sociedad B",
+      "default_league_source_id": 54,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 459,
+      "name": "Real Sporting de Gijón",
+      "default_league_source_id": 54,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 462,
+      "name": "Real Valladolid",
+      "default_league_source_id": 54,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 244,
+      "name": "Real Zaragoza",
+      "default_league_source_id": 54,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 131826,
+      "name": "Recoleta FC",
+      "default_league_source_id": 1014,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 689,
+      "name": "Red Bull New York",
+      "default_league_source_id": 39,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 111273,
+      "name": "Red Star FC (FRANCE)",
+      "default_league_source_id": 17,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 110740,
+      "name": "Reggiana",
+      "default_league_source_id": 32,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 744,
+      "name": "Rio Ave",
+      "default_league_source_id": 308,
+      "country_source_id": 38
+    },
+    {
+      "source_id": 1876,
+      "name": "River Plate",
+      "default_league_source_id": 353,
+      "country_source_id": 52
+    },
+    {
+      "source_id": 111659,
+      "name": "Rodez Aveyron Football",
+      "default_league_source_id": 17,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 52,
+      "name": "Roma",
+      "default_league_source_id": 31,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 116282,
+      "name": "Roma",
+      "default_league_source_id": 2226,
+      "country_source_id": 211
+    },
+    {
+      "source_id": 110580,
+      "name": "Rosario Central",
+      "default_league_source_id": 353,
+      "country_source_id": 52
+    },
+    {
+      "source_id": 298,
+      "name": "Rosenborg BK",
+      "default_league_source_id": 41,
+      "country_source_id": 36
+    },
+    {
+      "source_id": 526,
+      "name": "Rot-Weiß Essen",
+      "default_league_source_id": 2076,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 1797,
+      "name": "Rotherham United",
+      "default_league_source_id": 60,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 113926,
+      "name": "Salford City",
+      "default_league_source_id": 61,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 1837,
+      "name": "Sampdoria",
+      "default_league_source_id": 32,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 748,
+      "name": "Samsunspor",
+      "default_league_source_id": 68,
+      "country_source_id": 48
+    },
+    {
+      "source_id": 131439,
+      "name": "San Diego FC",
+      "default_league_source_id": 39,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 116312,
+      "name": "San Diego Wave FC",
+      "default_league_source_id": 2221,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 111928,
+      "name": "San Jose Earthquakes",
+      "default_league_source_id": 39,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 1013,
+      "name": "San Lorenzo de Almagro",
+      "default_league_source_id": 353,
+      "country_source_id": 52
+    },
+    {
+      "source_id": 111713,
+      "name": "San Martín de San Juan",
+      "default_league_source_id": 353,
+      "country_source_id": 52
+    },
+    {
+      "source_id": 1757,
+      "name": "Sandefjord Fotball",
+      "default_league_source_id": 41,
+      "country_source_id": 36
+    },
+    {
+      "source_id": 1438,
+      "name": "Santa Clara",
+      "default_league_source_id": 308,
+      "country_source_id": 38
+    },
+    {
+      "source_id": 1053,
+      "name": "Santos",
+      "default_league_source_id": 1014,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 112713,
+      "name": "Sarmiento",
+      "default_league_source_id": 353,
+      "country_source_id": 52
+    },
+    {
+      "source_id": 112199,
+      "name": "Sarpsborg 08",
+      "default_league_source_id": 41,
+      "country_source_id": 36
+    },
+    {
+      "source_id": 111974,
+      "name": "Sassuolo",
+      "default_league_source_id": 31,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 58,
+      "name": "SC Bastia",
+      "default_league_source_id": 17,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 113301,
+      "name": "SC Delhi",
+      "default_league_source_id": 2149,
+      "country_source_id": 159
+    },
+    {
+      "source_id": 25,
+      "name": "SC Freiburg",
+      "default_league_source_id": 19,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 116002,
+      "name": "SC Freiburg",
+      "default_league_source_id": 2215,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 1913,
+      "name": "sc Heerenveen",
+      "default_league_source_id": 10,
+      "country_source_id": 34
+    },
+    {
+      "source_id": 110072,
+      "name": "SC Oțelul Galați",
+      "default_league_source_id": 330,
+      "country_source_id": 39
+    },
+    {
+      "source_id": 10030,
+      "name": "SC Paderborn 07",
+      "default_league_source_id": 20,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 110501,
+      "name": "SC Verl",
+      "default_league_source_id": 2076,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 467,
+      "name": "SD Eibar",
+      "default_league_source_id": 54,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 116331,
+      "name": "SD Eibar",
+      "default_league_source_id": 2222,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 110839,
+      "name": "SD Huesca",
+      "default_league_source_id": 54,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 116300,
+      "name": "Seattle Reign FC",
+      "default_league_source_id": 2221,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 111144,
+      "name": "Seattle Sounders",
+      "default_league_source_id": 39,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 324,
+      "name": "Servette FC",
+      "default_league_source_id": 189,
+      "country_source_id": 47
+    },
+    {
+      "source_id": 481,
+      "name": "Sevilla FC",
+      "default_league_source_id": 53,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 116337,
+      "name": "Sevilla FC",
+      "default_league_source_id": 2222,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 116001,
+      "name": "SGS Essen",
+      "default_league_source_id": 2215,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 101059,
+      "name": "Shakhtar Donetsk",
+      "default_league_source_id": 76,
+      "country_source_id": 211
+    },
+    {
+      "source_id": 306,
+      "name": "Shamrock Rovers",
+      "default_league_source_id": 65,
+      "country_source_id": 25
+    },
+    {
+      "source_id": 111724,
+      "name": "Shandong Taishan",
+      "default_league_source_id": 2012,
+      "country_source_id": 155
+    },
+    {
+      "source_id": 112540,
+      "name": "Shanghai Port",
+      "default_league_source_id": 2012,
+      "country_source_id": 155
+    },
+    {
+      "source_id": 110955,
+      "name": "Shanghai Shenhua",
+      "default_league_source_id": 2012,
+      "country_source_id": 155
+    },
+    {
+      "source_id": 1794,
+      "name": "Sheffield United",
+      "default_league_source_id": 14,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 1807,
+      "name": "Sheffield Wednesday",
+      "default_league_source_id": 14,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 834,
+      "name": "Shelbourne",
+      "default_league_source_id": 65,
+      "country_source_id": 25
+    },
+    {
+      "source_id": 131487,
+      "name": "Shenzhen Peng City",
+      "default_league_source_id": 2012,
+      "country_source_id": 155
+    },
+    {
+      "source_id": 127,
+      "name": "Shrewsbury Town",
+      "default_league_source_id": 61,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 270,
+      "name": "Silkeborg IF",
+      "default_league_source_id": 1,
+      "country_source_id": 13
+    },
+    {
+      "source_id": 680,
+      "name": "Sint-Truiden",
+      "default_league_source_id": 4,
+      "country_source_id": 7
+    },
+    {
+      "source_id": 919,
+      "name": "SK Brann",
+      "default_league_source_id": 41,
+      "country_source_id": 36
+    },
+    {
+      "source_id": 254,
+      "name": "SK Rapid",
+      "default_league_source_id": 80,
+      "country_source_id": 4
+    },
+    {
+      "source_id": 266,
+      "name": "Slavia Praha",
+      "default_league_source_id": 76,
+      "country_source_id": 211
+    },
+    {
+      "source_id": 131360,
+      "name": "Slavia Praha",
+      "default_league_source_id": 2226,
+      "country_source_id": 211
+    },
+    {
+      "source_id": 563,
+      "name": "Sligo Rovers",
+      "default_league_source_id": 65,
+      "country_source_id": 25
+    },
+    {
+      "source_id": 17,
+      "name": "Southampton",
+      "default_league_source_id": 14,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 267,
+      "name": "Sparta Praha",
+      "default_league_source_id": 76,
+      "country_source_id": 211
+    },
+    {
+      "source_id": 100646,
+      "name": "Sparta Rotterdam",
+      "default_league_source_id": 10,
+      "country_source_id": 34
+    },
+    {
+      "source_id": 113974,
+      "name": "Spezia",
+      "default_league_source_id": 32,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 237,
+      "name": "Sporting CP",
+      "default_league_source_id": 308,
+      "country_source_id": 38
+    },
+    {
+      "source_id": 111013,
+      "name": "Sporting Cristal",
+      "default_league_source_id": 1003,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 1896,
+      "name": "Sporting de Braga",
+      "default_league_source_id": 308,
+      "country_source_id": 38
+    },
+    {
+      "source_id": 696,
+      "name": "Sporting KC",
+      "default_league_source_id": 39,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 165,
+      "name": "SpVgg Greuther Fürth",
+      "default_league_source_id": 20,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 110176,
+      "name": "SSV Ulm 1846",
+      "default_league_source_id": 2076,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 423,
+      "name": "St Patrick's Athletic",
+      "default_league_source_id": 65,
+      "country_source_id": 25
+    },
+    {
+      "source_id": 113018,
+      "name": "St. Louis City SC",
+      "default_league_source_id": 39,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 100805,
+      "name": "St. Mirren",
+      "default_league_source_id": 50,
+      "country_source_id": 42
+    },
+    {
+      "source_id": 378,
+      "name": "Stade Brestois 29",
+      "default_league_source_id": 16,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 379,
+      "name": "Stade de Reims",
+      "default_league_source_id": 17,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 1814,
+      "name": "Stade Lavallois MFC",
+      "default_league_source_id": 17,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 74,
+      "name": "Stade Rennais",
+      "default_league_source_id": 16,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 232,
+      "name": "Standard Liège",
+      "default_league_source_id": 4,
+      "country_source_id": 7
+    },
+    {
+      "source_id": 361,
+      "name": "Stevenage",
+      "default_league_source_id": 60,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 1931,
+      "name": "Stockport County",
+      "default_league_source_id": 60,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 1806,
+      "name": "Stoke City",
+      "default_league_source_id": 14,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 922,
+      "name": "Strømsgodset Toppfotball",
+      "default_league_source_id": 41,
+      "country_source_id": 36
+    },
+    {
+      "source_id": 209,
+      "name": "Sturm Graz",
+      "default_league_source_id": 80,
+      "country_source_id": 4
+    },
+    {
+      "source_id": 106,
+      "name": "Sunderland",
+      "default_league_source_id": 13,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 112558,
+      "name": "Suwon FC",
+      "default_league_source_id": 83,
+      "country_source_id": 167
+    },
+    {
+      "source_id": 110502,
+      "name": "SV Darmstadt 98",
+      "default_league_source_id": 20,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 580,
+      "name": "SV Elversberg",
+      "default_league_source_id": 20,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 780,
+      "name": "SV Ried",
+      "default_league_source_id": 80,
+      "country_source_id": 4
+    },
+    {
+      "source_id": 110532,
+      "name": "SV Waldhof Mannheim",
+      "default_league_source_id": 2076,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 492,
+      "name": "SV Wehen Wiesbaden",
+      "default_league_source_id": 2076,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 1960,
+      "name": "Swansea City",
+      "default_league_source_id": 14,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 1934,
+      "name": "Swindon Town",
+      "default_league_source_id": 61,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 111400,
+      "name": "Sydney FC",
+      "default_league_source_id": 351,
+      "country_source_id": 195
+    },
+    {
+      "source_id": 598,
+      "name": "São Paulo",
+      "default_league_source_id": 1014,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 1447,
+      "name": "Sønderjyske Fodbold",
+      "default_league_source_id": 1,
+      "country_source_id": 13
+    },
+    {
+      "source_id": 112494,
+      "name": "Südtirol",
+      "default_league_source_id": 32,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 112670,
+      "name": "Talleres de Córdoba",
+      "default_league_source_id": 353,
+      "country_source_id": 52
+    },
+    {
+      "source_id": 100638,
+      "name": "Telstar",
+      "default_league_source_id": 10,
+      "country_source_id": 34
+    },
+    {
+      "source_id": 111774,
+      "name": "Tianjin Jinmen Tiger",
+      "default_league_source_id": 2012,
+      "country_source_id": 155
+    },
+    {
+      "source_id": 111715,
+      "name": "Tigre",
+      "default_league_source_id": 353,
+      "country_source_id": 52
+    },
+    {
+      "source_id": 112516,
+      "name": "Tondela",
+      "default_league_source_id": 308,
+      "country_source_id": 38
+    },
+    {
+      "source_id": 54,
+      "name": "Torino",
+      "default_league_source_id": 31,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 111651,
+      "name": "Toronto FC",
+      "default_league_source_id": 39,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 18,
+      "name": "Tottenham Hotspur",
+      "default_league_source_id": 13,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 116011,
+      "name": "Tottenham Hotspur",
+      "default_league_source_id": 2216,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 1809,
+      "name": "Toulouse FC",
+      "default_league_source_id": 16,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 436,
+      "name": "Trabzonspor",
+      "default_league_source_id": 68,
+      "country_source_id": 48
+    },
+    {
+      "source_id": 15048,
+      "name": "Tranmere Rovers",
+      "default_league_source_id": 61,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 418,
+      "name": "Tromsø IL",
+      "default_league_source_id": 41,
+      "country_source_id": 36
+    },
+    {
+      "source_id": 10029,
+      "name": "TSG 1899 Hoffenheim",
+      "default_league_source_id": 19,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 115999,
+      "name": "TSG 1899 Hoffenheim",
+      "default_league_source_id": 2215,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 110685,
+      "name": "TSG 1899 Hoffenheim II",
+      "default_league_source_id": 2076,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 33,
+      "name": "TSV 1860 München",
+      "default_league_source_id": 2076,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 110678,
+      "name": "TSV Havelse",
+      "default_league_source_id": 2076,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 1861,
+      "name": "UD Almería",
+      "default_league_source_id": 54,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 472,
+      "name": "UD Las Palmas",
+      "default_league_source_id": 54,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 55,
+      "name": "Udinese",
+      "default_league_source_id": 31,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 1473,
+      "name": "Ulsan HD FC",
+      "default_league_source_id": 83,
+      "country_source_id": 167
+    },
+    {
+      "source_id": 2014,
+      "name": "Union Saint-Gilloise",
+      "default_league_source_id": 4,
+      "country_source_id": 7
+    },
+    {
+      "source_id": 131459,
+      "name": "Unirea Slobozia",
+      "default_league_source_id": 330,
+      "country_source_id": 39
+    },
+    {
+      "source_id": 132681,
+      "name": "United Tigers SC",
+      "default_league_source_id": 2149,
+      "country_source_id": 159
+    },
+    {
+      "source_id": 110975,
+      "name": "Universidad Católica",
+      "default_league_source_id": 1003,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 115693,
+      "name": "Universidad Central de Venezuela",
+      "default_league_source_id": 1003,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 111014,
+      "name": "Universitario de Deportes",
+      "default_league_source_id": 1003,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 110751,
+      "name": "Universitatea Cluj",
+      "default_league_source_id": 330,
+      "country_source_id": 39
+    },
+    {
+      "source_id": 308,
+      "name": "Universitatea Craiova",
+      "default_league_source_id": 330,
+      "country_source_id": 39
+    },
+    {
+      "source_id": 111716,
+      "name": "Unión de Santa Fe",
+      "default_league_source_id": 353,
+      "country_source_id": 52
+    },
+    {
+      "source_id": 132680,
+      "name": "US Boulogne",
+      "default_league_source_id": 17,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 111276,
+      "name": "USL Dunkerque",
+      "default_league_source_id": 17,
+      "country_source_id": 18
+    },
+    {
+      "source_id": 110750,
+      "name": "UTA Arad",
+      "default_league_source_id": 330,
+      "country_source_id": 39
+    },
+    {
+      "source_id": 131478,
+      "name": "Utah Royals",
+      "default_league_source_id": 2221,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 461,
+      "name": "Valencia CF",
+      "default_league_source_id": 53,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 101112,
+      "name": "Vancouver Whitecaps",
+      "default_league_source_id": 39,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 569,
+      "name": "Vasco da Gama",
+      "default_league_source_id": 1014,
+      "country_source_id": 225
+    },
+    {
+      "source_id": 822,
+      "name": "Vejle BK",
+      "default_league_source_id": 1,
+      "country_source_id": 13
+    },
+    {
+      "source_id": 205,
+      "name": "Venezia",
+      "default_league_source_id": 32,
+      "country_source_id": 27
+    },
+    {
+      "source_id": 36,
+      "name": "VfB Stuttgart",
+      "default_league_source_id": 19,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 110697,
+      "name": "VfB Stuttgart II",
+      "default_league_source_id": 2076,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 160,
+      "name": "VfL Bochum",
+      "default_league_source_id": 20,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 487,
+      "name": "VfL Osnabrück",
+      "default_league_source_id": 2076,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 175,
+      "name": "VfL Wolfsburg",
+      "default_league_source_id": 19,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 115998,
+      "name": "VfL Wolfsburg",
+      "default_league_source_id": 2215,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 1443,
+      "name": "Viborg FF",
+      "default_league_source_id": 1,
+      "country_source_id": 13
+    },
+    {
+      "source_id": 300,
+      "name": "Viking FK",
+      "default_league_source_id": 41,
+      "country_source_id": 36
+    },
+    {
+      "source_id": 110645,
+      "name": "Viktoria Köln",
+      "default_league_source_id": 2076,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 110468,
+      "name": "Viktoria Plzeň",
+      "default_league_source_id": 76,
+      "country_source_id": 211
+    },
+    {
+      "source_id": 483,
+      "name": "Villarreal CF",
+      "default_league_source_id": 53,
+      "country_source_id": 45
+    },
+    {
+      "source_id": 1887,
+      "name": "Vitória de Guimarães",
+      "default_league_source_id": 308,
+      "country_source_id": 38
+    },
+    {
+      "source_id": 920,
+      "name": "Vålerenga Fotball",
+      "default_league_source_id": 41,
+      "country_source_id": 36
+    },
+    {
+      "source_id": 101088,
+      "name": "Vélez Sarsfield",
+      "default_league_source_id": 353,
+      "country_source_id": 52
+    },
+    {
+      "source_id": 1803,
+      "name": "Walsall",
+      "default_league_source_id": 61,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 116304,
+      "name": "Washington Spirit",
+      "default_league_source_id": 2221,
+      "country_source_id": 95
+    },
+    {
+      "source_id": 753,
+      "name": "Waterford",
+      "default_league_source_id": 65,
+      "country_source_id": 25
+    },
+    {
+      "source_id": 1795,
+      "name": "Watford",
+      "default_league_source_id": 14,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 111766,
+      "name": "Wellington Phoenix",
+      "default_league_source_id": 351,
+      "country_source_id": 195
+    },
+    {
+      "source_id": 38,
+      "name": "Werder Bremen",
+      "default_league_source_id": 19,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 116004,
+      "name": "Werder Bremen",
+      "default_league_source_id": 2215,
+      "country_source_id": 21
+    },
+    {
+      "source_id": 109,
+      "name": "West Bromwich Albion",
+      "default_league_source_id": 14,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 19,
+      "name": "West Ham United",
+      "default_league_source_id": 13,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 116014,
+      "name": "West Ham United",
+      "default_league_source_id": 2216,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 681,
+      "name": "Westerlo",
+      "default_league_source_id": 4,
+      "country_source_id": 7
+    },
+    {
+      "source_id": 112427,
+      "name": "Western Sydney Wanderers",
+      "default_league_source_id": 351,
+      "country_source_id": 195
+    },
+    {
+      "source_id": 301,
+      "name": "Widzew Łódź",
+      "default_league_source_id": 66,
+      "country_source_id": 37
+    },
+    {
+      "source_id": 1917,
+      "name": "Wigan Athletic",
+      "default_league_source_id": 60,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 1569,
+      "name": "Wisła Płock",
+      "default_league_source_id": 66,
+      "country_source_id": 37
+    },
+    {
+      "source_id": 111822,
+      "name": "Wolfsberger AC",
+      "default_league_source_id": 80,
+      "country_source_id": 4
+    },
+    {
+      "source_id": 110,
+      "name": "Wolverhampton Wanderers",
+      "default_league_source_id": 13,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 1947,
+      "name": "Wrexham",
+      "default_league_source_id": 14,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 15040,
+      "name": "WSG Tirol",
+      "default_league_source_id": 80,
+      "country_source_id": 4
+    },
+    {
+      "source_id": 116361,
+      "name": "Wuhan Three Towns",
+      "default_league_source_id": 2012,
+      "country_source_id": 155
+    },
+    {
+      "source_id": 1933,
+      "name": "Wycombe Wanderers",
+      "default_league_source_id": 60,
+      "country_source_id": 14
+    },
+    {
+      "source_id": 131531,
+      "name": "Yunnan Yukun",
+      "default_league_source_id": 2012,
+      "country_source_id": 155
+    },
+    {
+      "source_id": 110749,
+      "name": "Zagłębie Lubin",
+      "default_league_source_id": 66,
+      "country_source_id": 37
+    },
+    {
+      "source_id": 112163,
+      "name": "Zhejiang Professional FC",
+      "default_league_source_id": 2012,
+      "country_source_id": 155
+    },
+    {
+      "source_id": 15005,
+      "name": "Zulte Waregem",
+      "default_league_source_id": 4,
+      "country_source_id": 7
+    },
+    {
+      "source_id": 101037,
+      "name": "Çaykur Rizespor",
+      "default_league_source_id": 68,
+      "country_source_id": 48
+    },
+    {
+      "source_id": 1870,
+      "name": "Östers IF",
+      "default_league_source_id": 56,
+      "country_source_id": 46
+    }
+  ],
+  "excluded_clubs": []
+}
