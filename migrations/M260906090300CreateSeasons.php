@@ -35,8 +35,19 @@ final class M260906090300CreateSeasons implements RevertibleMigrationInterface, 
             'is_deleted' => $column::boolean()->notNull(),
             'deleted_at' => $column::datetime(6)->null(),
         ]);
+        $b->execute(<<<'SQL'
+            ALTER TABLE `seasons`
+                ADD COLUMN `active_career_id` CHAR(36)
+                    GENERATED ALWAYS AS (
+                        CASE
+                            WHEN `finalized_at` IS NULL AND `is_deleted` = 0 THEN `career_id`
+                            ELSE NULL
+                        END
+                    ) STORED
+            SQL);
         $b->createIndex('ix_seasons_career_finalized', 'seasons', ['career_id', 'finalized_at']);
         $b->createIndex('ux_seasons_career_label', 'seasons', ['career_id', 'label'], 'UNIQUE');
+        $b->createIndex('ux_seasons_one_active_per_career', 'seasons', ['active_career_id'], 'UNIQUE');
         $b->addForeignKey('seasons', 'fk_seasons_career', 'career_id', 'careers', 'id', ReferentialAction::RESTRICT);
         $b->addForeignKey('seasons', 'fk_seasons_managed_club', 'managed_club_id', 'clubs', 'id', ReferentialAction::SET_NULL);
         $b->addForeignKey('seasons', 'fk_seasons_league', 'league_id', 'leagues', 'id', ReferentialAction::SET_NULL);
