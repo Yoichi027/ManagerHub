@@ -22,7 +22,9 @@ final readonly class DeleteCareerAction
     public function __invoke(ServerRequestInterface $request): ResponseInterface
     {
         $redirect = $this->auth->redirectIfGuest();
-        if ($redirect !== null) { return $redirect; }
+        if ($redirect !== null) {
+            return $redirect;
+        }
         $input = $request->getParsedBody();
         if (!is_array($input) || ($input['confirm_delete'] ?? null) !== '1') {
             return $this->redirect('delete_error=confirmation');

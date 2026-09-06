@@ -59,7 +59,7 @@ final class M260906090100CreateClubs implements RevertibleMigrationInterface, Tr
                 'deleted_at',
             ],
             array_map(
-                static fn (array $club): array => [
+                static fn(array $club): array => [
                     'id' => $club['id'],
                     'code' => $club['code'],
                     'name' => $club['name'],

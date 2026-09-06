@@ -25,7 +25,9 @@ final class CreateCareerForm
 
     public static function fromInput(mixed $input): self
     {
-        if (!is_array($input)) { return new self(); }
+        if (!is_array($input)) {
+            return new self();
+        }
         return new self(self::string($input['name'] ?? null), self::string($input['manager_name'] ?? null), self::string($input['club_id'] ?? null), self::string($input['league_id'] ?? null), self::string($input['starts_on'] ?? null), self::string($input['ends_on'] ?? null));
     }
 
@@ -33,7 +35,9 @@ final class CreateCareerForm
     {
         $this->errors = [];
         foreach (['name' => $this->name, 'manager_name' => $this->managerName, 'club_id' => $this->clubId, 'league_id' => $this->leagueId, 'starts_on' => $this->startsOn, 'ends_on' => $this->endsOn] as $field => $value) {
-            if ($value === '') { $this->addError($field, 'This field is required.'); }
+            if ($value === '') {
+                $this->addError($field, 'This field is required.');
+            }
         }
         return $this->errors === [];
     }
@@ -47,7 +51,16 @@ final class CreateCareerForm
             CreateCareerResult::Created => null,
         };
     }
-    /** @return list<string> */ public function errorsFor(string $field): array { return $this->errors[$field] ?? []; }
-    private function addError(string $field, string $message): void { $this->errors[$field][] = $message; }
-    private static function string(mixed $value): string { return is_string($value) ? $value : ''; }
+    /** @return list<string> */ public function errorsFor(string $field): array
+    {
+        return $this->errors[$field] ?? [];
+    }
+    private function addError(string $field, string $message): void
+    {
+        $this->errors[$field][] = $message;
+    }
+    private static function string(mixed $value): string
+    {
+        return is_string($value) ? $value : '';
+    }
 }

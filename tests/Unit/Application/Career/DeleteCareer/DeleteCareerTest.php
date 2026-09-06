@@ -21,7 +21,8 @@ final class DeleteCareerTest extends \Codeception\Test\Unit
 {
     public function testDeletesOnlyTheOwnersCareer(): void
     {
-        $owner = Uuid::uuid7(); $otherUser = Uuid::uuid7();
+        $owner = Uuid::uuid7();
+        $otherUser = Uuid::uuid7();
         $career = Career::start(new CareerName('Career'), new ManagerName('Manager'), new GameEdition('FC26'), $owner, $this->now());
         $repository = new DeleteCareerRepository($career);
         $service = new DeleteCareer($repository, new DeleteCareerClock());
@@ -33,8 +34,30 @@ final class DeleteCareerTest extends \Codeception\Test\Unit
         self::assertSame(1, $repository->saveCount);
     }
 
-    private function now(): DateTimeImmutable { return new DateTimeImmutable('2026-09-06 12:00:00', new DateTimeZone('UTC')); }
+    private function now(): DateTimeImmutable
+    {
+        return new DateTimeImmutable('2026-09-06 12:00:00', new DateTimeZone('UTC'));
+    }
 }
 
-final class DeleteCareerClock implements UtcClock { public function now(): DateTimeImmutable { return new DateTimeImmutable('2026-09-06 12:01:00', new DateTimeZone('UTC')); } }
-final class DeleteCareerRepository implements CareerRepository { public int $saveCount = 0; public function __construct(private Career $career) {} public function findById(\Ramsey\Uuid\UuidInterface $id): ?Career { return $id->equals($this->career->id) ? $this->career : null; } public function findByUserId(\Ramsey\Uuid\UuidInterface $id): array { return []; } public function add(Career $career): void {} public function save(Career $career): void { $this->saveCount++; } }
+final class DeleteCareerClock implements UtcClock
+{
+    public function now(): DateTimeImmutable
+    {
+        return new DateTimeImmutable('2026-09-06 12:01:00', new DateTimeZone('UTC'));
+    }
+}
+final class DeleteCareerRepository implements CareerRepository
+{
+    public int $saveCount = 0;
+    public function __construct(private Career $career) {} public function findById(\Ramsey\Uuid\UuidInterface $id): ?Career
+    {
+        return $id->equals($this->career->id) ? $this->career : null;
+    } public function findByUserId(\Ramsey\Uuid\UuidInterface $id): array
+    {
+        return [];
+    } public function add(Career $career): void {} public function save(Career $career): void
+    {
+        $this->saveCount++;
+    }
+}

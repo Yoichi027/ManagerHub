@@ -16,7 +16,9 @@ final readonly class ShowCreateCareerFormAction
     public function __invoke(): ResponseInterface
     {
         $redirect = $this->auth->redirectIfGuest();
-        if ($redirect !== null) { return $redirect; }
+        if ($redirect !== null) {
+            return $redirect;
+        }
         $leagues = $this->leagues->all();
         $form = new CreateCareerForm(startsOn: '2025-07-01', endsOn: '2026-06-30');
         return $this->view->render(__DIR__ . '/template', ['form' => $form, 'leagues' => $leagues, 'clubs' => $this->clubs->all()]);

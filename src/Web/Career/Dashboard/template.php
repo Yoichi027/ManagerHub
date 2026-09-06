@@ -1,6 +1,9 @@
 <?php
 declare(strict_types=1);
-use App\Domain\Career\Career; use App\Domain\Season\Season; use Yiisoft\Html\Html;
+use App\Domain\Career\Career;
+use App\Domain\Season\Season;
+use Yiisoft\Html\Html;
+
 /** @var Career $career */ /** @var Season $season */ /** @var string|null $clubLogoUrl */
 $this->setTitle($career->name->value);
 ?>

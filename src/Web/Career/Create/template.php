@@ -11,9 +11,19 @@ use Yiisoft\Yii\View\Renderer\Csrf;
 /** @var CreateCareerForm $form */ /** @var list<League> $leagues */ /** @var list<Club> $clubs */ /** @var Csrf $csrf */
 $this->setTitle('Create career');
 $selectedLeague = null;
-foreach ($leagues as $league) { if ($league->id->toString() === $form->leagueId) { $selectedLeague = $league; break; } }
+foreach ($leagues as $league) {
+    if ($league->id->toString() === $form->leagueId) {
+        $selectedLeague = $league;
+        break;
+    }
+}
 $selectedClub = null;
-foreach ($clubs as $club) { if ($club->id->toString() === $form->clubId) { $selectedClub = $club; break; } }
+foreach ($clubs as $club) {
+    if ($club->id->toString() === $form->clubId) {
+        $selectedClub = $club;
+        break;
+    }
+}
 ?>
 <section class="career-create">
     <header class="career-create__header"><p class="eyebrow">New career</p><h1>Set the starting point.</h1><p>Your squad begins empty. Add the players from your save in Squad management after this step.</p></header>
