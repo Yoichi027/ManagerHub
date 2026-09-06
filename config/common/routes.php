@@ -36,6 +36,15 @@ return [
             Route::get('/dashboard')
                 ->action(Web\Dashboard\Action::class)
                 ->name('dashboard'),
+            Route::get('/careers/new')
+                ->action(Web\Career\Create\ShowCreateCareerFormAction::class)
+                ->name('career.create'),
+            Route::post('/careers')
+                ->action(Web\Career\Create\CreateCareerAction::class)
+                ->name('career.store'),
+            Route::post('/careers/{id}/delete')
+                ->action(Web\Career\DeleteCareerAction::class)
+                ->name('career.delete'),
             Route::get('/account')
                 ->action(Web\Identity\Account\AccountAction::class)
                 ->name('account'),

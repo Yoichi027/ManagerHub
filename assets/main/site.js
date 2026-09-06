@@ -23,6 +23,12 @@
 })();
 
 document.addEventListener('click', (event) => {
+    document.querySelectorAll('.career-delete[open]').forEach((details) => {
+        if (!details.contains(event.target)) {
+            details.removeAttribute('open');
+        }
+    });
+
     const toggle = event.target.closest('[data-password-toggle]');
 
     if (!toggle) {

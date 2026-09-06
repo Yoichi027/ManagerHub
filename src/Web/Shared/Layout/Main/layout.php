@@ -68,6 +68,9 @@ $this->beginPage()
                 <a class="workspace-nav__item workspace-nav__item--active" href="<?= Html::encode($urlGenerator->generate('dashboard')) ?>" aria-current="page">
                     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10.5L12 4l8 6.5v8.25a1.25 1.25 0 0 1-1.25 1.25H5.25A1.25 1.25 0 0 1 4 18.75V10.5zM9 20v-6h6v6"/></svg><span>Workspace</span>
                 </a>
+                <a class="workspace-nav__item" href="<?= Html::encode($urlGenerator->generate('career.create')) ?>">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span>New career</span>
+                </a>
                 <a class="workspace-nav__item" href="<?= Html::encode($urlGenerator->generate('account')) ?>">
                     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 21a8 8 0 0 0-16 0M12 13a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"/></svg><span>Account</span>
                 </a>

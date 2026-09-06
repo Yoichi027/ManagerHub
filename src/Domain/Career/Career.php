@@ -15,6 +15,7 @@ final class Career
     public readonly UuidInterface $id;
     public readonly UuidInterface $userId;
     public private(set) CareerName $name;
+    public private(set) ManagerName $managerName;
     public readonly GameEdition $gameEdition;
     public readonly DateTimeImmutable $createdAt;
     public private(set) DateTimeImmutable $updatedAt;
@@ -25,6 +26,7 @@ final class Career
         UuidInterface $id,
         UuidInterface $userId,
         CareerName $name,
+        ManagerName $managerName,
         GameEdition $gameEdition,
         DateTimeImmutable $createdAt,
         DateTimeImmutable $updatedAt,
@@ -44,6 +46,7 @@ final class Career
         $this->id = $id;
         $this->userId = $userId;
         $this->name = $name;
+        $this->managerName = $managerName;
         $this->gameEdition = $gameEdition;
         $this->createdAt = $createdAt;
         $this->updatedAt = $updatedAt;
@@ -51,22 +54,23 @@ final class Career
         $this->deletedAt = $deletedAt;
     }
 
-    public static function start(CareerName $name, GameEdition $gameEdition, UuidInterface $userId, DateTimeImmutable $occurredAt): self
+    public static function start(CareerName $name, ManagerName $managerName, GameEdition $gameEdition, UuidInterface $userId, DateTimeImmutable $occurredAt): self
     {
-        return new self(Uuid::uuid7($occurredAt), $userId, $name, $gameEdition, $occurredAt, $occurredAt, false, null);
+        return new self(Uuid::uuid7($occurredAt), $userId, $name, $managerName, $gameEdition, $occurredAt, $occurredAt, false, null);
     }
 
     public static function reconstitute(
         UuidInterface $id,
         UuidInterface $userId,
         CareerName $name,
+        ManagerName $managerName,
         GameEdition $gameEdition,
         DateTimeImmutable $createdAt,
         DateTimeImmutable $updatedAt,
         bool $isDeleted,
         ?DateTimeImmutable $deletedAt,
     ): self {
-        return new self($id, $userId, $name, $gameEdition, $createdAt, $updatedAt, $isDeleted, $deletedAt);
+        return new self($id, $userId, $name, $managerName, $gameEdition, $createdAt, $updatedAt, $isDeleted, $deletedAt);
     }
 
     public function delete(DateTimeImmutable $occurredAt): void

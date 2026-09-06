@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Domain\Season;
 
+use App\Domain\Shared\CalendarDate;
 use DomainException;
 
 final readonly class SeasonLabel
@@ -19,5 +20,15 @@ final readonly class SeasonLabel
         }
 
         $this->value = $value;
+    }
+
+    public static function fromPeriod(CalendarDate $startsOn, CalendarDate $endsOn): self
+    {
+        $startYear = (int) substr($startsOn->value, 0, 4);
+        $endYear = (int) substr($endsOn->value, 0, 4);
+
+        return new self($startYear === $endYear
+            ? (string) $startYear
+            : sprintf('%d/%02d', $startYear, $endYear % 100));
     }
 }
